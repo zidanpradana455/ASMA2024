@@ -1,0 +1,14 @@
+export type EventColor = 'primary' | 'secondary' | 'tertiary';
+export interface Event { id: string; slug: string; title: string; shortTitle: string; startDate: string; endDate: string; description: string; color: EventColor; cohort: string; category: string; detailUrl?: string }
+export const events: Event[] = [
+  { id:'tentir25',slug:'tentir-osce-1-2025',title:'Asistensi / Tentir OSCE I',shortTitle:'Tentir OSCE I · 2025',startDate:'2026-10-12',endDate:'2026-10-21',description:'Belajar bersama asisten untuk mempersiapkan OSCE I. Setiap kelompok memilih enam materi prioritas dan menghubungi asisten minimal tiga hari sebelum sesi.',color:'secondary',cohort:'2025',category:'Tentir' },
+  { id:'tfss25',slug:'tfss-osce-1-2025',title:'TFSS OSCE I',shortTitle:'TFSS OSCE I · 2025',startDate:'2026-10-24',endDate:'2026-10-28',description:'Latihan keterampilan klinis untuk mahasiswa REG dan IUP di Grha Wiyata lantai 2, sesuai pembagian kelompok dan sesi.',color:'primary',cohort:'2025',category:'TFSS' },
+  { id:'tfss26',slug:'tfss-osce-semester-1-2026',title:'TFSS OSCE Semester 1',shortTitle:'TFSS Semester 1 · 2026',startDate:'2026-10-31',endDate:'2026-10-31',description:'Sesi latihan Basic Life Support dan EKG bagi mahasiswa REG dan IUP. Setiap kelompok berlatih satu jam untuk setiap materi.',color:'tertiary',cohort:'2026',category:'TFSS' },
+  { id:'run25',slug:'run-osce-1-2025',title:'Run OSCE I',shortTitle:'Run OSCE I · 2025',startDate:'2026-11-14',endDate:'2026-11-18',description:'Simulasi OSCE di Grha Wiyata lantai 2. Program REG berlangsung 14–15 November dan IUP 16–18 November. Hadir 15 menit sebelum sesi.',color:'primary',cohort:'2025',category:'Run OSCE' },
+  { id:'tentir26',slug:'tentir-mini-osce-1-2026',title:'Asistensi / Tentir Mini OSCE I',shortTitle:'Tentir Mini OSCE I · 2026',startDate:'2026-11-14',endDate:'2026-11-19',description:'Persiapan Mini OSCE I melalui asistensi pemeriksaan jantung, paru, abdomen, basic locomotor, radiologi, komunikasi, dan tanda vital.',color:'secondary',cohort:'2026',category:'Tentir' },
+  { id:'latman24',slug:'latihan-mandiri-mini-osce-2024',title:'Latihan Mandiri Mini OSCE',shortTitle:'Latihan Mandiri · 2024',startDate:'2026-11-24',endDate:'2026-11-26',description:'Latihan NGT dan kateter untuk mahasiswa semester 5 di Grha Wiyata lantai 2. Program REG berlangsung 24–25 November dan IUP 26 November.',color:'tertiary',cohort:'2024',category:'Latihan Mandiri' },
+];
+export const pendingEvents = [
+ {id:'run26',slug:'run-osce-semester-1-2026',title:'Run OSCE Semester 1',cohort:'2026',description:'Simulasi OSCE untuk mahasiswa Angkatan 2026. Jadwal sedang dikonfirmasi dan akan ditambahkan ke kalender setelah ditetapkan.'},
+ {id:'tfss24',slug:'tfss-osce-2-2024',title:'TFSS OSCE II',cohort:'2024',description:'Latihan keterampilan klinis OSCE Fase II. Jadwal sedang diselaraskan sebelum ditampilkan di kalender.'},
+];

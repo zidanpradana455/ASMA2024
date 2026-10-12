@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Alexis",
+    "fullName": "Alexis Revell Filbert",
+    "slug": "alexis",
+    "image": "/feeds/alexis.webp"
+  },
+  {
+    "id": 2,
+    "name": "Phatar",
+    "fullName": "Alphatar Magnus Jonathan Tambunan",
+    "slug": "phatar",
+    "image": "/feeds/phatar.webp"
+  },
+  {
+    "id": 3,
+    "name": "Dhita",
+    "fullName": "Anak Agung Ayu Anandhita K.",
+    "slug": "dhita",
+    "image": "/feeds/dhita.webp"
+  },
+  {
+    "id": 4,
+    "name": "Bunga",
+    "fullName": "Bunga Azzahra Suryadi",
+    "slug": "bunga",
+    "image": "/feeds/bunga.webp"
+  },
+  {
+    "id": 5,
+    "name": "Damar",
+    "fullName": "Damar Madya Prasetya",
+    "slug": "damar",
+    "image": "/feeds/damar.webp"
+  },
+  {
+    "id": 6,
+    "name": "Ella",
+    "fullName": "Estrella Kyara Pangkahila Febian",
+    "slug": "ella",
+    "image": "/feeds/ella.webp"
+  },
+  {
+    "id": 7,
+    "name": "Farras",
+    "fullName": "Farras Almeda",
+    "slug": "farras",
+    "image": "/feeds/farras.webp"
+  },
+  {
+    "id": 8,
+    "name": "Fayya",
+    "fullName": "Fayyaza Puan Manayra",
+    "slug": "fayya",
+    "image": "/feeds/fayya.webp"
+  },
+  {
+    "id": 9,
+    "name": "Naomi",
+    "fullName": "Hanna Naomi Sitorus",
+    "slug": "naomi",
+    "image": "/feeds/naomi.webp"
+  },
+  {
+    "id": 10,
+    "name": "Indhira",
+    "fullName": "Indhira Monica Putri",
+    "slug": "indhira",
+    "image": "/feeds/indhira.webp"
+  },
+  {
+    "id": 11,
+    "name": "Justin",
+    "fullName": "Justin Yapardi",
+    "slug": "justin",
+    "image": "/feeds/justin.webp"
+  },
+  {
+    "id": 12,
+    "name": "Kevin",
+    "fullName": "Kevin Sebastian Simamora",
+    "slug": "kevin",
+    "image": "/feeds/kevin.webp"
+  },
+  {
+    "id": 13,
+    "name": "Lia",
+    "fullName": "Mahalia Putri",
+    "slug": "lia",
+    "image": "/feeds/lia.webp"
+  },
+  {
+    "id": 14,
+    "name": "Nazla",
+    "fullName": "Nazla Taqiyya Hafidha",
+    "slug": "nazla",
+    "image": "/feeds/nazla.webp"
+  },
+  {
+    "id": 15,
+    "name": "Miskah",
+    "fullName": "R.A. Miskah Kusuma Andarasti",
+    "slug": "miskah",
+    "image": "/feeds/miskah.webp"
+  },
+  {
+    "id": 16,
+    "name": "Sarah",
+    "fullName": "Sarah Hanun Husniyah",
+    "slug": "sarah",
+    "image": "/feeds/sarah.webp"
+  },
+  {
+    "id": 17,
+    "name": "Shaqnaz",
+    "fullName": "Shaqnaz Adenia Ersha Putri",
+    "slug": "shaqnaz",
+    "image": "/feeds/shaqnaz.webp"
+  },
+  {
+    "id": 18,
+    "name": "Sherleen",
+    "fullName": "Sherleen Aurelia",
+    "slug": "sherleen",
+    "image": "/feeds/sherleen.webp"
+  },
+  {
+    "id": 19,
+    "name": "Stainley",
+    "fullName": "Stainley Nicksein",
+    "slug": "stainley",
+    "image": "/feeds/stainley.webp"
+  },
+  {
+    "id": 20,
+    "name": "Vania",
+    "fullName": "Vania Nailah",
+    "slug": "vania",
+    "image": "/feeds/vania.webp"
+  },
+  {
+    "id": 21,
+    "name": "Zidan",
+    "fullName": "Zidan Haekal Pradana",
+    "slug": "zidan",
+    "image": "/feeds/zidan.webp"
+  }
+]

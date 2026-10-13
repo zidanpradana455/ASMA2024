@@ -37,3 +37,7 @@ Kegiatan fiktif hanya ada pada tests/calendar.test.ts. Data publik tidak ditamba
 ## Revisi pemilik — 13 Oktober 2026
 
 Instruksi pemilik menggantikan konflik sumber sebelumnya untuk Run OSCE Semester 1 Angkatan 2026: tanggal ditetapkan 14–15 November 2026. Mekanisme seluruh kegiatan Angkatan 2026 berstatus Coming soon. Angkatan 2024 hanya menampilkan Latihan Mandiri 24–26 November; TFSS OSCE II dihapus dari daftar publik. Empat URL mekanisme Google Docs untuk Latihan Mandiri 2024 serta Tentir, TFSS, dan Run OSCE 2025 diberikan langsung oleh pemilik dan disimpan dalam mechanismUrl pada events.ts. Isi dokumen eksternal tidak disalin.
+
+## Revisi terbaru pemilik
+
+Seluruh kegiatan Angkatan 2026 (Tentir, TFSS, dan Run OSCE) sementara dihapus dari sumber data publik, termasuk halaman detail dan legenda. Empat kegiatan Angkatan 2024/2025 beserta link mekanismenya tetap ditampilkan. Tahun pelaksanaan kegiatan tetap 2026.

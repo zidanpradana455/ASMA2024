@@ -40,7 +40,7 @@ Beranda menampilkan seluruh 21 anggota dalam ring 3D. Tarik horizontal untuk mem
 
 ## Batas versi pertama
 
-Halaman detail berisi ringkasan, tanggal, lokasi yang tersedia, dan persiapan dari sumber terverifikasi. Jam sesi dan pembagian kelompok belum tersedia di halaman publik. Tidak ada backend, login, CMS, atau profil anggota individual. Google Fonts membutuhkan jaringan; font cadangan tetap tersedia. Run OSCE Semester 1 Angkatan 2026 ditetapkan 14–15 November 2026 oleh pemilik. TFSS OSCE II Angkatan 2024 tidak ditampilkan; Angkatan 2024 hanya memiliki Latihan Mandiri 24–26 November. Mekanisme Angkatan 2026 berstatus Coming soon. Tidak ada daftar email atau nomor telepon dalam build.
+Halaman detail berisi ringkasan, tanggal, lokasi yang tersedia, dan persiapan dari sumber terverifikasi. Jam sesi dan pembagian kelompok belum tersedia di halaman publik. Tidak ada backend, login, CMS, atau profil anggota individual. Google Fonts membutuhkan jaringan; font cadangan tetap tersedia. Seluruh kegiatan Angkatan 2026 sementara dihapus dari website atas permintaan pemilik. Angkatan 2024 hanya memiliki Latihan Mandiri 24–26 November; Angkatan 2025 memiliki Tentir, TFSS, dan Run OSCE. Tidak ada daftar email atau nomor telepon dalam build.
 
 ## Pemeriksaan
 

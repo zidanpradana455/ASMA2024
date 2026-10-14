@@ -12,8 +12,6 @@ export default function PageMotion(){
   };
   const portrait=document.querySelector('.hero-stage picture');
   if(portrait)animate(portrait,[{clipPath:'inset(3% 0 0)',transform:'translateY(14px)',opacity:.65},{clipPath:'inset(0)',transform:'translateY(0)',opacity:1}],850);
-  const title=document.querySelector('.hero-tagline');
-  if(title)animate(title,[{opacity:.4,filter:'blur(3px)'},{opacity:1,filter:'blur(0)'}],750,80);
   const heading=document.querySelector('.page-heading');
   if(heading)animate(heading,[{opacity:.6,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],400);
   const observer=new IntersectionObserver(entries=>{

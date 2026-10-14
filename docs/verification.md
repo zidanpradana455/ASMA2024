@@ -41,3 +41,10 @@ Pemeriksaan akhir: 13 Oktober 2026, Asia/Jakarta.
 - Revisi berikutnya: bar petunjuk/kontrol ring dihapus; keyboard panah tetap berfungsi. Fluid gradient hero bergerak pada desktop/mobile, berhenti offscreen, dan statis pada reduced motion. Build serta pemeriksaan Edge di 390/1440px lulus tanpa error JavaScript atau overflow.
 
 - Revisi timeline per angkatan: 2024 kuning, 2025 merah, 2026 magenta; total tujuh kegiatan. Run OSCE 2026 pada 14–15 November, mekanisme 2026 Coming soon. Empat href mekanisme sama persis dengan URL pemilik dan membuka tab baru. Build dan 12 test lulus; pemeriksaan desktop/mobile untuk tiga overlap tanggal 14 November, legenda, dan layout lulus tanpa error JavaScript.
+
+## Sinkronisasi cloud dan background video — 14 Oktober 2026
+
+- Mengambil seluruh perubahan cloud hingga `90c026f`: teks, layout, headline per huruf, dan transisi halaman. Background bubble diganti dengan video yang dipilih pengguna.
+- Video lokal identik dengan `gemini_generated_video_bbd3c5be.mp4` (SHA-256 `cbb14e2e5ab14a2960f7ffcfcb38dbdc1b241c739420c0ff9c7f5643f7f18c60`). Poster diambil dari video yang sama.
+- Build produksi dan seluruh 12 tes lulus. Pemeriksaan browser 390px/1440px: video berjalan, 30 huruf headline tampil, tidak ada bubble atau overflow horizontal. Tidak ada error JavaScript yang tercatat.
+- Video dan animasi headline memakai status hero yang sama; berhenti saat hero sepenuhnya di luar layar. Mode reduced motion mempertahankan poster dan headline statis; mekanisme poster/video sebelumnya telah diperiksa untuk reduced motion dan tab tersembunyi.

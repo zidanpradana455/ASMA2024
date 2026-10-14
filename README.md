@@ -46,4 +46,4 @@ Halaman detail berisi ringkasan, tanggal, lokasi yang tersedia, dan persiapan da
 
 `npm test` menjalankan pengujian tanggal, pemotongan bar, overlap, bulan kosong, tahun kabisat, query bulan, teaser, dan kelengkapan 21 foto. Pemeriksaan browser mencakup lebar 360, 390, 768, 1024, 1440, dan 1920px, pencarian, dialog, keyboard, navigasi, serta route tidak dikenal. Lihat `docs/verification.md` untuk hasil dan batas pemeriksaan terakhir.
 
-Background hero memakai dua lapisan fluid gradient beranimasi. Gerakan berhenti saat hero keluar layar atau tab tersembunyi; reduced motion menampilkan komposisi statis.
+Background hero memakai video pengguna `public/assets/hero-background.mp4` (1280×720, sekitar 9,8 detik, 2,14 MB), berulang tanpa suara. Video berhenti saat hero keluar layar atau tab tersembunyi; reduced motion menampilkan `hero-background-poster.webp` tanpa mengunduh video. Poster juga menjadi cadangan saat autoplay tidak tersedia. Sumber: `gemini_generated_video_bbd3c5be.mp4` dari pengguna.

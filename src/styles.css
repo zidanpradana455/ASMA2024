@@ -47,3 +47,8 @@ body{font-size:15px}h1{letter-spacing:-.04em}.button,.text-link,.desktop-nav>a,.
 @media(prefers-reduced-motion:reduce){.hero-fluid>span{animation:none;transform:none}}
 
 .mechanism-section{margin-top:30px}.mechanism-pending{display:flex;gap:14px;align-items:center;padding:22px 0;border-top:1px solid var(--line);color:var(--muted)}.mechanism-pending h2{font-size:19px;color:var(--ink);letter-spacing:-.02em}.mechanism-pending p{font-size:14px;margin-top:5px}.mechanism-pending>svg{color:var(--primary)}
+
+/* Larger, heavier motto while preserving the portrait overlap. */
+.hero-tagline{font-size:clamp(24px,3.6vw,72px);font-weight:700;letter-spacing:.035em;line-height:1.2}
+.footer-main{justify-content:space-between}
+@media(max-width:639px){.hero-tagline{font-size:clamp(30px,9.4vw,60px);letter-spacing:.025em;line-height:1.45}}

@@ -1,54 +1,49 @@
-import {useEffect,useRef} from 'react';
+import {useEffect,useId,useRef} from 'react';
+import './HeroGradient.css';
 
-const vertex=`attribute vec2 position;void main(){gl_Position=vec4(position,0.,1.);}`;
-const fragment=`
-precision mediump float;
-uniform vec2 resolution;
-uniform float time;
-void main(){
- vec2 uv=gl_FragCoord.xy/resolution;
- float t=time*.22;
- // Broad, interleaving currents keep the portrait readable.
- vec2 p=uv;
- p.x+=.19*sin(uv.y*4.2+t)+.09*cos(uv.x*3.7-t*.8);
- p.y+=.21*cos(uv.x*3.3-t*.7)+.08*sin(uv.y*5.+t*.6);
- float warm=1.-smoothstep(.05,.85,length((p-vec2(.12+.24*sin(t*.7),.87+.15*cos(t*.9)))*vec2(.9,1.1)));
- float pink=1.-smoothstep(.03,.85,length((p-vec2(.83+.22*cos(t*.8),.35+.25*sin(t*.6)))*vec2(1.,.85)));
- float deep=.5+.5*sin(p.x*4.-p.y*3.+t*.65);
- vec3 color=mix(vec3(.49,.015,.09),vec3(.67,.024,.075),deep);
- color=mix(color,vec3(.75,.0,.35),pink*.88);
- color=mix(color,vec3(.92,.43,.025),warm*.9);
- gl_FragColor=vec4(color,1.);
-}`;
+const waves=Array.from({length:16},(_,i)=>{
+ const y=24+i*57;
+ return {path:`M -80 ${y} C 220 ${y-90} 410 ${y+100} 720 ${y} S 1190 ${y-70} 1520 ${y+5}`,duration:18+i*.4,delay:-i*.65,amplitude:22+i*1.1};
+});
 
 export default function HeroGradient(){
- const canvas=useRef<HTMLCanvasElement>(null);
+ const root=useRef<HTMLDivElement>(null);
+ const id=useId().replaceAll(':','');
  useEffect(()=>{
-  const el=canvas.current;if(!el)return;
-  const gl=el.getContext('webgl',{alpha:false,antialias:false,depth:false,powerPreference:'low-power'});
-  if(!gl)return;
-  const compile=(type:number,source:string)=>{const shader=gl.createShader(type);if(!shader)return null;gl.shaderSource(shader,source);gl.compileShader(shader);if(!gl.getShaderParameter(shader,gl.COMPILE_STATUS)){gl.deleteShader(shader);return null}return shader};
-  const vs=compile(gl.VERTEX_SHADER,vertex),fs=compile(gl.FRAGMENT_SHADER,fragment);
-  if(!vs||!fs){if(vs)gl.deleteShader(vs);if(fs)gl.deleteShader(fs);return}
-  const program=gl.createProgram();if(!program){gl.deleteShader(vs);gl.deleteShader(fs);return}
-  gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);
-  if(!gl.getProgramParameter(program,gl.LINK_STATUS)){gl.deleteProgram(program);gl.deleteShader(vs);gl.deleteShader(fs);return}
-  gl.useProgram(program);
-  const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
-  const position=gl.getAttribLocation(program,'position');gl.enableVertexAttribArray(position);gl.vertexAttribPointer(position,2,gl.FLOAT,false,0,0);
-  const resolution=gl.getUniformLocation(program,'resolution'),time=gl.getUniformLocation(program,'time');
+  const layer=root.current,hero=layer?.parentElement;if(!layer||!hero)return;
   const preference=matchMedia('(prefers-reduced-motion: reduce)');
-  let frame=0,visible=false,last=0,elapsed=0,lost=false;
-  const draw=()=>{if(lost)return;gl.uniform2f(resolution,el.width,el.height);gl.uniform1f(time,elapsed);gl.drawArrays(gl.TRIANGLES,0,6)};
-  const resize=()=>{const rect=el.getBoundingClientRect();const scale=Math.min(.65,1280/Math.max(rect.width,rect.height));el.width=Math.max(1,Math.round(rect.width*scale));el.height=Math.max(1,Math.round(rect.height*scale));gl.viewport(0,0,el.width,el.height);draw()};
-  const tick=(now:number)=>{if(!last)last=now;if(now-last>=1000/30){elapsed+=Math.min((now-last)/1000,.1);last=now;draw()}frame=requestAnimationFrame(tick)};
-  const update=()=>{cancelAnimationFrame(frame);frame=0;last=0;const active=visible&&!document.hidden&&!preference.matches&&!lost;el.dataset.active=String(active);if(active)frame=requestAnimationFrame(tick);else draw()};
-  const observer=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;update()});observer.observe(el);
-  const size=new ResizeObserver(resize);size.observe(el);resize();el.dataset.ready='true';
+  let visible=false;
+  const update=()=>{layer.dataset.active=String(visible&&!document.hidden&&!preference.matches)};
+  const observer=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;update()});observer.observe(hero);
+  const title=hero.querySelector<HTMLElement>('.hero-tagline'),stage=hero.querySelector<HTMLElement>('.hero-stage');
+  const measure=()=>{
+   if(!title||!stage)return;
+   // Use layout coordinates, so the existing headline parallax cannot move this mask.
+   const top=stage.offsetTop+title.offsetTop;
+   layer.style.setProperty('--headline-top',`${Math.max(0,top-16)}px`);
+   layer.style.setProperty('--headline-bottom',`${top+title.offsetHeight+64}px`);
+   layer.style.setProperty('--rings-top',`${stage.offsetTop+(innerWidth<640?25:30)}px`);
+  };
+  const size=new ResizeObserver(measure);size.observe(hero);if(title)size.observe(title);if(stage)size.observe(stage);measure();
   preference.addEventListener('change',update);document.addEventListener('visibilitychange',update);
-  const onLost=()=>{lost=true;update();el.dataset.ready='false'};
-  el.addEventListener('webglcontextlost',onLost);
-  return()=>{cancelAnimationFrame(frame);observer.disconnect();size.disconnect();preference.removeEventListener('change',update);document.removeEventListener('visibilitychange',update);el.removeEventListener('webglcontextlost',onLost);gl.deleteBuffer(buffer);gl.deleteProgram(program);gl.deleteShader(vs);gl.deleteShader(fs)};
+  return()=>{observer.disconnect();size.disconnect();preference.removeEventListener('change',update);document.removeEventListener('visibilitychange',update)};
  },[]);
- return <div className="hero-fluid" aria-hidden="true"><canvas ref={canvas}/></div>;
+ return <div ref={root} className="hero-fluid" data-active="false" aria-hidden="true">
+  <div className="hero-mesh">{Array.from({length:5},(_,i)=><i className={`hero-blob hero-blob-${i+1}`} key={i}/>)}</div>
+  <div className="hero-spotlight"><i/></div>
+  <div className="hero-rings">{Array.from({length:5},(_,i)=><i key={i} style={{inset:`${i*5.6}%`,animationDelay:`${-i*1.8}s`}}/>)}</div>
+  <div className="hero-flow">
+   <svg viewBox="0 0 1440 900" preserveAspectRatio="none" focusable="false">
+    <defs>
+     <linearGradient id={`${id}-cream`} x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0" stopColor="#FFE9D0" stopOpacity="0"/><stop offset=".23" stopColor="#FFE9D0" stopOpacity=".65"/><stop offset=".5" stopColor="#FFE9D0"/><stop offset=".77" stopColor="#FFE9D0" stopOpacity=".65"/><stop offset="1" stopColor="#FFE9D0" stopOpacity="0"/></linearGradient>
+     <linearGradient id={`${id}-white`} x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0" stopColor="white" stopOpacity="0"/><stop offset=".5" stopColor="white"/><stop offset="1" stopColor="white" stopOpacity="0"/></linearGradient>
+    </defs>
+    {waves.map((wave,i)=><g className="hero-wave" key={i} style={{'--wave-duration':`${wave.duration}s`,'--wave-delay':`${wave.delay}s`,'--wave-amplitude':`${wave.amplitude}px`} as React.CSSProperties}>
+     <path d={wave.path} stroke={`url(#${id}-${i%3===0?'white':'cream'})`} opacity={.08+(i%5)*.025} vectorEffect="non-scaling-stroke"/>
+     {i%4===2&&<path className="hero-wave-glint" d={wave.path} pathLength="1600" stroke={`url(#${id}-cream)`} opacity=".07" vectorEffect="non-scaling-stroke" style={{animationDelay:`${-i*2}s`}}/>}
+    </g>)}
+   </svg>
+  </div>
+  <div className="hero-noise"/>
+ </div>;
 }

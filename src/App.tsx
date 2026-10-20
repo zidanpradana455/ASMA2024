@@ -1,6 +1,7 @@
 import {useEffect,useRef,useState} from 'react';
 import {Link,NavLink,Route,Routes,useLocation,useParams,useSearchParams} from 'react-router-dom';
 import {ArrowUpRight,ArrowRight,ArrowDown,ArrowLeft,Menu,X,Search,CalendarDays,Clock3,MapPin} from 'lucide-react';
+import {Analytics} from '@vercel/analytics/react';
 import members from './data/members.json';
 import {events,pendingEvents,type Event} from './data/events';
 import {dateRange,labelDate,monthOf,teaserEvents,today,selectedMonth} from './lib/calendar';
@@ -39,4 +40,4 @@ function Detail(){
 }
 function NotFound(){return <section className="detail-page"><div className="detail-card not-found"><span className="eyebrow">404 / HALAMAN TIDAK DITEMUKAN</span><h1>Sepertinya kita<br/>berbeda arah.</h1><p className="serif">Mari kembali ke tempat kita mulai.</p><Link className="button button-primary" to="/">Kembali ke Beranda <ArrowRight size={18}/></Link></div></section>}
 function RouteEffects(){const {pathname}=useLocation();useEffect(()=>{window.scrollTo({top:0,behavior:'instant'});const base=pathname==='/anggota'?'Anggota':pathname==='/timeline'?'Timeline Kegiatan':pathname.startsWith('/kegiatan/')?[...events,...pendingEvents].find(e=>pathname===`/kegiatan/${e.slug}`)?.title||'Halaman tidak ditemukan':pathname==='/'?'Beranda':'Halaman tidak ditemukan';document.title=`${base} — ASMA 2024 FK-KMK UGM`;const desc=document.querySelector('meta[name="description"]');desc?.setAttribute('content',pathname==='/anggota'?`Kenalan dengan ${members.length} Asisten Mahasiswa Laboratorium Keterampilan Klinis FK-KMK UGM 2024.`:pathname==='/timeline'?'Kalender dan timeline kegiatan tentir, TFSS, Run OSCE, serta latihan mandiri bersama ASMA 2024.':`${base}. ${organisation}.`);document.getElementById('main')?.focus({preventScroll:true})},[pathname]);return null}
-export default function App(){return <><a className="skip-link" href="#main">Langsung ke konten</a><Navbar/><RouteEffects/><PageMotion/><main id="main" tabIndex={-1}><Routes><Route path="/" element={<Home/>}/><Route path="/anggota" element={<Members/>}/><Route path="/timeline" element={<Timeline/>}/><Route path="/kegiatan/:slug" element={<Detail/>}/><Route path="*" element={<NotFound/>}/></Routes></main><Footer/></>}
+export default function App(){return <><a className="skip-link" href="#main">Langsung ke konten</a><Navbar/><RouteEffects/><PageMotion/><main id="main" tabIndex={-1}><Routes><Route path="/" element={<Home/>}/><Route path="/anggota" element={<Members/>}/><Route path="/timeline" element={<Timeline/>}/><Route path="/kegiatan/:slug" element={<Detail/>}/><Route path="*" element={<NotFound/>}/></Routes></main><Footer/><Analytics/></>}

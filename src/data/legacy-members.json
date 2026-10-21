@@ -1,0 +1,576 @@
+[
+  {
+    "id": 1,
+    "cohort": "2020",
+    "name": "Alifta Faramesty K",
+    "fullName": "Alifta Faramesty K",
+    "image": "/feeds/arsip/2020/01.webp"
+  },
+  {
+    "id": 2,
+    "cohort": "2020",
+    "name": "Dhiaksa Adhi A",
+    "fullName": "Dhiaksa Adhi A",
+    "image": "/feeds/arsip/2020/02.webp"
+  },
+  {
+    "id": 3,
+    "cohort": "2020",
+    "name": "Hannan Nadia A",
+    "fullName": "Hannan Nadia A",
+    "image": "/feeds/arsip/2020/03.webp"
+  },
+  {
+    "id": 4,
+    "cohort": "2020",
+    "name": "Naifa Vania Aribah",
+    "fullName": "Naifa Vania Aribah",
+    "image": "/feeds/arsip/2020/04.webp"
+  },
+  {
+    "id": 5,
+    "cohort": "2020",
+    "name": "Janada Aulia R",
+    "fullName": "Janada Aulia R",
+    "image": "/feeds/arsip/2020/05.webp"
+  },
+  {
+    "id": 6,
+    "cohort": "2020",
+    "name": "Isna Izzati Yumna",
+    "fullName": "Isna Izzati Yumna",
+    "image": "/feeds/arsip/2020/06.webp"
+  },
+  {
+    "id": 7,
+    "cohort": "2020",
+    "name": "Gaitsa Salsabil",
+    "fullName": "Gaitsa Salsabil",
+    "image": "/feeds/arsip/2020/07.webp"
+  },
+  {
+    "id": 8,
+    "cohort": "2020",
+    "name": "Sofie Saputro",
+    "fullName": "Sofie Saputro",
+    "image": "/feeds/arsip/2020/08.webp"
+  },
+  {
+    "id": 9,
+    "cohort": "2020",
+    "name": "Sayyidah Rifqi A",
+    "fullName": "Sayyidah Rifqi A",
+    "image": "/feeds/arsip/2020/09.webp"
+  },
+  {
+    "id": 10,
+    "cohort": "2020",
+    "name": "Nadaa Nisrina K",
+    "fullName": "Nadaa Nisrina K",
+    "image": "/feeds/arsip/2020/10.webp"
+  },
+  {
+    "id": 11,
+    "cohort": "2020",
+    "name": "Naura Hidayat",
+    "fullName": "Naura Hidayat",
+    "image": "/feeds/arsip/2020/11.webp"
+  },
+  {
+    "id": 12,
+    "cohort": "2020",
+    "name": "Arvin Hasani R",
+    "fullName": "Arvin Hasani R",
+    "image": "/feeds/arsip/2020/12.webp"
+  },
+  {
+    "id": 13,
+    "cohort": "2020",
+    "name": "Euis Alina K",
+    "fullName": "Euis Alina K",
+    "image": "/feeds/arsip/2020/13.webp"
+  },
+  {
+    "id": 14,
+    "cohort": "2020",
+    "name": "Tiffany Tarunasastra",
+    "fullName": "Tiffany Tarunasastra",
+    "image": "/feeds/arsip/2020/14.webp"
+  },
+  {
+    "id": 15,
+    "cohort": "2020",
+    "name": "Syifa Annisa F",
+    "fullName": "Syifa Annisa F",
+    "image": "/feeds/arsip/2020/15.webp"
+  },
+  {
+    "id": 16,
+    "cohort": "2020",
+    "name": "Amanda Zahra S",
+    "fullName": "Amanda Zahra S",
+    "image": "/feeds/arsip/2020/16.webp"
+  },
+  {
+    "id": 17,
+    "cohort": "2020",
+    "name": "Shin Salsabila H",
+    "fullName": "Shin Salsabila H",
+    "image": "/feeds/arsip/2020/17.webp"
+  },
+  {
+    "id": 18,
+    "cohort": "2020",
+    "name": "Martinus Novian P",
+    "fullName": "Martinus Novian P",
+    "image": "/feeds/arsip/2020/18.webp"
+  },
+  {
+    "id": 19,
+    "cohort": "2020",
+    "name": "Farah Fadhilah",
+    "fullName": "Farah Fadhilah",
+    "image": "/feeds/arsip/2020/19.webp"
+  },
+  {
+    "id": 20,
+    "cohort": "2020",
+    "name": "Inas Nabila A",
+    "fullName": "Inas Nabila A",
+    "image": "/feeds/arsip/2020/20.webp"
+  },
+  {
+    "id": 1,
+    "cohort": "2021",
+    "name": "Keziah Elizabeth",
+    "fullName": "Keziah Elizabeth",
+    "image": "/feeds/arsip/2021/01.webp"
+  },
+  {
+    "id": 2,
+    "cohort": "2021",
+    "name": "Salman Hafiz Ar-ramli Lubis",
+    "fullName": "Salman Hafiz Ar-ramli Lubis",
+    "image": "/feeds/arsip/2021/02.webp"
+  },
+  {
+    "id": 3,
+    "cohort": "2021",
+    "name": "Indy Alifia Balqis",
+    "fullName": "Indy Alifia Balqis",
+    "image": "/feeds/arsip/2021/03.webp"
+  },
+  {
+    "id": 4,
+    "cohort": "2021",
+    "name": "Muhammad Rizky Perwira Zain",
+    "fullName": "Muhammad Rizky Perwira Zain",
+    "image": "/feeds/arsip/2021/04.webp"
+  },
+  {
+    "id": 5,
+    "cohort": "2021",
+    "name": "Kay Carin Jessica",
+    "fullName": "Kay Carin Jessica",
+    "image": "/feeds/arsip/2021/05.webp"
+  },
+  {
+    "id": 6,
+    "cohort": "2021",
+    "name": "Eugenius Tjong",
+    "fullName": "Eugenius Tjong",
+    "image": "/feeds/arsip/2021/06.webp"
+  },
+  {
+    "id": 7,
+    "cohort": "2021",
+    "name": "Nisa Munawwarah",
+    "fullName": "Nisa Munawwarah",
+    "image": "/feeds/arsip/2021/07.webp"
+  },
+  {
+    "id": 8,
+    "cohort": "2021",
+    "name": "Nayandra Reyhan Maheswara",
+    "fullName": "Nayandra Reyhan Maheswara",
+    "image": "/feeds/arsip/2021/08.webp"
+  },
+  {
+    "id": 9,
+    "cohort": "2021",
+    "name": "Arielle Eunice Sindhunata",
+    "fullName": "Arielle Eunice Sindhunata",
+    "image": "/feeds/arsip/2021/09.webp"
+  },
+  {
+    "id": 10,
+    "cohort": "2021",
+    "name": "Adlin Fauzia Najah",
+    "fullName": "Adlin Fauzia Najah",
+    "image": "/feeds/arsip/2021/10.webp"
+  },
+  {
+    "id": 11,
+    "cohort": "2021",
+    "name": "Michelle Blessvisia",
+    "fullName": "Michelle Blessvisia",
+    "image": "/feeds/arsip/2021/11.webp"
+  },
+  {
+    "id": 12,
+    "cohort": "2021",
+    "name": "Keysha Allea Ardryani",
+    "fullName": "Keysha Allea Ardryani",
+    "image": "/feeds/arsip/2021/12.webp"
+  },
+  {
+    "id": 13,
+    "cohort": "2021",
+    "name": "Danindra Ario Wiryawan",
+    "fullName": "Danindra Ario Wiryawan",
+    "image": "/feeds/arsip/2021/13.webp"
+  },
+  {
+    "id": 14,
+    "cohort": "2021",
+    "name": "Kezia Evangeline Romataruli",
+    "fullName": "Kezia Evangeline Romataruli",
+    "image": "/feeds/arsip/2021/14.webp"
+  },
+  {
+    "id": 15,
+    "cohort": "2021",
+    "name": "Presvint Perwira Hadinata",
+    "fullName": "Presvint Perwira Hadinata",
+    "image": "/feeds/arsip/2021/15.webp"
+  },
+  {
+    "id": 16,
+    "cohort": "2021",
+    "name": "Zhafira Mafaz",
+    "fullName": "Zhafira Mafaz",
+    "image": "/feeds/arsip/2021/16.webp"
+  },
+  {
+    "id": 17,
+    "cohort": "2021",
+    "name": "Umar Surya Kusuma Atmaja",
+    "fullName": "Umar Surya Kusuma Atmaja",
+    "image": "/feeds/arsip/2021/17.webp"
+  },
+  {
+    "id": 18,
+    "cohort": "2021",
+    "name": "Debora Mahardika Renaningtyas",
+    "fullName": "Debora Mahardika Renaningtyas",
+    "image": "/feeds/arsip/2021/18.webp"
+  },
+  {
+    "id": 19,
+    "cohort": "2021",
+    "name": "Evan Nanda Adilistya",
+    "fullName": "Evan Nanda Adilistya",
+    "image": "/feeds/arsip/2021/19.webp"
+  },
+  {
+    "id": 20,
+    "cohort": "2021",
+    "name": "Shabrina Farras Tsany",
+    "fullName": "Shabrina Farras Tsany",
+    "image": "/feeds/arsip/2021/20.webp"
+  },
+  {
+    "id": 21,
+    "cohort": "2021",
+    "name": "Muhammad Rizqi Tri Nafi'an",
+    "fullName": "Muhammad Rizqi Tri Nafi'an",
+    "image": "/feeds/arsip/2021/21.webp"
+  },
+  {
+    "id": 1,
+    "cohort": "2022",
+    "name": "Fabian Qolby Multazam",
+    "fullName": "Fabian Qolby Multazam",
+    "image": "/feeds/arsip/2022/01.webp"
+  },
+  {
+    "id": 2,
+    "cohort": "2022",
+    "name": "Muhammad Nabiel Kemal Pasha",
+    "fullName": "Muhammad Nabiel Kemal Pasha",
+    "image": "/feeds/arsip/2022/02.webp"
+  },
+  {
+    "id": 3,
+    "cohort": "2022",
+    "name": "Cindy Rizqita Putri",
+    "fullName": "Cindy Rizqita Putri",
+    "image": "/feeds/arsip/2022/03.webp"
+  },
+  {
+    "id": 4,
+    "cohort": "2022",
+    "name": "Muhammad Hariz N.",
+    "fullName": "Muhammad Hariz N.",
+    "image": "/feeds/arsip/2022/04.webp"
+  },
+  {
+    "id": 5,
+    "cohort": "2022",
+    "name": "Theodora Jessica Jones",
+    "fullName": "Theodora Jessica Jones",
+    "image": "/feeds/arsip/2022/05.webp"
+  },
+  {
+    "id": 6,
+    "cohort": "2022",
+    "name": "Bungaran C. D. Tampubolon",
+    "fullName": "Bungaran C. D. Tampubolon",
+    "image": "/feeds/arsip/2022/06.webp"
+  },
+  {
+    "id": 7,
+    "cohort": "2022",
+    "name": "Xaviera Annisa Putri Gita",
+    "fullName": "Xaviera Annisa Putri Gita",
+    "image": "/feeds/arsip/2022/07.webp"
+  },
+  {
+    "id": 8,
+    "cohort": "2022",
+    "name": "Marcelino Roskan",
+    "fullName": "Marcelino Roskan",
+    "image": "/feeds/arsip/2022/08.webp"
+  },
+  {
+    "id": 9,
+    "cohort": "2022",
+    "name": "Shabrina Fayza Putri",
+    "fullName": "Shabrina Fayza Putri",
+    "image": "/feeds/arsip/2022/09.webp"
+  },
+  {
+    "id": 10,
+    "cohort": "2022",
+    "name": "Annisa Prameswari",
+    "fullName": "Annisa Prameswari",
+    "image": "/feeds/arsip/2022/10.webp"
+  },
+  {
+    "id": 11,
+    "cohort": "2022",
+    "name": "Kaizan Athari Setiadi",
+    "fullName": "Kaizan Athari Setiadi",
+    "image": "/feeds/arsip/2022/11.webp"
+  },
+  {
+    "id": 12,
+    "cohort": "2022",
+    "name": "Fassya Herella Difatihah",
+    "fullName": "Fassya Herella Difatihah",
+    "image": "/feeds/arsip/2022/12.webp"
+  },
+  {
+    "id": 13,
+    "cohort": "2022",
+    "name": "Nabilla Revisca Putri",
+    "fullName": "Nabilla Revisca Putri",
+    "image": "/feeds/arsip/2022/13.webp"
+  },
+  {
+    "id": 14,
+    "cohort": "2022",
+    "name": "Vianda Orlyn Zahranita",
+    "fullName": "Vianda Orlyn Zahranita",
+    "image": "/feeds/arsip/2022/14.webp"
+  },
+  {
+    "id": 15,
+    "cohort": "2022",
+    "name": "Risfaiza Fathinka Latanya",
+    "fullName": "Risfaiza Fathinka Latanya",
+    "image": "/feeds/arsip/2022/15.webp"
+  },
+  {
+    "id": 16,
+    "cohort": "2022",
+    "name": "Khoirul Rizqi Hanifah",
+    "fullName": "Khoirul Rizqi Hanifah",
+    "image": "/feeds/arsip/2022/16.webp"
+  },
+  {
+    "id": 17,
+    "cohort": "2022",
+    "name": "Caroline Evanthe Nathania",
+    "fullName": "Caroline Evanthe Nathania",
+    "image": "/feeds/arsip/2022/17.webp"
+  },
+  {
+    "id": 18,
+    "cohort": "2022",
+    "name": "Salsabila Ramadhani",
+    "fullName": "Salsabila Ramadhani",
+    "image": "/feeds/arsip/2022/18.webp"
+  },
+  {
+    "id": 19,
+    "cohort": "2022",
+    "name": "Katarina Dewi Kristy Diansari",
+    "fullName": "Katarina Dewi Kristy Diansari",
+    "image": "/feeds/arsip/2022/19.webp"
+  },
+  {
+    "id": 20,
+    "cohort": "2022",
+    "name": "Fairuz Tsabita",
+    "fullName": "Fairuz Tsabita",
+    "image": "/feeds/arsip/2022/20.webp"
+  },
+  {
+    "id": 1,
+    "cohort": "2023",
+    "name": "Almira Salsabila Ghassani Asmara",
+    "fullName": "Almira Salsabila Ghassani Asmara",
+    "image": "/feeds/arsip/2023/01.webp"
+  },
+  {
+    "id": 2,
+    "cohort": "2023",
+    "name": "Shafa Amalia Azzahra",
+    "fullName": "Shafa Amalia Azzahra",
+    "image": "/feeds/arsip/2023/02.webp"
+  },
+  {
+    "id": 3,
+    "cohort": "2023",
+    "name": "Nadia Rizki Ramadhina",
+    "fullName": "Nadia Rizki Ramadhina",
+    "image": "/feeds/arsip/2023/03.webp"
+  },
+  {
+    "id": 4,
+    "cohort": "2023",
+    "name": "Agisya Tafaila Abyani",
+    "fullName": "Agisya Tafaila Abyani",
+    "image": "/feeds/arsip/2023/04.webp"
+  },
+  {
+    "id": 5,
+    "cohort": "2023",
+    "name": "Nadine Crystaliva Nurfatiha",
+    "fullName": "Nadine Crystaliva Nurfatiha",
+    "image": "/feeds/arsip/2023/05.webp"
+  },
+  {
+    "id": 6,
+    "cohort": "2023",
+    "name": "Aisha Anindyani Putri",
+    "fullName": "Aisha Anindyani Putri",
+    "image": "/feeds/arsip/2023/06.webp"
+  },
+  {
+    "id": 7,
+    "cohort": "2023",
+    "name": "Aisha Ramadhani",
+    "fullName": "Aisha Ramadhani",
+    "image": "/feeds/arsip/2023/07.webp"
+  },
+  {
+    "id": 8,
+    "cohort": "2023",
+    "name": "Alya Malika Nadine Ramadhani",
+    "fullName": "Alya Malika Nadine Ramadhani",
+    "image": "/feeds/arsip/2023/08.webp"
+  },
+  {
+    "id": 9,
+    "cohort": "2023",
+    "name": "Catur Rahayu Widyaningrum Pratiwi",
+    "fullName": "Catur Rahayu Widyaningrum Pratiwi",
+    "image": "/feeds/arsip/2023/09.webp"
+  },
+  {
+    "id": 10,
+    "cohort": "2023",
+    "name": "Falihah Alya Pusparini",
+    "fullName": "Falihah Alya Pusparini",
+    "image": "/feeds/arsip/2023/10.webp"
+  },
+  {
+    "id": 11,
+    "cohort": "2023",
+    "name": "I Gede Adhiyaksa Kusuma Dharmawan",
+    "fullName": "I Gede Adhiyaksa Kusuma Dharmawan",
+    "image": "/feeds/arsip/2023/11.webp"
+  },
+  {
+    "id": 12,
+    "cohort": "2023",
+    "name": "I Made Raegana Mahijaditya",
+    "fullName": "I Made Raegana Mahijaditya",
+    "image": "/feeds/arsip/2023/12.webp"
+  },
+  {
+    "id": 13,
+    "cohort": "2023",
+    "name": "Jesslyn Goldie",
+    "fullName": "Jesslyn Goldie",
+    "image": "/feeds/arsip/2023/13.webp"
+  },
+  {
+    "id": 14,
+    "cohort": "2023",
+    "name": "Josephine Graceea Ruth Simanjuntak",
+    "fullName": "Josephine Graceea Ruth Simanjuntak",
+    "image": "/feeds/arsip/2023/14.webp"
+  },
+  {
+    "id": 15,
+    "cohort": "2023",
+    "name": "Lizza Aulia Maulida",
+    "fullName": "Lizza Aulia Maulida",
+    "image": "/feeds/arsip/2023/15.webp"
+  },
+  {
+    "id": 16,
+    "cohort": "2023",
+    "name": "Malika Syaharani",
+    "fullName": "Malika Syaharani",
+    "image": "/feeds/arsip/2023/16.webp"
+  },
+  {
+    "id": 17,
+    "cohort": "2023",
+    "name": "Nasywa Qurrota A'yun",
+    "fullName": "Nasywa Qurrota A'yun",
+    "image": "/feeds/arsip/2023/17.webp"
+  },
+  {
+    "id": 18,
+    "cohort": "2023",
+    "name": "Pradipta Fadiasnyah Kuncoro",
+    "fullName": "Pradipta Fadiasnyah Kuncoro",
+    "image": "/feeds/arsip/2023/18.webp"
+  },
+  {
+    "id": 19,
+    "cohort": "2023",
+    "name": "Rani Mutiara",
+    "fullName": "Rani Mutiara",
+    "image": "/feeds/arsip/2023/19.webp"
+  },
+  {
+    "id": 20,
+    "cohort": "2023",
+    "name": "Rivana Aulia Azmi",
+    "fullName": "Rivana Aulia Azmi",
+    "image": "/feeds/arsip/2023/20.webp"
+  },
+  {
+    "id": 21,
+    "cohort": "2023",
+    "name": "Ruth Aiko Siswanta",
+    "fullName": "Ruth Aiko Siswanta",
+    "image": "/feeds/arsip/2023/21.webp"
+  }
+]

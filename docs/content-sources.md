@@ -1,5 +1,11 @@
 # Sumber konten ASMA 2024
 
+## Tambahan arsip Google Sites — 20–21 Oktober 2026
+
+Sumber publik: https://sites.google.com/view/asmafkkmkugm/beranda, termasuk 27 halaman yang terhubung melalui navigasinya. Rincian hasil dan batas verifikasi ada di `legacy-migration.md`; pemetaan 82 foto dengan nama, halaman sumber, dan URL gambar ada di `legacy-image-sources.json`. Data materi menyimpan URL halaman sumber per angkatan/fase. Materi eksternal tetap berupa tautan, sementara foto anggota disimpan sebagai WebP lokal.
+
+## Audit awal
+
 Audit dilakukan 12 Oktober 2026. Dokumen asli tidak diubah. File pendukung dengan nomor telepon, email, daftar peserta, dan hasil remediasi tidak disertakan dalam website.
 
 ## Identitas dan aset

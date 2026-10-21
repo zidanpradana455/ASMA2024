@@ -1,6 +1,6 @@
 # Website ASMA 2024
 
-Website multi-page Asisten Mahasiswa Laboratorium Keterampilan Klinis FK-KMK UGM 2024. Dibuat dengan React, TypeScript, React Router, Vite, dan CSS.
+Website multi-page Asisten Mahasiswa Laboratorium Keterampilan Klinis FK-KMK UGM 2024, dengan arsip anggota 2020–2023 dan materi ajar Kedokteran 2020–2024. Dibuat dengan React, TypeScript, React Router, Vite, dan CSS.
 
 ## Menjalankan
 
@@ -19,11 +19,15 @@ npm run build
 npm run preview
 ```
 
-Build ada di `dist/`. Build juga membuat entry HTML untuk setiap route kegiatan yang dikenal, Anggota, Timeline, dan halaman 404, sehingga refresh langsung tidak bergantung pada rewrite SPA. Ketika berpindah host, gunakan `dist` sebagai direktori publik dan `404.html` untuk halaman tidak ditemukan. Jika hosting mendukung fallback SPA, arahkan route lain ke `index.html`.
+Build ada di `dist/`. Build juga membuat entry HTML untuk setiap route kegiatan yang dikenal, Anggota, Materi Ajar beserta 16 fase OSCE, Timeline, dan halaman 404, sehingga refresh langsung tidak bergantung pada rewrite SPA. Ketika berpindah host, gunakan `dist` sebagai direktori publik dan `404.html` untuk halaman tidak ditemukan. Jika hosting mendukung fallback SPA, arahkan route lain ke `index.html`.
 
 ## Mengubah konten
 
 - Anggota: edit `src/data/members.json`. `name` adalah nama panggilan, `fullName` untuk pencarian dan keterangan, `image` menunjuk `public/feeds/`. Pilih hanya sumber gambar berkode `-01`.
+- Arsip anggota: `src/data/legacy-members.json` menyimpan 82 nama angkatan 2020–2023; foto lokal ada di `public/feeds/arsip/`. Pilihan awal `/anggota` tetap 2024, dengan angkatan dan pencarian tersimpan pada query URL.
+- Materi ajar: `src/data/materials.json` memetakan angkatan, fase, URL halaman sumber, dan bahan belajar. Jenis bahan: `book`, `checklist`, `slides`, `case`, `video`. URL kosong berarti bahan belum tersedia; jangan mengarang URL pengganti. Pertahankan ID unik ketika mengedit bahan.
+- `/materi` mencari topik di semua angkatan; `/materi/:angkatan/:fase` memfilter fase terpilih. Dokumen dan video dibuka di sumber aslinya, tanpa iframe otomatis atau salinan dokumen eksternal.
+- Workflow integrasi ada di `docs/workflow-integrasi-arsip-asma.md`; rincian migrasi dan batas verifikasi ada di `docs/legacy-migration.md`.
 - Kegiatan: edit `src/data/events.ts`. Gunakan tanggal inklusif `YYYY-MM-DD`; kegiatan satu hari memakai startDate sama dengan endDate. Kalender, daftar, teaser, dan halaman detail menggunakan data ini bersama.
 - Kegiatan belum pasti disimpan di `pendingEvents` tanpa tanggal. Setelah terkonfirmasi, pindahkan ke `events`, isi field lengkap, kemudian build ulang.
 - Warna berdasarkan angkatan: `tertiary` (kuning) untuk 2024, `primary` (merah) untuk 2025, dan `secondary` (magenta) untuk 2026. Link mekanisme publik disimpan pada `mechanismUrl`. Nilai warna, font, dan responsivitas berada di `src/styles.css`.

@@ -1,0 +1,2563 @@
+[
+  {
+    "cohort": "2020",
+    "phase": "fase-1",
+    "title": "OSCE Fase I",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-i",
+    "resources": [
+      {
+        "id": "b1881c977f80a3",
+        "title": "Blok A1",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1F-zdc3r1HAry1JGDWq0BOwWUA6H8CZDL/view"
+      },
+      {
+        "id": "025089f510dee0",
+        "title": "Blok A2",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1Oomn1nAr4-8JZAO78Kh6x8_S6nyLhdvd/view?usp=sharing"
+      },
+      {
+        "id": "0408bb99c80dd6",
+        "title": "Blok A3",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1idCwnq38aB__OsGoPccCWQzuUFyRZjnD/view?usp=sharing"
+      },
+      {
+        "id": "32af76bc1ddc09",
+        "title": "Blok A4",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1BuFXv2lqDXekzUqO31NxSTlj5-WPsVuk/view?usp=sharing"
+      },
+      {
+        "id": "8ca1e324c99b65",
+        "title": "Blok A5",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1Ob8zT7o1ogKeZn8MrTBNRQa_Qa1OYLVI/view?usp=sharing"
+      },
+      {
+        "id": "f758e86717ef62",
+        "title": "Blok A6",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1XM6oEQOpoB6WmtdGQ60sfHSj7sp17MeL/view?usp=sharing"
+      },
+      {
+        "id": "7d96e81782fee4",
+        "title": "Station 1 IPM Abdomen",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "ff411d478b3914",
+        "title": "Station 2 IPM Jantung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "a2e24d7afbdc05",
+        "title": "Station 2 IPM Paru",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "2c9b5706b6af5a",
+        "title": "Station 3 Prosedur Aseptik",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "0a2389af118616",
+        "title": "Station 4 Ginekologi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "7149989b659488",
+        "title": "Station 5 THT",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "35270abed5fc00",
+        "title": "Station 6 Mata",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "b1b2c822133ec0",
+        "title": "Station 7 Lokomotor",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "ca2cef6021074a",
+        "title": "Station 8 Neurologi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "9f1165bfb173cd",
+        "title": "Station 9 Genitourinari",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "5e35a7f9c7957c",
+        "title": "Station 10 Kulit",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "48a094d4638e4c",
+        "title": "Station 11 BLS",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "e354d02c72f544",
+        "title": "Station 12 EKG",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ybhbxPpYi6wLtCqvR8cF9bbNH-8hs7BC/view?usp=sharing"
+      },
+      {
+        "id": "690ae4606d9370",
+        "title": "Station 1 IPM Abdomen",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q5raU7rROi0"
+      },
+      {
+        "id": "e3fbc77345ad3a",
+        "title": "Station 2 IPM Jantung",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=F_KlcjqR61s"
+      },
+      {
+        "id": "f35d47114ef6ad",
+        "title": "Station 2 IPM Paru",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-QVeQVDAYq4"
+      },
+      {
+        "id": "786ebd170acba6",
+        "title": "Station 5 THT",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RH4RC1N2smw"
+      },
+      {
+        "id": "d34f5e566cd94e",
+        "title": "Station 6 Mata",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EVHfqwIQ_Ic"
+      },
+      {
+        "id": "defa32a4f79279",
+        "title": "Station 7 Lokomotor",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BICQ2joCVVw"
+      },
+      {
+        "id": "71aecfe59dbd21",
+        "title": "Topik Neurological Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uYD4Ywrkbvc"
+      },
+      {
+        "id": "bd184402032fc0",
+        "title": "Topik Neurological Examination 1 (MMSE)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1gRV5ci_L3Q"
+      },
+      {
+        "id": "e002278dc6d16b",
+        "title": "Topik Neurological Examination 2",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=54izHKG7NRs"
+      },
+      {
+        "id": "116fff87c98f7c",
+        "title": "Topik Neurological Examination 2 (Kekuatan,Refleks Fisiologis,Refleks patologis,tonus otot clonus)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOcTP_f_qbk"
+      },
+      {
+        "id": "168214b5c0bef3",
+        "title": "Station 10 Kulit",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SkCQqF7Guzw"
+      },
+      {
+        "id": "57a87feeb2b986",
+        "title": "Station 12 EKG",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aixTmHuIJ60"
+      }
+    ]
+  },
+  {
+    "cohort": "2020",
+    "phase": "fase-2",
+    "title": "OSCE Fase II",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-ii",
+    "resources": [
+      {
+        "id": "a8d974d863e34a",
+        "title": "Blok B1",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/10mPFz5kNdE5-qrRL5C_eL2HfxY2HE_MH/view?usp=sharing"
+      },
+      {
+        "id": "2ce9fa85dd3c35",
+        "title": "Blok B2",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1SoB3SAifZSCPzoiUmar_YNXJfuGOXE5b/view?usp=sharing"
+      },
+      {
+        "id": "2b33f4e57bcfbe",
+        "title": "Blok B3",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1YS38pIb1m-jXCeLq1h_6Rrtyuj1W8kzw/view?usp=sharing"
+      },
+      {
+        "id": "6542104a30140f",
+        "title": "Blok B4",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1V9ocHjqccz2HqG_yJKLzeFA1AfTReRT6/view?usp=sharing"
+      },
+      {
+        "id": "f53b8331970799",
+        "title": "Blok B5",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1teVwiFrigW-70NeQ-dB8Aa_EC8Ca35FS/view?usp=sharing"
+      },
+      {
+        "id": "87687ec477e1d8",
+        "title": "Blok B6",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1ng2Wys8LSCPJRtQvLLfOHFJKwRoVoX4D/view?usp=sharing"
+      },
+      {
+        "id": "3cbc74db79e831",
+        "title": "Station 1-4 IPM Kepala & Leher, Thoraks, Abdomen, Payudara, Ekstremitas, Neurologi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1eptxr7HnRm62G49P90ykU0yQ__J96ujO/view?usp=sharing"
+      },
+      {
+        "id": "2ba4db9c66d8d4",
+        "title": "Station 5 IPM THT",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1hLh89sn9CVr0EZ2GZvRjrXP-GpbbzDFK/view?usp=sharing"
+      },
+      {
+        "id": "e995a5bf820ab6",
+        "title": "Station 5 IPM Mata",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1br70vbRzZpCDYpZipsfbJ4QX77ytY4ZC/view?usp=sharing"
+      },
+      {
+        "id": "fc369c2e5dc80e",
+        "title": "Station 6 Dressing & Bandaging",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1doqqVhk-zgJL-jf3Xvhhb0Y8lLBlM-tC/view?usp=sharing"
+      },
+      {
+        "id": "554500dd1852f2",
+        "title": "Station 7 Injeksi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1LW7rXYdzIKne7XGlQKRAZnFj8xqkwrEM/view?usp=sharing"
+      },
+      {
+        "id": "b9b5b8c38689a8",
+        "title": "Station 7 NGT",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1dkigcps7w1JGmJm5-5eo8VrxRAUAxT7D/view?usp=sharing"
+      },
+      {
+        "id": "59f6caf19cacee",
+        "title": "Station 8 Kateter Uretra",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1Vcu37jq2GEWvZtS7vPBoM4DQkK_2Exhx/view?usp=sharing"
+      },
+      {
+        "id": "717718334d3ff8",
+        "title": "Station 9 Penjahitan Sederhana",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1qPgJ4F3s0J038pOQ5oNa9aqop3jCOcCM/view?usp=sharing"
+      },
+      {
+        "id": "c5138418f2c857",
+        "title": "Station 1 Kulit (Lepra)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/10V7bmDUV-g2Q9oW-dG4glcVJkQMtbsW9/view?usp=sharing"
+      },
+      {
+        "id": "79b28d734ef38f",
+        "title": "IPM",
+        "type": "case",
+        "url": "https://drive.google.com/file/d/19JA2tH1erdTF41nVMIkOdmB8r_cSe4zp/view?usp=sharing"
+      },
+      {
+        "id": "7886ea8cca908e",
+        "title": "Prosedural",
+        "type": "case",
+        "url": "https://drive.google.com/file/d/1TDWbvidotbUdD9OFFXKnL1P50YXCf6wK/view?usp=sharing"
+      },
+      {
+        "id": "4cff14f9dd56e1",
+        "title": "Topik Neurological Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uYD4Ywrkbvc"
+      },
+      {
+        "id": "5cee7dc321bfab",
+        "title": "Topik Neurological Examination 1 (MMSE)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1gRV5ci_L3Q"
+      },
+      {
+        "id": "553565c421dc6d",
+        "title": "Topik Neurological Examination 2",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=54izHKG7NRs"
+      },
+      {
+        "id": "a98f7fd2dbf31f",
+        "title": "Topik Neurological Examination 2 (Kekuatan,Refleks Fisiologis,Refleks patologis,tonus otot clonus)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOcTP_f_qbk"
+      },
+      {
+        "id": "c98e5b0a4fd2df",
+        "title": "Station 1 Musculoskeletal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yD4ia0AiBik"
+      },
+      {
+        "id": "4b0fab4a47d703",
+        "title": "Station 1 Kulit (Lepra)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-Iob24DnR7Y"
+      },
+      {
+        "id": "a4603a9328050e",
+        "title": "Station 2 IPM Abdominal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q5raU7rROi0"
+      },
+      {
+        "id": "3d3a6559883aaa",
+        "title": "Station 3 IPM Paru",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-QVeQVDAYq4"
+      },
+      {
+        "id": "875ec5bebeb77f",
+        "title": "Station 4 IPM Jantung",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=F_KlcjqR61s"
+      },
+      {
+        "id": "edae046a32d47d",
+        "title": "Station 5 IPM THT",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RH4RC1N2smw"
+      },
+      {
+        "id": "19b2274cf98e87",
+        "title": "Station 5 IPM Mata",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EVHfqwIQ_Ic"
+      },
+      {
+        "id": "7e6c99792182fb",
+        "title": "Station 7 Injeksi",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=syGgAIkfyAY"
+      },
+      {
+        "id": "dfeaf465aa5171",
+        "title": "Station 8 Kateter Uretra",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7aBwUAmdrJU"
+      },
+      {
+        "id": "9c70480227456e",
+        "title": "Station 9 Penjahitan Sederhana",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eypmHZ5bT6M"
+      }
+    ]
+  },
+  {
+    "cohort": "2020",
+    "phase": "fase-3",
+    "title": "OSCE Fase III",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-iii",
+    "resources": [
+      {
+        "id": "0f704bc30c6185",
+        "title": "Blok C1",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1beiY4JN4TK6UKtrzJTZmi4J7kCeHo71s/view?usp=sharing"
+      },
+      {
+        "id": "faa4433f811c5d",
+        "title": "Blok C2",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1pDAzUbK7CzHIQvNSxSBvzFZZJwgCItVW/view?usp=sharing"
+      },
+      {
+        "id": "9adce9d4f26dff",
+        "title": "Blok C3",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1V3bddTbNqPN6RBikuy8CSm_9GI2-8nC5/view?usp=sharing"
+      },
+      {
+        "id": "7619d728512577",
+        "title": "Blok C4",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1mmNFmskav3x09-jbQpCL7dIwTOdZP6Dk/view?usp=sharing"
+      },
+      {
+        "id": "0a85f95547af4c",
+        "title": "Checklist Skills Lab Book BCCPT 1",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1vAQ4YUBPe1cdWnQeHbxItajn8CzV3osf/view?usp=sharing"
+      },
+      {
+        "id": "70c269babb5314",
+        "title": "IUD",
+        "type": "video",
+        "url": "https://drive.google.com/file/d/1DhnE1HRBCDj0aHsUNiqxfizbTiEWo4PK/view"
+      },
+      {
+        "id": "908831ab3e3f1d",
+        "title": "Implan",
+        "type": "video",
+        "url": "https://drive.google.com/file/d/1QXqLJdU_2jg9jT7FawCeIdpu1X_-zhFR/view"
+      },
+      {
+        "id": "a19de5ac74fbd8",
+        "title": "ANC",
+        "type": "video",
+        "url": "https://drive.google.com/file/d/1o5JZB2pyW-RaAwwetAIzoWxI6DtUJ3Xe/view?usp=sharing"
+      },
+      {
+        "id": "1fc913208e7791",
+        "title": "Baby Delivery",
+        "type": "video",
+        "url": "https://drive.google.com/file/d/1kiOmJyzZHO5ZVM4na8pAta0pq5GIMHcq/view"
+      }
+    ]
+  },
+  {
+    "cohort": "2020",
+    "phase": "komprehensif",
+    "title": "OSCE Komprehensif",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-komprehensif",
+    "resources": []
+  },
+  {
+    "cohort": "2021",
+    "phase": "fase-1",
+    "title": "OSCE Fase I",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2021/osce-fase-i",
+    "resources": [
+      {
+        "id": "41bff43c701110",
+        "title": "B lok I.I",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1JF1lCeUTwSI5FEqQin74jrXBUwVW0P_I/view?usp=sharing"
+      },
+      {
+        "id": "e7e1c03e80aaa4",
+        "title": "Blok I.2",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1g8yCqOupZEkvAAkide5UpYr9jqXexovx/view?usp=sharing"
+      },
+      {
+        "id": "388aecb55af217",
+        "title": "Blok I.3",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1p-SeOb9ZoUFSLlANxfE-Aow_BvQOEJKz/view?usp=share_link"
+      },
+      {
+        "id": "53b2eaaf2da929",
+        "title": "Blok I.4",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1pq6ImbzetIaNMwSPxD4E2nb5ST2nHqgT/view?usp=share_link"
+      },
+      {
+        "id": "540c78c3a9ce73",
+        "title": "Blok I.5",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1SIfF1CpyIdJm2XKp4O4UAhARg3Tcx5aF/view?usp=sharing"
+      },
+      {
+        "id": "370f9312eb1a13",
+        "title": "Blok I.6",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/17-iJ6RCt_sdyUO72O0TgOLtVFlOIN5Tk/view?usp=sharing"
+      },
+      {
+        "id": "456d8906d9c764",
+        "title": "Blok I.7",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1Va5BmB372TqPE-nlupwjkbDYZfJNvbQh/view?usp=share_link"
+      },
+      {
+        "id": "05490a6a5d4b18",
+        "title": "Blok I.8",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1QZmOKZ8VywObyW_BY1eKWBnQv99EiNI0/view?usp=share_link"
+      },
+      {
+        "id": "5865061042ff6f",
+        "title": "Blok I.9",
+        "type": "book",
+        "url": "https://drive.google.com/file/d/1RW8S2SKmr5dZzEzHOKjBy_u0zftytjeK/view?usp=sharing"
+      },
+      {
+        "id": "50e5e2fff0fd96",
+        "title": "Station 1A & B - Antropometri Dewasa",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1pee9oR_M2f6ZXoftKKmJwS-Dl14WzgKV/view?usp=sharing"
+      },
+      {
+        "id": "75cac3d33b7818",
+        "title": "Station 1C - IPM 1 Pemeriksaan Kelenjar Tiroid",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1MUxnbJ55_bNfcEtsL2nQj6KKsiGkh44h/view?usp=sharing"
+      },
+      {
+        "id": "706884dbb63cbe",
+        "title": "Station 1D - IPM 1 Pemeriksaan Anemia dan Kelenjar Limfe",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1oB8A1wHimOwgckhrdzywdUnghbVZllJ0/view?usp=sharing"
+      },
+      {
+        "id": "559d5ce078348a",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Paru",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/19QDonr4rrAZZNarYZ_vUT8cAbcTT1MSH/view?usp=sharing"
+      },
+      {
+        "id": "900d347c9216b9",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Jantung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1B4-imsZcGs_hzd2GCsNdEPBa8ijbYGBI/view?usp=sharing"
+      },
+      {
+        "id": "2c255feadd4d95",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Abdomen",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1emxf2SGEi0-jylHCuBCLzyFQIIsnjRdb/view?usp=sharing"
+      },
+      {
+        "id": "53d4e90f8d707c",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Hidung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/18WCQIBrN_-OSnYrGRohuAvZI0VvZtNKU/view?usp=sharing"
+      },
+      {
+        "id": "573d0bbbc92e86",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Telinga",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1G892N8giCZ3WPaojk82X52Y4CKi4hHOR/view?usp=sharing"
+      },
+      {
+        "id": "925ae08e0de7dc",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Tenggorokan",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1avBlXpCPiJXPr-vwQhBW3-3JgdA0C7Oj/view?usp=sharing"
+      },
+      {
+        "id": "75c8f325236193",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Amsler Grid)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1qrT25LKdDmyuXKZG6ltyfDglnu8r3jXy/view?usp=sharing"
+      },
+      {
+        "id": "18708b420f075f",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Buta Warna)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/16tsnudF0IWiaWW8PLE6vOWp30sh6fw1t/view?usp=sharing"
+      },
+      {
+        "id": "3de8b2278e304f",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Gerakan Bola Mata)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/13dzziDthR64G5pybeKt5YJKq-gDAInC8/view?usp=sharing"
+      },
+      {
+        "id": "c010b7e46d8af4",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Lapang Pandang Perifer)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1kfMOE-I6sXkIUs8MS0XeP3foQD5ZTieS/view?usp=sharing"
+      },
+      {
+        "id": "b14e5c98988742",
+        "title": "Station 5 - IPM 5 - Pemeriksaan Neurologi (Nervus Cranialis)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/19dKHuFjpRc8NTMON7QBnxF0sd-kdFC8n/view?usp=sharing"
+      },
+      {
+        "id": "c5c560d8143465",
+        "title": "Station 5 - IPM 5 - Pemeriksaan Neurologi (Tanda Meningeal)",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1p39HKwVBV5yFePWFtqfMRt9Td4kwLW3f/view?usp=sharing"
+      },
+      {
+        "id": "705a6322e51914",
+        "title": "Station 6 - IPM 6 - Pemeriksaan Dermatologi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1oX3qkF0NsjYEjn6ojRo_-oe7_XPwoPfV/view?usp=sharing"
+      },
+      {
+        "id": "de62e2e957b36d",
+        "title": "Station 7 - IPM 7 - Pemeriksaan Fisik",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1aMYhaXUn6G0EwnUZi-teopEW27Nt-VEy/view?usp=sharing"
+      },
+      {
+        "id": "2478b2bf2d3552",
+        "title": "Station 7 - IPM 7 - Antropometri Pediatri",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/130Arzr_sZW8GbgfRzzRbFrnF4u59qbaE/view?usp=sharing"
+      },
+      {
+        "id": "e2eae26bb05cbd",
+        "title": "Station 8 - IPM 8 - Konseling Laktasi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1qoIJLvs6G8oWYBJOPKQFIJmN1IvVrSix/view?usp=sharing"
+      },
+      {
+        "id": "095c4ccb9b88c9",
+        "title": "Station 8 - IPM 8 - Vaksinasi Dewasa",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1rdzJ4bvPbA3VuOnVAFRXCMyi6Wup2rkH/view?usp=sharing"
+      },
+      {
+        "id": "f4dfedfaabb33e",
+        "title": "Station 8 - IPM 8 - Vaksinasi Anak",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1LJ_670V7pMwtp047aSXMiJxGlQwgrRBF/view?usp=sharing"
+      },
+      {
+        "id": "c3c3a291f4ab6b",
+        "title": "Station 9 - Pemeriksaan EKG",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1mtwg9sFv5kU0SpTViYQg4l64hiirGtlX/view?usp=sharing"
+      },
+      {
+        "id": "ae57e9143f3afc",
+        "title": "Station 10 - Baby Delivery",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1sCSS79UuOvKQ-3T2yh2KjT_0xo_pWKdq/view?usp=sharing"
+      },
+      {
+        "id": "35540f702a187c",
+        "title": "Station 10 - PAP Smear",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1a4Fw-zcMBUL4Jew-Ah3H2JwR7UnNK91i/view?usp=sharing"
+      },
+      {
+        "id": "54246883b4402c",
+        "title": "Station 10 - ANC",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ejSQSWW8vro4WmQoTNiiBANeBgf0YIhv/view?usp=sharing"
+      },
+      {
+        "id": "60b52c8601001d",
+        "title": "Station 11 – Bantuan Hidup Dasar",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1SO6mvRwRW7gAO1BxeSB7d5VEFoPbceo2/view?usp=sharing"
+      },
+      {
+        "id": "e82b2b4e24889d",
+        "title": "Station 12 - Skin Suturing",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ptr5hmXvmYTx2OELXMnVuU-XdxrKrtbT/view?usp=sharing"
+      },
+      {
+        "id": "b52e703b9ff621",
+        "title": "Station 13 - Pemasangan Jalur Intravena",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/17XxLlZE1RZ_VykaUvfF8Xc0RZRg5DcVz/view?usp=sharing"
+      },
+      {
+        "id": "4f75c999571404",
+        "title": "Station 14 - Basic Locomotor examination and Dressing and bandaging",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1RgJOL84E2lAYHBCsNJUi6nzHCDp3ZQCB/view?usp=sharing"
+      },
+      {
+        "id": "d295c90f36dbac",
+        "title": "Station 1A & B - IPM 1 Antropometri Dewasa",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1L6jnpUUT7IO1cXB4fdngUts3Qy_ddQUOXhAMjmjsnSU/edit?usp=share_link"
+      },
+      {
+        "id": "5fd2075aeb7e83",
+        "title": "Station 1C - IPM 1 Pemeriksaan Kelenjar Tiroid",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1BQK4fTQkwNHmsOVRmcKffDFRAckShJXk/edit?usp=share_link&ouid=104019707596246307929&rtpof=true&sd=true"
+      },
+      {
+        "id": "4c4e6c1574df72",
+        "title": "Station 1D - IPM 1 Pemeriksaan Anemia dan Kelenjar Limfe",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1qMKsLKfYg-v5hETJOBaroquNB1YLA0BhCWUKfJ43-wQ/edit?usp=share_link"
+      },
+      {
+        "id": "7193370b68cf2d",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Paru",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/19QDonr4rrAZZNarYZ_vUT8cAbcTT1MSH/view?usp=sharing"
+      },
+      {
+        "id": "c7bd6f59528e6f",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Jantung",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1Sk0mnS_jnKzdndfM6gRdnV1pRHssgF2LL0dXgGvATGM/edit?usp=share_link"
+      },
+      {
+        "id": "d80167118f68c9",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Abdomen",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1DUlDKQa4YNwn30CNs_ZH6KI4AVad9uAq/edit?usp=share_link&ouid=104019707596246307929&rtpof=true&sd=true"
+      },
+      {
+        "id": "7981aee34c1b27",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Hidung",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/18WCQIBrN_-OSnYrGRohuAvZI0VvZtNKU/view?usp=sharing"
+      },
+      {
+        "id": "8402bd57d0284b",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Telinga",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1G892N8giCZ3WPaojk82X52Y4CKi4hHOR/view?usp=sharing"
+      },
+      {
+        "id": "01f3d5b51c0bbb",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Tenggorokan",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1avBlXpCPiJXPr-vwQhBW3-3JgdA0C7Oj/view?usp=sharing"
+      },
+      {
+        "id": "c3d61f2b36f53f",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Amsler Grid)",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1qrT25LKdDmyuXKZG6ltyfDglnu8r3jXy/view?usp=sharing"
+      },
+      {
+        "id": "aa119196d465f2",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Buta Warna)",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/16tsnudF0IWiaWW8PLE6vOWp30sh6fw1t/view?usp=sharing"
+      },
+      {
+        "id": "9997d698ff49b4",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Gerakan Bola Mata)",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/13dzziDthR64G5pybeKt5YJKq-gDAInC8/view?usp=sharing"
+      },
+      {
+        "id": "d3c896ca6813c7",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata (Visus dan Lapang Pandang Perifer)",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1kfMOE-I6sXkIUs8MS0XeP3foQD5ZTieS/view?usp=sharing"
+      },
+      {
+        "id": "a8f3e8d53e12d3",
+        "title": "Station 5 - IPM 5 - Pemeriksaan Neurologi (Nervus Cranialis)",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/19dKHuFjpRc8NTMON7QBnxF0sd-kdFC8n/view?usp=sharing"
+      },
+      {
+        "id": "3cac7210e50a9a",
+        "title": "Station 5 - IPM 5 - Pemeriksaan Neurologi (Tanda Meningeal)",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1p39HKwVBV5yFePWFtqfMRt9Td4kwLW3f/view?usp=sharing"
+      },
+      {
+        "id": "1135f733f3292e",
+        "title": "Station 6 - IPM 6 - Pemeriksaan Dermatologi",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1oX3qkF0NsjYEjn6ojRo_-oe7_XPwoPfV/view?usp=sharing"
+      },
+      {
+        "id": "e4d43467fe28b2",
+        "title": "Station 7 - IPM 7 - Pemeriksaan Fisik Anak",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/130Arzr_sZW8GbgfRzzRbFrnF4u59qbaE/view?usp=sharing"
+      },
+      {
+        "id": "2c345a195b21c9",
+        "title": "Station 8 - IPM 8 - Konseling Laktasi",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1qoIJLvs6G8oWYBJOPKQFIJmN1IvVrSix/view?usp=sharing"
+      },
+      {
+        "id": "e2f1294acefdb2",
+        "title": "Station 8 - IPM 8 - Vaksinasi Dewasa",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1rdzJ4bvPbA3VuOnVAFRXCMyi6Wup2rkH/view?usp=sharing"
+      },
+      {
+        "id": "1baa0b4777da51",
+        "title": "Station 8 - IPM 8 - Vaksinasi Anak",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1LJ_670V7pMwtp047aSXMiJxGlQwgrRBF/view?usp=sharing"
+      },
+      {
+        "id": "d7240f3189c2a8",
+        "title": "Station 9 - Pemeriksaan EKG",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1mtwg9sFv5kU0SpTViYQg4l64hiirGtlX/view?usp=sharing"
+      },
+      {
+        "id": "9d02a2a3853433",
+        "title": "Station 10 - Baby Delivery",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1sCSS79UuOvKQ-3T2yh2KjT_0xo_pWKdq/view?usp=sharing"
+      },
+      {
+        "id": "48be885f43bb61",
+        "title": "Station 10 - PAP Smear",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1a4Fw-zcMBUL4Jew-Ah3H2JwR7UnNK91i/view?usp=sharing"
+      },
+      {
+        "id": "cc0ede44872922",
+        "title": "Station 10 - ANC",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1ejSQSWW8vro4WmQoTNiiBANeBgf0YIhv/view?usp=sharing"
+      },
+      {
+        "id": "4b61adee9c0848",
+        "title": "Station 11 – Bantuan Hidup Dasar",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1SO6mvRwRW7gAO1BxeSB7d5VEFoPbceo2/view?usp=sharing"
+      },
+      {
+        "id": "add9a2a1543b76",
+        "title": "Station 12 - Skin Suturing",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1ptr5hmXvmYTx2OELXMnVuU-XdxrKrtbT/view?usp=sharing"
+      },
+      {
+        "id": "6dd8c5023b09d3",
+        "title": "Station 13 - Pemasangan Jalur Intravena",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/17XxLlZE1RZ_VykaUvfF8Xc0RZRg5DcVz/view?usp=sharing"
+      },
+      {
+        "id": "6acb6677fee67d",
+        "title": "Station 14 - Basic Locomotor examination and Dressing and bandaging",
+        "type": "slides",
+        "url": "https://drive.google.com/file/d/1RgJOL84E2lAYHBCsNJUi6nzHCDp3ZQCB/view?usp=sharing"
+      },
+      {
+        "id": "4154d349f45662",
+        "title": "Adult Anthropometry",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WMrfGAsrZHg"
+      },
+      {
+        "id": "18ec0fe1bd37da",
+        "title": "Pemeriksaan Kelenjar Tiroid dan Kelenjar Limfe",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LFcPVsJ2sbU"
+      },
+      {
+        "id": "34db6f71c01e0e",
+        "title": "Pemeriksaan Anemia",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=239GNSbpymQ"
+      },
+      {
+        "id": "2577045b19a352",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Paru",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-QVeQVDAYq4"
+      },
+      {
+        "id": "bccfe88700937d",
+        "title": "Vascular",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O6KQ61J6P3s"
+      },
+      {
+        "id": "00764e69b9c721",
+        "title": "Heart",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=F_KlcjqR61s"
+      },
+      {
+        "id": "84b5f227d99839",
+        "title": "Station 2 - IPM 2 - Pemeriksaan Abdomen",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q5raU7rROi0"
+      },
+      {
+        "id": "1e77487c63cc03",
+        "title": "Station 3 - IPM 3 - Pemeriksaan Hidung , Telinga, Tenggorokan",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RH4RC1N2smwahttps://youtu.be/RH4RC1N2smw"
+      },
+      {
+        "id": "da990ae380e24c",
+        "title": "Station 4 - IPM 4 - Pemeriksaan Mata",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EVHfqwIQ_Ic"
+      },
+      {
+        "id": "78c81d24539200",
+        "title": "Tanda Meningeal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=54izHKG7NRs"
+      },
+      {
+        "id": "e1e6787953312f",
+        "title": "GCS & Brain Stem Reflex",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uYD4Ywrkbvc"
+      },
+      {
+        "id": "0c29cbe6ff170c",
+        "title": "MMSE",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1gRV5ci_L3Q"
+      },
+      {
+        "id": "775990b412d2a2",
+        "title": "Kekuatan, Refleks Fisiologis, Refleks P atologis, T onus O tot C lonus",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOcTP_f_qbk"
+      },
+      {
+        "id": "c42fa594f1a58c",
+        "title": "Station 6 - IPM 6 - Pemeriksaan Dermatologi",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SkCQqF7Guzw"
+      },
+      {
+        "id": "5cff6c4d8182f2",
+        "title": "Pediatric Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=NLqvsy5KDk4"
+      },
+      {
+        "id": "574bbc7bbaaba0",
+        "title": "Antropometri Pediatri",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oCET0dIve9U"
+      },
+      {
+        "id": "04b8da0b5c1bc3",
+        "title": "Laktasi",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QvBLtg4Cv9g"
+      },
+      {
+        "id": "da3d0670d247a6",
+        "title": "Injeksi",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=syGgAIkfyAY"
+      },
+      {
+        "id": "dc55f3408b290b",
+        "title": "Vaksinasi Anak",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vT8Qe6M9uRQ"
+      },
+      {
+        "id": "b50341fd0577ab",
+        "title": "Station 9 - Pemeriksaan EKG",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aixTmHuIJ60"
+      },
+      {
+        "id": "a34dfd3f37d024",
+        "title": "Baby Delivery",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=POFLDJeeZ6k"
+      },
+      {
+        "id": "99d779856267f4",
+        "title": "Antenatal Care",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4uCP0yqoO8c"
+      },
+      {
+        "id": "ccd877ee58de89",
+        "title": "Pap Smear",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2h1lLL-MRvw"
+      },
+      {
+        "id": "506bb57eff2fdd",
+        "title": "Non Pandemic Setting",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eT1krFDhF5Q"
+      },
+      {
+        "id": "891c4f624656a7",
+        "title": "Pandemic Setting",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=j1PHsiAu1q8"
+      },
+      {
+        "id": "4478808a66bd5f",
+        "title": "Station 12 - Skin Suturing",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eypmHZ5bT6M"
+      },
+      {
+        "id": "afa6b4b4e25025",
+        "title": "Station 13 - Pemasangan Jalur Intravena",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RCrdGbGDKOA"
+      },
+      {
+        "id": "9b02d8e8ddc2d2",
+        "title": "Station 14 - Basic Locomotor examination and Dressing and bandaging",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BICQ2joCVVw"
+      }
+    ]
+  },
+  {
+    "cohort": "2021",
+    "phase": "fase-2",
+    "title": "OSCE Fase II",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2021/osce-fase-ii",
+    "resources": []
+  },
+  {
+    "cohort": "2021",
+    "phase": "fase-3",
+    "title": "OSCE Fase III",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2021/osce-fase-iii",
+    "resources": []
+  },
+  {
+    "cohort": "2022",
+    "phase": "fase-1",
+    "title": "OSCE Fase I",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2022/osce-fase-i",
+    "resources": [
+      {
+        "id": "41dee1591ee2ce",
+        "title": "Antropometri",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1n_0gQmJR7yv2w4Pzzfo6ol8xxRkZZT6v/view?usp=sharing"
+      },
+      {
+        "id": "619053e741403e",
+        "title": "Antropometri",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%201_Antropometri%20Dewasa.pptx?d=wbb96db4e3e9a414bbc480b53a546a3de&csf=1&web=1&e=Z3xYaF"
+      },
+      {
+        "id": "6286e233db4668",
+        "title": "Pemeriksaan Kelenjar Tiroid",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1_Ir-JmSkQ7k3K52pnGznWksBIwCgpFGE/view?usp=sharing"
+      },
+      {
+        "id": "481e8049b5714d",
+        "title": "Pemeriksaan Kelenjar Tiroid",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%201_Thyroid.pptx?d=wce3685080ee3485198897cf68f4d71f9&csf=1&web=1&e=40Abmr"
+      },
+      {
+        "id": "8bd2eaada3f1b9",
+        "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/15JL4iq8vsWQOkl9iI2nicNRV30ArkPe9/view?usp=sharing"
+      },
+      {
+        "id": "e770f59c804b24",
+        "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%201_Anemia%20and%20Lymph%20Exam.pptx?d=w566453f0e7984480aa575fbfda53c5f7&csf=1&web=1&e=fOwciY"
+      },
+      {
+        "id": "dd9330dc53778e",
+        "title": "Pemeriksaan Paru",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1RfdflMkdf1-Vlcr-yvC47vKiDp0PadOr/view?usp=sharing"
+      },
+      {
+        "id": "1d43144bc9bae1",
+        "title": "Pemeriksaan Paru",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%202_Lung%20Examination.pptx?d=w09b5ff8445f94fab8284b3414611b02b&csf=1&web=1&e=xxnZDz"
+      },
+      {
+        "id": "f4bbb6fcbae022",
+        "title": "Pemeriksaan Jantung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1jtGDKRe-0t3clXv1Cmpr3hA4-rj_A0Um/view?usp=sharing"
+      },
+      {
+        "id": "a68b5a09618c63",
+        "title": "Pemeriksaan Jantung",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%202_Heart%20Exam.pptx?d=w69614c1886df40d6b786255f5b94a2bd&csf=1&web=1&e=uYD1Ua"
+      },
+      {
+        "id": "8ad314faded9ab",
+        "title": "Pemeriksaan Abdomen",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/14ulbUjPlyGmaruoTNSsFmcFbohVjY1xk/view?usp=sharing"
+      },
+      {
+        "id": "0f4ac61a8034a6",
+        "title": "Pemeriksaan Abdomen",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%202_Abdomen.pptx?d=w61cc7d6116fe4b28b968ae1afa0a35a4&csf=1&web=1&e=BOao8a"
+      },
+      {
+        "id": "0d587c6df5c61e",
+        "title": "Pemeriksaan THT — Checklist Hidung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/19J4cfDIDruP6zKYYOiR4CW2s4hSTBt7e/view?usp=sharing"
+      },
+      {
+        "id": "790ff00ea1a332",
+        "title": "Pemeriksaan THT — Checklist Telinga",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1Wu7M5N1oZ9sKsenjbhweXfj_8qc4HElR/view?usp=sharing"
+      },
+      {
+        "id": "36cffa04a33565",
+        "title": "Pemeriksaan THT — Checklist Tenggorokan",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1tCCINKZWsqWzVvqWcV7N9ZeeHf7cJItf/view?usp=sharing"
+      },
+      {
+        "id": "da02fe999a658d",
+        "title": "Pemeriksaan THT",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%203_ENT.pptx?d=w59e538c4f81e4f9b8a1f916a29aca1b8&csf=1&web=1&e=S98Rk6"
+      },
+      {
+        "id": "de6fd59a3ad787",
+        "title": "Pemeriksaan Mata — Checklist Amsler Grid",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1rUnMntRjhv6JhEOqsBLAtRGx6kXorKw7/view?usp=sharing"
+      },
+      {
+        "id": "2a81b2958fafcd",
+        "title": "Pemeriksaan Mata — Checklist Buta Warna",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1azKxHLD0KXeFnEyH3e_uVvtkGOxZeUu2/view?usp=sharing"
+      },
+      {
+        "id": "27021dc7b41b43",
+        "title": "Pemeriksaan Mata — Checklist Gerak Bola Mata",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/17DpBTWfyPkICGKwm6Z2xso4N4z79ZgOO/view?usp=sharing"
+      },
+      {
+        "id": "d84d492a13289f",
+        "title": "Pemeriksaan Mata — Checklist Lapang Pandang Perifer",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1AZwxlA3gexEF1TcQobB83woW4mUO20TM/view?usp=sharing"
+      },
+      {
+        "id": "3d67da08344a8a",
+        "title": "Pemeriksaan Mata",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%204_Eye%20Examination.pptx?d=wfa0c549d4dcf4f108d7b93ba5347ce95&csf=1&web=1&e=FJXv9A"
+      },
+      {
+        "id": "ac4d999d46913f",
+        "title": "Pemeriksaan Neurologi — Checklist Nervus Cranialis",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1V8i8vVJuAXfohSo9htza5exB34nJTM9d/view?usp=sharing"
+      },
+      {
+        "id": "da7077f3d2f724",
+        "title": "Pemeriksaan Neurologi — Checklist Tanda Meningeal",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1Bncr_6yE3IKitK2bbukwiaUMfRlzKazK/view?usp=sharing"
+      },
+      {
+        "id": "3ae0f4b9c8a86c",
+        "title": "Pemeriksaan Neurologi",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%205_Neurology%20Examination.pptx?d=w1e5c2b20da8a4e4cac2ca1f1456468ca&csf=1&web=1&e=spj7DI"
+      },
+      {
+        "id": "a06a00cb575b93",
+        "title": "Pemeriksaan Dermatologi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1VH9qLVTbviBZ3jMD3zUDL6-TqQ8WAUdr/view?usp=sharing"
+      },
+      {
+        "id": "35748798e3c710",
+        "title": "Pemeriksaan Dermatologi",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%206_Dermatologi%20.pptx?d=w8e21df058c3944e0ba04505bcb3236b2&csf=1&web=1&e=G5RLgs"
+      },
+      {
+        "id": "95c345cb74dd0a",
+        "title": "Antropometri Pediatri",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ibHB1Vl1Ry4JqETIOU6K8j37IHfA5IlC/view?usp=sharing"
+      },
+      {
+        "id": "833bdced9132cb",
+        "title": "Antropometri Pediatri",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%207_Antropometri%20paediatric.pptx?d=wdcb15a08b6ca42b9b5da21dc90b739b6&csf=1&web=1&e=dM84ym"
+      },
+      {
+        "id": "6941af9cea5f8c",
+        "title": "Pemeriksaan Fisik Anak",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1Z1RGRXmNsiqtJGmJqM_n09r0WlRmY37X/view?usp=sharing"
+      },
+      {
+        "id": "5acccdba2b4e50",
+        "title": "Pemeriksaan Fisik Anak",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%207_Pediatric%20Examination.pptx?d=w7ca8123dc3274528bb3da00f911efeba&csf=1&web=1&e=8TZKsp"
+      },
+      {
+        "id": "57c2c6326723a4",
+        "title": "Konseling Laktasi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1CRpUgODtqEqdNGF0CEyPaJ73LAXF0NY5/view?usp=sharing"
+      },
+      {
+        "id": "f99c86789c4723",
+        "title": "Konseling Laktasi",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%208_Konseling%20Laktasi%20%281%29.pptx?d=w504d6e7204fd4e918bd1f3a9929cc977&csf=1&web=1&e=A402LF"
+      },
+      {
+        "id": "55734c6bf71b90",
+        "title": "Vaksinasi Dewasa",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1vmV73P1tZqbUVqimlQsmoHO_rLmY64Gy/view?usp=sharing"
+      },
+      {
+        "id": "80f74c18640950",
+        "title": "Vaksinasi Dewasa",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%208_Vaksinasi%20Dewasa.pptx?d=w15efbbd6a74b4205acab868c806ea393&csf=1&web=1&e=xcmJ8M"
+      },
+      {
+        "id": "1980f3b8d9d892",
+        "title": "Vaksinasi Anak",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1xUwyN3867uwImovdVHvXJRtuLn1viNqy/view?usp=sharing"
+      },
+      {
+        "id": "25fa6404807ae2",
+        "title": "Vaksinasi Anak",
+        "type": "slides",
+        "url": "https://ugm365-my.sharepoint.com/:p:/r/personal/indy_alifia2204_365_ugm_ac_id/Documents/OSCE%20Fase%20I%202022/OSCE_Station%208_Vaksinasi%20anak.pptx?d=wff27576fdd264c3fa31851353a41e21b&csf=1&web=1&e=ep22hb"
+      },
+      {
+        "id": "3b23fb775adc8b",
+        "title": "Pemeriksaan EKG",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1VL9rYlMSkTEnwMHk2zsFNOWDh7EVe0fR/view?usp=sharing"
+      },
+      {
+        "id": "9fbe3179e3e205",
+        "title": "Baby Delivery",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1rcKgsDK49c-GjdvWIBeZvIATP6ZFsxkh/view?usp=sharing"
+      },
+      {
+        "id": "4de9713c009641",
+        "title": "Pap Smear",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1CxaYkJfNILaakb0_I0xlQTiKNeFeiQu8/view?usp=sharing"
+      },
+      {
+        "id": "3068e7a51b3ecf",
+        "title": "Antenatal Care",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1MbCYP1YsGZTntBY3tyzmMGR63R9olmRm/view?usp=sharing"
+      },
+      {
+        "id": "5a0e8fb23f5d89",
+        "title": "Basic Life Support",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1j8hAhhvkQFLIDc2IatcImuxTaqYwrVcB/view?usp=sharing"
+      },
+      {
+        "id": "68f477fe1916e6",
+        "title": "Simple Skin Suturing",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1BbQ__G96dHCOmsjn901bl-voXMuPJis3/view?usp=sharing"
+      },
+      {
+        "id": "cd81c45aa58a9e",
+        "title": "Pemasangan Jalur Intravena",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1XrCOul1iv8E_0IiSgh-1mm4r-pwfu3ho/view?usp=sharing"
+      },
+      {
+        "id": "57ce4c037d478a",
+        "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1IBRiTvClpD9EeYqQoLttdGH2hOg43OF_/view?usp=sharing"
+      },
+      {
+        "id": "cabf6989f87f2d",
+        "title": "Skillslab book I.1",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=1BvdJXUp-KvP8pAaeYquUOhsQOzUk1TjX"
+      },
+      {
+        "id": "371b166b42f962",
+        "title": "Skillslab book I.5",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=12LtZx6wHqaPyknDkkPwzslmwFQnl3ZQR"
+      },
+      {
+        "id": "42c72f4f570d5e",
+        "title": "STUDENTS BOOK I9 2022",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=1nZvuaZ6kzOkSBT74NHkioXyHLrpSH03C"
+      },
+      {
+        "id": "80f48fbb1673da",
+        "title": "Skillslab book I.2",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=1lsLQ7bnT8IAYrLyKW8OQbO8kuDUbp-Cl"
+      },
+      {
+        "id": "2ece61ffd400d8",
+        "title": "Skillslab book I.6",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=1ij2v7HLj4qG5FO3ffOyB5-Jd7bi-Pt_4"
+      },
+      {
+        "id": "5e36166919b670",
+        "title": "Skillslab book I.3",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=1skj-HPriXHpg01HnyIA8xBgdFyxbh1L0"
+      },
+      {
+        "id": "46501c8f067cf1",
+        "title": "Skillslab book I.7",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=11MW3Eyd6bgb9r-_0zbJctpkyF80snGvt"
+      },
+      {
+        "id": "b95a71b0a3c45e",
+        "title": "Skillslab book I.4",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=187YpScNocHpP5eShf0FD_bVN3OEDixMY"
+      },
+      {
+        "id": "16b94a04b78a31",
+        "title": "Skillslab book I.8",
+        "type": "book",
+        "url": "https://drive.google.com/open?id=1jXX1ax9EgX5gS9aaZ8M4gogpAWUdTVgJ"
+      },
+      {
+        "id": "8aac7da27fc56c",
+        "title": "VITAL SIGN EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UDBLn-6YRZU"
+      },
+      {
+        "id": "87436b754c6a8e",
+        "title": "ANEMIA",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GMlTtYBUnnY"
+      },
+      {
+        "id": "61ac5a0d73ba2a",
+        "title": "LYMPHATIC",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LFcPVsJ2sbU"
+      },
+      {
+        "id": "965145a65a6105",
+        "title": "ANNTHROPOMETRY DEWASA",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WMrfGAsrZHg"
+      },
+      {
+        "id": "fd9e67f6ff18a0",
+        "title": "Pengukuran dan Interprestasi Antropometri pada Anak",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oCET0dIve9U"
+      },
+      {
+        "id": "81b27be6ea45bf",
+        "title": "Basic Locomotor Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BICQ2joCVVw"
+      },
+      {
+        "id": "262faf15aa9e95",
+        "title": "CARDIOVASKULAR EXAMINATION (Vascular Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O6KQ61J6P3s"
+      },
+      {
+        "id": "c7f7690430819f",
+        "title": "CARDIOVASKULAR EXAMINATION (Heart Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=F_KlcjqR61s"
+      },
+      {
+        "id": "4925db0fa1e641",
+        "title": "LUNG EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-QVeQVDAYq4"
+      },
+      {
+        "id": "aa5b1bd1cd5e72",
+        "title": "BLS NON PANDEMI AWAM",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eT1krFDhF5Q"
+      },
+      {
+        "id": "9eaec1ff2fbe1b",
+        "title": "BLS NON PANDEMI MEDIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7b0_rvtmdF0"
+      },
+      {
+        "id": "df3af7aaab8d7e",
+        "title": "BLS PANDEMI AWAM",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=j1PHsiAu1q8"
+      },
+      {
+        "id": "42c32f532e0b1c",
+        "title": "BLS PANDEMI MEDIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-4cnuH1vPJc"
+      },
+      {
+        "id": "ab198997978b49",
+        "title": "Procedure & Interpretation of Normal ECG",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aixTmHuIJ60"
+      },
+      {
+        "id": "0a614ef1240aa3",
+        "title": "ABDOMINAL EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q5raU7rROi0"
+      },
+      {
+        "id": "f9c622d7e4f54c",
+        "title": "Aseptic Procedure",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PiS7JjeTkcw"
+      },
+      {
+        "id": "e45776a5c81c36",
+        "title": "GYNECOLOGY EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cLze9usBHFc"
+      },
+      {
+        "id": "60438026840a04",
+        "title": "Genitourinary Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cq0TUS6yDXU"
+      },
+      {
+        "id": "2a2e4a81cf01ba",
+        "title": "Loss of Consciousness Saraf (Neurological Examination 1)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uYD4Ywrkbvc"
+      },
+      {
+        "id": "204c65839496a5",
+        "title": "NEURO MMSE 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1gRV5ci_L3Q"
+      },
+      {
+        "id": "5f081b88a9df3a",
+        "title": "Pemeriksaan Tanda Rangsang Meningeal 1 Neurological Examination 2",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=54izHKG7NRs"
+      },
+      {
+        "id": "f59805c82e8740",
+        "title": "NEUROLOGI MOTORIK Neurological Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOcTP_f_qbk"
+      },
+      {
+        "id": "849690534b2bf1",
+        "title": "Eye Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EVHfqwIQ_Ic"
+      },
+      {
+        "id": "930768228b4709",
+        "title": "Video THT KL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RH4RC1N2smw"
+      },
+      {
+        "id": "c72abc114c0812",
+        "title": "JENIS JENIS UKK (Basic Dermatology & Venerology Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SkCQqF7Guzw"
+      },
+      {
+        "id": "3fecf8965a4554",
+        "title": "BCCT PROCEDURAL INJECTION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=syGgAIkfyAY"
+      },
+      {
+        "id": "f2d4339d49eaaa",
+        "title": "BCCT PROSEDURAL IV LINE INSERTION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RCrdGbGDKOA"
+      },
+      {
+        "id": "a463aca57d70b4",
+        "title": "BCCT PROSEDURAL Simple Skin Suturing",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eypmHZ5bT6M"
+      },
+      {
+        "id": "352c14ac2e0cf1",
+        "title": "BABY DELIVERY FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LjFzt1G78Uk"
+      },
+      {
+        "id": "760e4d83801902",
+        "title": "ANTENATAL CARE FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7p0xZSUa4nE"
+      },
+      {
+        "id": "9b26a402386c84",
+        "title": "LAKTASI FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PN3oZIkAI4I"
+      },
+      {
+        "id": "cfbd6cddf403a4",
+        "title": "PEDIATRIC PHYSICAL EXAMINATION REV 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g-AZGp3Igk0"
+      },
+      {
+        "id": "85f5a7515d2e1c",
+        "title": "BCCT PAPSMEAR",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2h1lLL-MRvw"
+      },
+      {
+        "id": "66e23bb981cd6e",
+        "title": "Prosedur Imunisasi IDAI",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vT8Qe6M9uRQ"
+      }
+    ]
+  },
+  {
+    "cohort": "2022",
+    "phase": "fase-2",
+    "title": "OSCE Fase II",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2022/osce-fase-ii",
+    "resources": []
+  },
+  {
+    "cohort": "2022",
+    "phase": "fase-3",
+    "title": "OSCE Fase III",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2022/osce-fase-iii",
+    "resources": []
+  },
+  {
+    "cohort": "2023",
+    "phase": "fase-1",
+    "title": "OSCE Fase I",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2023/osce-fase-i",
+    "resources": [
+      {
+        "id": "159afbd5f96039",
+        "title": "Antropometri",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "598a9990593045",
+        "title": "Antropometri",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "1178eb558603a3",
+        "title": "Pemeriksaan Kelenjar Tiroid",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "24bf8a6527334f",
+        "title": "Pemeriksaan Kelenjar Tiroid",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "f64655c14315b4",
+        "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "4e27c68dc023d2",
+        "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "eddb31edf04bf1",
+        "title": "Pemeriksaan Paru",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "7bdbbd16388985",
+        "title": "Pemeriksaan Paru",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "7d98c5d29c540e",
+        "title": "Pemeriksaan Jantung",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "7aef13520faa0d",
+        "title": "Pemeriksaan Jantung",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "d84199151db58a",
+        "title": "Pemeriksaan Abdomen",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "012a8a47ee4f62",
+        "title": "Pemeriksaan Abdomen",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "17b5d8b316eb1d",
+        "title": "Pemeriksaan Dermatologi",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "d599655fc9de43",
+        "title": "Pemeriksaan Dermatologi",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "b52d94e947a5db",
+        "title": "Antropometri Pediatri",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "57891b43d21d5a",
+        "title": "Antropometri Pediatri",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "75161d64b999cd",
+        "title": "Pemeriksaan Fisik Anak",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "36e32101711b29",
+        "title": "Pemeriksaan Fisik Anak",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "971a733e253f80",
+        "title": "Konseling Laktasi",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "358b25510d0d2d",
+        "title": "Konseling Laktasi",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "089cbf0e70968b",
+        "title": "Vaksinasi Dewasa",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "8078ad87274652",
+        "title": "Vaksinasi Dewasa",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "9814434435d1d2",
+        "title": "Vaksinasi Anak",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "0803476c40a603",
+        "title": "Vaksinasi Anak",
+        "type": "slides",
+        "url": ""
+      },
+      {
+        "id": "e6ad327bcc7830",
+        "title": "Pemeriksaan EKG",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "4f28f7ad3de4a8",
+        "title": "Baby Delivery",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "aa6e6269e50354",
+        "title": "Pap Smear",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "f2122d7940dd35",
+        "title": "Antenatal Care",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "933bb39a1256ea",
+        "title": "Basic Life Support",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "f2fff7e9a80e4b",
+        "title": "Simple Skin Suturing",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "2b203e6de90c3b",
+        "title": "Pemasangan Jalur Intravena",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "6fd86d6cda8fa9",
+        "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+        "type": "checklist",
+        "url": ""
+      },
+      {
+        "id": "0551c6ba78f13e",
+        "title": "VITAL SIGN EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UDBLn-6YRZU"
+      },
+      {
+        "id": "94938923ed6d24",
+        "title": "ANEMIA",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GMlTtYBUnnY"
+      },
+      {
+        "id": "b3ff78922e36f0",
+        "title": "LYMPHATIC",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LFcPVsJ2sbU"
+      },
+      {
+        "id": "21ebda116903b0",
+        "title": "ANNTHROPOMETRY DEWASA",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WMrfGAsrZHg"
+      },
+      {
+        "id": "5dd4792975123e",
+        "title": "Pengukuran dan Interprestasi Antropometri pada Anak",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oCET0dIve9U"
+      },
+      {
+        "id": "70435b50ffd1d0",
+        "title": "Basic Locomotor Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BICQ2joCVVw"
+      },
+      {
+        "id": "3fd7e1e86c00fe",
+        "title": "CARDIOVASKULAR EXAMINATION (Vascular Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O6KQ61J6P3s"
+      },
+      {
+        "id": "6d609809db4bca",
+        "title": "CARDIOVASKULAR EXAMINATION (Heart Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=F_KlcjqR61s"
+      },
+      {
+        "id": "2ffc239673bd4c",
+        "title": "LUNG EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-QVeQVDAYq4"
+      },
+      {
+        "id": "4b1e19ce789a50",
+        "title": "BLS NON PANDEMI AWAM",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eT1krFDhF5Q"
+      },
+      {
+        "id": "28c48c92ef9136",
+        "title": "BLS NON PANDEMI MEDIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7b0_rvtmdF0"
+      },
+      {
+        "id": "9034a984834f07",
+        "title": "BLS PANDEMI AWAM",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=j1PHsiAu1q8"
+      },
+      {
+        "id": "d2c9d36f8bf1bd",
+        "title": "BLS PANDEMI MEDIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-4cnuH1vPJc"
+      },
+      {
+        "id": "82c610824bcbea",
+        "title": "Procedure & Interpretation of Normal ECG",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aixTmHuIJ60"
+      },
+      {
+        "id": "b1dc43fefb6a89",
+        "title": "ABDOMINAL EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q5raU7rROi0"
+      },
+      {
+        "id": "d090942239e048",
+        "title": "Aseptic Procedure",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PiS7JjeTkcw"
+      },
+      {
+        "id": "713102267c2aca",
+        "title": "GYNECOLOGY EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cLze9usBHFc"
+      },
+      {
+        "id": "6397c411ed7138",
+        "title": "Genitourinary Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cq0TUS6yDXU"
+      },
+      {
+        "id": "e497438c01288d",
+        "title": "Loss of Consciousness Saraf (Neurological Examination 1)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uYD4Ywrkbvc"
+      },
+      {
+        "id": "17e713e4fe4d88",
+        "title": "NEURO MMSE 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1gRV5ci_L3Q"
+      },
+      {
+        "id": "cfec3faa19f1a2",
+        "title": "Pemeriksaan Tanda Rangsang Meningeal 1 Neurological Examination 2",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=54izHKG7NRs"
+      },
+      {
+        "id": "9b8f91b91c8694",
+        "title": "NEUROLOGI MOTORIK Neurological Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOcTP_f_qbk"
+      },
+      {
+        "id": "7f06c8bb4f5866",
+        "title": "Eye Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EVHfqwIQ_Ic"
+      },
+      {
+        "id": "f12d41e7cf719f",
+        "title": "Video THT KL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RH4RC1N2smw"
+      },
+      {
+        "id": "ed1757044ffc03",
+        "title": "JENIS JENIS UKK (Basic Dermatology & Venerology Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SkCQqF7Guzw"
+      },
+      {
+        "id": "5aa28c237c3135",
+        "title": "BCCT PROCEDURAL INJECTION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=syGgAIkfyAY"
+      },
+      {
+        "id": "72285e945aef5b",
+        "title": "BCCT PROSEDURAL IV LINE INSERTION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RCrdGbGDKOA"
+      },
+      {
+        "id": "5f53c36e19bc9a",
+        "title": "BCCT PROSEDURAL Simple Skin Suturing",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eypmHZ5bT6M"
+      },
+      {
+        "id": "56f90a8ad5df84",
+        "title": "BABY DELIVERY FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LjFzt1G78Uk"
+      },
+      {
+        "id": "6367b155d23f48",
+        "title": "ANTENATAL CARE FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7p0xZSUa4nE"
+      },
+      {
+        "id": "c836f8470b5eda",
+        "title": "LAKTASI FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PN3oZIkAI4I"
+      },
+      {
+        "id": "da52c298798fc4",
+        "title": "PEDIATRIC PHYSICAL EXAMINATION REV 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g-AZGp3Igk0"
+      },
+      {
+        "id": "d01de9757dc688",
+        "title": "BCCT PAPSMEAR",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2h1lLL-MRvw"
+      },
+      {
+        "id": "e5d7a826dfe099",
+        "title": "Prosedur Imunisasi IDAI",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vT8Qe6M9uRQ"
+      }
+    ]
+  },
+  {
+    "cohort": "2023",
+    "phase": "fase-2",
+    "title": "OSCE Fase II",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2023/osce-fase-ii",
+    "resources": []
+  },
+  {
+    "cohort": "2023",
+    "phase": "fase-3",
+    "title": "OSCE Fase III",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2023/osce-fase-iii",
+    "resources": []
+  },
+  {
+    "cohort": "2024",
+    "phase": "fase-1",
+    "title": "OSCE Fase I",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2024/osce-fase-i",
+    "resources": [
+      {
+        "id": "0371cca2cf4df6",
+        "title": "Antropometri",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1lMiQ4ZrOGoZ1wpB-hJdPI7XtMGg8BFCr/view?usp=drive_link"
+      },
+      {
+        "id": "f510873a11aa29",
+        "title": "Antropometri",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1wUZ-4ooNfLKMnoY0iPKFHWAgf_JmNm9lPyZulA26HRw/edit?usp=drive_link"
+      },
+      {
+        "id": "5d4a181a13b56d",
+        "title": "Pemeriksaan Kelenjar Tiroid",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1L1lonw4u1TW3mcc84nP7tmilu8sKFrB6/view?usp=drive_link"
+      },
+      {
+        "id": "89ff73015a036f",
+        "title": "Pemeriksaan Kelenjar Tiroid",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1tNLkkpHEakYjWiSVTOOHXLs9nTVbmuJb1KOCpgwAiD4/edit?usp=drive_link"
+      },
+      {
+        "id": "d5462c62be664a",
+        "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1WnCYIYoHhzo7FfzpZbHltqBSC-TwDPyK/view?usp=drive_link"
+      },
+      {
+        "id": "5e73daea7605fe",
+        "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1IB76eqK9-4f2MraVb8OM1gdviVNO0Y1yP7rnYR2LTs0/edit?usp=drive_link"
+      },
+      {
+        "id": "18af0328be6255",
+        "title": "Pemeriksaan Paru",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1znwJaZ9TqCKcgnj6UWcsbDMi6t4K5LmU/view?usp=drive_link"
+      },
+      {
+        "id": "025e37a67a7406",
+        "title": "Pemeriksaan Paru",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1eMeF2CZcae2Od4YwS7n4xftgnmxISXf36CNy-PfYt5Q/edit?usp=drive_link"
+      },
+      {
+        "id": "0b4b768e9e8744",
+        "title": "Pemeriksaan Jantung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1J4x-tRXMRTulz_07v3BnymiLMyMc5uWY/view?usp=drive_link"
+      },
+      {
+        "id": "6fac3e1ae55292",
+        "title": "Pemeriksaan Jantung",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1gtG4vC2kfyWS3lw68vp2LSK-DdgSvTZBZL2nHoAu9Cc/edit?usp=drive_link"
+      },
+      {
+        "id": "93a14609029c2b",
+        "title": "Pemeriksaan Abdomen",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1usB6e0kNGLSrKmktnHOXcVBsNCwN_YeU/view?usp=drive_link"
+      },
+      {
+        "id": "65ec29f194f03c",
+        "title": "Pemeriksaan Abdomen",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/178p97MRnKVzKv1NDTLAPfN2wiY_nfQ9kTF_jzTgdYmQ/edit?usp=drive_link"
+      },
+      {
+        "id": "b4c8fa60b184b3",
+        "title": "Pemeriksaan Telinga",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1piuoA8wh999oeY-mRfcNVKKhy_zYsmmF/view?usp=drive_link"
+      },
+      {
+        "id": "ce94a2fb5a6884",
+        "title": "Pemeriksaan Telinga",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1sx8BG-IV3E8cVCFSCIRTlNJlaCNti9DrYI4l_ftyHTg/edit?usp=drive_link"
+      },
+      {
+        "id": "07693d6577ccbc",
+        "title": "Pemeriksaan Hidung",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1pvQ_z3BkNWhBEQtF-yip3K240otlCyLJ/view?usp=drive_link"
+      },
+      {
+        "id": "84c094aa031b73",
+        "title": "Pemeriksaan Hidung",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1sx8BG-IV3E8cVCFSCIRTlNJlaCNti9DrYI4l_ftyHTg/edit?usp=drive_link"
+      },
+      {
+        "id": "cf67ab2eea9288",
+        "title": "Pemeriksaan Tenggorok",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1FdaO0_Vw1rajWkCuc5COZ9Fio4elAHEb/view?usp=drive_link"
+      },
+      {
+        "id": "6424c87294ca3a",
+        "title": "Pemeriksaan Tenggorok",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1sx8BG-IV3E8cVCFSCIRTlNJlaCNti9DrYI4l_ftyHTg/edit?usp=drive_link"
+      },
+      {
+        "id": "5dcafbde5e6911",
+        "title": "Visus & Buta Warna",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1DkcChTt_BwMSRpKr-5zTX1WtAduDc4gl/view?usp=drive_link"
+      },
+      {
+        "id": "12dd6a0ee13cc5",
+        "title": "Visus & Buta Warna",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1LMFiQNXYixtQKu0rptJP1ZkkvGAimjrAWbJM7OQ5IVE/edit?usp=drive_link"
+      },
+      {
+        "id": "f89fa6b65ac8b9",
+        "title": "Visus & Amsler Grid",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1p2UpsvquYtp-17topoDLz1YJdW5NM7wM/view?usp=drive_link"
+      },
+      {
+        "id": "3f2dd93fb79bc9",
+        "title": "Visus & Amsler Grid",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1LMFiQNXYixtQKu0rptJP1ZkkvGAimjrAWbJM7OQ5IVE/edit?usp=drive_link"
+      },
+      {
+        "id": "88e1665d5085c1",
+        "title": "V isus & Lapang Pandang",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1Kw9uzsV4uqedGG7WPBsLnx-hkOD3H3Kb/view?usp=drive_link"
+      },
+      {
+        "id": "efa48bc8c3c2f7",
+        "title": "V isus & Lapang Pandang",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1LMFiQNXYixtQKu0rptJP1ZkkvGAimjrAWbJM7OQ5IVE/edit?usp=drive_link"
+      },
+      {
+        "id": "b544c47a607d01",
+        "title": "Visus & Gerak Bola Mata",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1_0gBZaEGbxoyye9QD-gd-HYeecpGnmUU/view?usp=drive_link"
+      },
+      {
+        "id": "65798222c5c3e0",
+        "title": "Visus & Gerak Bola Mata",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1LMFiQNXYixtQKu0rptJP1ZkkvGAimjrAWbJM7OQ5IVE/edit?usp=drive_link"
+      },
+      {
+        "id": "07018d8fc555c5",
+        "title": "Saraf Kranial",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1v1LVyh5OCtkCzD8NYH3Gm1FM6RpbXntJ/view?usp=drive_link"
+      },
+      {
+        "id": "c508a2a3099ee3",
+        "title": "Saraf Kranial",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1ojQmOYqvfDRnIVV_UGyXwqLG9Up8JJjYSLxJ_Zipskg/edit?usp=drive_link"
+      },
+      {
+        "id": "fae9029b1b3707",
+        "title": "GCS & Refleks Batang Otak",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1Cn51jpioNds7JiJT5eQNZEEFlEhgh5kT/view?usp=drive_link"
+      },
+      {
+        "id": "88f477ecc15b9a",
+        "title": "GCS & Refleks Batang Otak",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1ojQmOYqvfDRnIVV_UGyXwqLG9Up8JJjYSLxJ_Zipskg/edit?usp=drive_link"
+      },
+      {
+        "id": "0c8c3cb80a9be2",
+        "title": "Kekuatan Otot & Refleks Fisiologis",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1SS87hUkPSGJZGjhpcLSWDRysguHzAgVF/view?usp=drive_link"
+      },
+      {
+        "id": "3dd8f7edb34c16",
+        "title": "Kekuatan Otot & Refleks Fisiologis",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1ojQmOYqvfDRnIVV_UGyXwqLG9Up8JJjYSLxJ_Zipskg/edit?usp=drive_link"
+      },
+      {
+        "id": "5382adfa834bb7",
+        "title": "Tanda Meningeal",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1AgNh2NhzJt9C5tJs8nM_7h5jqNvFZMdy/view?usp=drive_link"
+      },
+      {
+        "id": "47c5371bd8a1df",
+        "title": "Tanda Meningeal",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1ojQmOYqvfDRnIVV_UGyXwqLG9Up8JJjYSLxJ_Zipskg/edit?usp=drive_link"
+      },
+      {
+        "id": "76eda82ee7898e",
+        "title": "Pemeriksaan Dermatologi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1WdWRLjC7ToT2plrBA3e7wiAQSaJZ5QBT/view?usp=drive_link"
+      },
+      {
+        "id": "bb900cbffcd4af",
+        "title": "Pemeriksaan Dermatologi",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1Qwa5Nsk13Zj5acAIMpkme4_-FLnGM0EHxrbHfY7_oF4/edit?usp=drive_link"
+      },
+      {
+        "id": "8aed41353564e2",
+        "title": "Antropometri Pediatri",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/13x1I0CkXuH_WBsGIkMByBr-JQEJoZ26E/view?usp=drive_link"
+      },
+      {
+        "id": "8f9caeafb57848",
+        "title": "Antropometri Pediatri",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1s3DiTYHXnvySgO4sxEbk-bdP4l-HT3cy3KwLVIu3EeY/edit?usp=drive_link"
+      },
+      {
+        "id": "1040aa57fa8cb2",
+        "title": "Pemeriksaan Fisik Anak",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1D9hqdiwjz5rbpg6sKNAm10FCM36cGndX/view?usp=drive_link"
+      },
+      {
+        "id": "6958b84d6af1a7",
+        "title": "Pemeriksaan Fisik Anak",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1idloTOARkzFJaWUYZwXZ4W-S3oZQAFeqeX77fx--Jh8/edit?usp=drive_link"
+      },
+      {
+        "id": "9a1a905f0c6721",
+        "title": "Konseling Laktasi",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1ZGP1FG1RZPQfTJ0-mOOPadITfV3CXHfT/view?usp=drive_link"
+      },
+      {
+        "id": "ea9965a7f5456a",
+        "title": "Konseling Laktasi",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1NnzVwUmLB6zgGXrEug3R3C4RuxN2ggk4-Ro5y1EJOao/edit?usp=drive_link"
+      },
+      {
+        "id": "964637d72ace81",
+        "title": "Vaksinasi Dewasa",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1nnljr2LtlG-8yFvP1IYKfm8Hi2YZ5KB6/view?usp=drive_link"
+      },
+      {
+        "id": "374554c800859c",
+        "title": "Vaksinasi Dewasa",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/11BbUGH_KPzVwc6FzvtUcNlYCyo7wsAK6xfMXqwYsrZc/edit?usp=drive_link"
+      },
+      {
+        "id": "12a1183570fb13",
+        "title": "Vaksinasi Anak",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1P1uXxV0xxVQ6snRQRA5Sw03VVV2lMUes/view?usp=drive_link"
+      },
+      {
+        "id": "86d2a6911aa16c",
+        "title": "Vaksinasi Anak",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1USgpxVKo5E-YcQM_jbubvHT2FoxlkVZk_98_Hxi_OP8/edit?usp=drive_link"
+      },
+      {
+        "id": "d05eaf9d399cee",
+        "title": "Pemeriksaan EKG",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1lXnGMLA2GLWuLtMZFb2dK0wLTlFg632J/view?usp=drive_link"
+      },
+      {
+        "id": "3337fed0da0911",
+        "title": "Baby Delivery",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/16hWVJjxUg-fWjochcgBonCxKDwvRdYuq/view?usp=drive_link"
+      },
+      {
+        "id": "bddda22cc4cf69",
+        "title": "Pap Smear",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1jNI7yq4m8ZrBtpQ0l4HxelZBGKqpbtXb/view?usp=drive_link"
+      },
+      {
+        "id": "551426eb769fff",
+        "title": "Pap Smear",
+        "type": "slides",
+        "url": "https://docs.google.com/presentation/d/1_rMxFVk_WFXQRZtnHHsv0_Cid0FMSDJ0Wp-eMxJvZds/edit?usp=drive_link"
+      },
+      {
+        "id": "54de5a95bdb9a9",
+        "title": "Antenatal Care",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/18dwKA0neL400HTftr9U0vaXpb0JJXiuB/view?usp=drive_link"
+      },
+      {
+        "id": "b5d1b592c94b4e",
+        "title": "Basic Life Support",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1jXt1s57mp3aUUKMoDH3qd6JdRXIQ1MGP/view?usp=drive_link"
+      },
+      {
+        "id": "8cc93981e77803",
+        "title": "Simple Skin Suturing",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1b2KxdroXPtQ6BO5Vvkmj9thYzj5a8F6m/view?usp=drive_link"
+      },
+      {
+        "id": "d876a26d5ddbdf",
+        "title": "Pemasangan Jalur Intravena",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1B9W6ytYeSNsxvBK1E4ltW6Bha4SNKoyx/view?usp=drive_link"
+      },
+      {
+        "id": "9d4788ff845379",
+        "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+        "type": "checklist",
+        "url": "https://drive.google.com/file/d/1DvcpGoFLcCnoE0f7M1ksJVcmCo2FGSQm/view?usp=sharing"
+      },
+      {
+        "id": "6578d8436645e7",
+        "title": "VITAL SIGN EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UDBLn-6YRZU"
+      },
+      {
+        "id": "cb42ee1de0205e",
+        "title": "ANEMIA",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GMlTtYBUnnY"
+      },
+      {
+        "id": "977489a2b02344",
+        "title": "LYMPHATIC",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LFcPVsJ2sbU"
+      },
+      {
+        "id": "c2dea8bc801691",
+        "title": "ANNTHROPOMETRY DEWASA",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WMrfGAsrZHg"
+      },
+      {
+        "id": "2cd626eb547b84",
+        "title": "Pengukuran dan Interprestasi Antropometri pada Anak",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oCET0dIve9U"
+      },
+      {
+        "id": "3c2205d4176c5b",
+        "title": "Basic Locomotor Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BICQ2joCVVw"
+      },
+      {
+        "id": "52c31a38edf6aa",
+        "title": "CARDIOVASKULAR EXAMINATION (Vascular Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O6KQ61J6P3s"
+      },
+      {
+        "id": "c6da26476f8d84",
+        "title": "CARDIOVASKULAR EXAMINATION (Heart Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=F_KlcjqR61s"
+      },
+      {
+        "id": "a507ecf260861e",
+        "title": "LUNG EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-QVeQVDAYq4"
+      },
+      {
+        "id": "ce601c1679c6e9",
+        "title": "BLS NON PANDEMI AWAM",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eT1krFDhF5Q"
+      },
+      {
+        "id": "dc315a0d5f8dbf",
+        "title": "BLS NON PANDEMI MEDIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7b0_rvtmdF0"
+      },
+      {
+        "id": "23e272bbd51729",
+        "title": "BLS PANDEMI AWAM",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=j1PHsiAu1q8"
+      },
+      {
+        "id": "63e926b9daf9d4",
+        "title": "BLS PANDEMI MEDIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-4cnuH1vPJc"
+      },
+      {
+        "id": "2dc56912d80b2c",
+        "title": "Procedure & Interpretation of Normal ECG",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aixTmHuIJ60"
+      },
+      {
+        "id": "1b4c54183d814a",
+        "title": "ABDOMINAL EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q5raU7rROi0"
+      },
+      {
+        "id": "39b3c4b98a6b7f",
+        "title": "Aseptic Procedure",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PiS7JjeTkcw"
+      },
+      {
+        "id": "f94463567f282e",
+        "title": "GYNECOLOGY EXAMINATION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cLze9usBHFc"
+      },
+      {
+        "id": "96852a33a4346e",
+        "title": "Genitourinary Examination",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cq0TUS6yDXU"
+      },
+      {
+        "id": "fdce4e0dc91538",
+        "title": "Loss of Consciousness Saraf (Neurological Examination 1)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uYD4Ywrkbvc"
+      },
+      {
+        "id": "a3a64c4606d664",
+        "title": "NEURO MMSE 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1gRV5ci_L3Q"
+      },
+      {
+        "id": "7cb2a2cef08a5b",
+        "title": "Pemeriksaan Tanda Rangsang Meningeal 1 Neurological Examination 2",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=54izHKG7NRs"
+      },
+      {
+        "id": "d4a1896078eae3",
+        "title": "NEUROLOGI MOTORIK Neurological Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOcTP_f_qbk"
+      },
+      {
+        "id": "94722faa0dbd3e",
+        "title": "Eye Examination 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EVHfqwIQ_Ic"
+      },
+      {
+        "id": "6eb02be8033e86",
+        "title": "Video THT KL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RH4RC1N2smw"
+      },
+      {
+        "id": "d26f544e4eabd3",
+        "title": "JENIS JENIS UKK (Basic Dermatology & Venerology Examination)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SkCQqF7Guzw"
+      },
+      {
+        "id": "75614ddc3b2226",
+        "title": "BCCT PROCEDURAL INJECTION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=syGgAIkfyAY"
+      },
+      {
+        "id": "7951bb56202f8a",
+        "title": "BCCT PROSEDURAL IV LINE INSERTION",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RCrdGbGDKOA"
+      },
+      {
+        "id": "8e943505500ef6",
+        "title": "BCCT PROSEDURAL Simple Skin Suturing",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eypmHZ5bT6M"
+      },
+      {
+        "id": "f32fe197d5ac3d",
+        "title": "BABY DELIVERY FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LjFzt1G78Uk"
+      },
+      {
+        "id": "e780397656ee0b",
+        "title": "ANTENATAL CARE FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7p0xZSUa4nE"
+      },
+      {
+        "id": "9b98d1b0cdeb36",
+        "title": "LAKTASI FINAL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PN3oZIkAI4I"
+      },
+      {
+        "id": "c4f98975327007",
+        "title": "PEDIATRIC PHYSICAL EXAMINATION REV 1",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g-AZGp3Igk0"
+      },
+      {
+        "id": "22ac7eb0630f15",
+        "title": "BCCT PAPSMEAR",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2h1lLL-MRvw"
+      },
+      {
+        "id": "d0cdeb30c96916",
+        "title": "Prosedur Imunisasi IDAI",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vT8Qe6M9uRQ"
+      }
+    ]
+  },
+  {
+    "cohort": "2024",
+    "phase": "fase-2",
+    "title": "OSCE Fase II",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2024/osce-fase-ii",
+    "resources": []
+  },
+  {
+    "cohort": "2024",
+    "phase": "fase-3",
+    "title": "OSCE Fase III",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2024/osce-fase-iii",
+    "resources": []
+  }
+]

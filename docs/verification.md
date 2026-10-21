@@ -1,5 +1,20 @@
 # Hasil pemeriksaan
 
+## Integrasi materi dan arsip — 21 Oktober 2026
+
+- Build produksi TypeScript/Vite lulus; menghasilkan 24 entry HTML tambahan (termasuk halaman 404), selain beranda.
+- Seluruh 16 tes lulus: 12 tes kalender/integritas sebelumnya dan 4 tes arsip/materi, termasuk jumlah anggota, keberadaan foto, fase kosong, identitas tautan topik, dan pencarian.
+- Rekonsiliasi penuh dengan inventaris Google Sites: 219 URL unik sumber = 219 URL unik hasil impor, tidak ada yang hilang atau ditambahkan. Tautan muncul dalam 375 konteks materi lintas angkatan/fase.
+- Pemeriksaan Edge headless: 42 kombinasi enam halaman pada lebar 360, 390, 640, 768, 1024, 1440, dan 1920 px, tanpa overflow horizontal atau error JavaScript.
+- Interaksi lulus: pencarian lintas angkatan, hasil kosong/reset, pemilihan fase dan browser Back, filter jenis dan Back, tombol tambah hasil, pencarian topik dan kecocokan URL, bahan tanpa tautan, route tidak valid, semua lima angkatan, seluruh gambar anggota, pencarian anggota setelah refresh, menu mobile, Escape dan pengembalian fokus.
+- Pemeriksaan build produksi: 18 route langsung (direktori materi, anggota, dan 16 fase) merespons HTTP 200; aset JS/CSS berhasil dimuat; filter/query bertahan setelah refresh; 21 foto arsip 2023 berhasil dimuat pada build; tidak ada error halaman.
+- Review visual terpisah memeriksa 8 screenshot penuh dan 4 potongan bagian atas. Disposisi **ship**, tanpa temuan material. Dokumentasi desain diselesaikan setelah review.
+- Screenshot dan keluaran browser tersimpan lokal di `.impeccable/review/`; direktori ini tidak ikut Git. Skrip pengujian browser ada pada direktori audit workspace `../tmp/asma-legacy/`.
+
+Keterbatasan: engine Impeccable belum terpasang, sehingga detector tidak berjalan. Reviewer memeriksa screenshot/kode dan mengikuti craft floor secara langsung. Hak akses dan isi setiap dokumen eksternal tidak diuji satu per satu; website mempertahankan tautan dan memberi penjelasan izin sumber. Tidak ada klaim seluruh file eksternal dapat diakses tanpa login.
+
+## Pemeriksaan versi sebelumnya
+
 Pemeriksaan akhir: 13 Oktober 2026, Asia/Jakarta.
 
 ## Lulus

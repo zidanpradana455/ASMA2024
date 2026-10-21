@@ -4,3 +4,5 @@ dist/
 *.tsbuildinfo
 .sites-local/
 .openai/
+.impeccable/review/
+__pycache__/

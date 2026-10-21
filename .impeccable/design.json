@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T00:47:33Z",
+  "title": "Design System: ASMA 2024",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 8px 36px #5c071008",
+        "purpose": "Shared member and event cards."
+      },
+      {
+        "name": "calendar",
+        "value": "0 12px 60px #52002d08",
+        "purpose": "Calendar surface."
+      },
+      {
+        "name": "button-hover",
+        "value": "0 8px 25px #3c020715",
+        "purpose": "Button hover on hover-capable pointers."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background .2s,transform .2s,box-shadow .2s",
+        "purpose": "Shared button transition; removed for reduced motion."
+      },
+      {
+        "name": "arrow",
+        "value": "transform 240ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Arrow affordance movement; removed for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone-max",
+        "value": "359px"
+      },
+      {
+        "name": "phone-max",
+        "value": "639px"
+      },
+      {
+        "name": "navigation-and-member-grid-max",
+        "value": "800px"
+      },
+      {
+        "name": "material-directory-stack-max",
+        "value": "900px"
+      },
+      {
+        "name": "event-grid-max",
+        "value": "1023px"
+      },
+      {
+        "name": "container-gutters-max",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-hero-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Existing shared action variant.",
+      "html": "<button class=\"ds-button\">Lihat kegiatan</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid transparent;border-radius:99px;font:600 14px/1.7 var(--body,Montserrat,sans-serif);cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-button:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}@media(hover:hover){.ds-button:hover{transform:translateY(-2px);box-shadow:0 8px 25px #3c020715}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{background:var(--primary,#a20613);color:#fff}@media(hover:hover){.ds-button:hover{background:var(--primary-dark,#3c0207)}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Existing shared action variant.",
+      "html": "<button class=\"ds-button\">Lihat kegiatan</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid transparent;border-radius:99px;font:600 14px/1.7 var(--body,Montserrat,sans-serif);cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-button:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}@media(hover:hover){.ds-button:hover{transform:translateY(-2px);box-shadow:0 8px 25px #3c020715}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{background:#ffffff65;color:var(--primary,#a20613);border-color:#a2061340}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Existing shared action variant.",
+      "html": "<button class=\"ds-button\">Lihat kegiatan</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid transparent;border-radius:99px;font:600 14px/1.7 var(--body,Montserrat,sans-serif);cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-button:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}@media(hover:hover){.ds-button:hover{transform:translateY(-2px);box-shadow:0 8px 25px #3c020715}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{background:var(--paper,#fcfcf7);color:var(--primary-dark,#3c0207)}"
+    },
+    {
+      "name": "Glass Button",
+      "kind": "button",
+      "refersTo": "button-glass",
+      "description": "Hero action on a dark photographic background.",
+      "html": "<button class=\"ds-button\">Lihat kegiatan</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid transparent;border-radius:99px;font:600 14px/1.7 var(--body,Montserrat,sans-serif);cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-button:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}@media(hover:hover){.ds-button:hover{transform:translateY(-2px);box-shadow:0 8px 25px #3c020715}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{background:#ffffff17;color:#fff;border-color:#ffffff65;backdrop-filter:blur(20px)}@media(hover:hover){.ds-button:hover{background:#ffffff30}}"
+    },
+    {
+      "name": "Material Search",
+      "kind": "input",
+      "refersTo": "material-search",
+      "description": "Rounded search field with its incumbent red focus-within outline.",
+      "html": "<label class=\"ds-search\"><span class=\"ds-label\">Cari topik pada fase ini…</span><input type=\"search\" placeholder=\"Cari topik pada fase ini…\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:14px;min-height:56px;border:1px solid #a2061345;background:var(--paper,#fcfcf7);border-radius:12px;padding:6px 17px;max-width:640px;color:var(--primary,#a20613)}.ds-search:focus-within{outline:2px solid var(--primary,#a20613);outline-offset:3px}.ds-search input{background:none;border:0;outline:none;width:100%;min-width:0;font:400 15px/1.7 var(--body,Montserrat,sans-serif);color:var(--ink,#34191c);min-height:42px;caret-color:var(--primary,#a20613)}.ds-search input::placeholder{color:#79616a;opacity:1}.ds-label{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "description": "Desktop route links; selected route uses the existing red-magenta gradient.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navigasi utama\"><a href=\"/\">Beranda</a><a href=\"/anggota\">Anggota</a><a href=\"/materi\" aria-current=\"page\">Materi Ajar</a><a href=\"/timeline\">Timeline</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.ds-nav a{display:flex;align-items:center;min-height:44px;padding:9px 20px;border-radius:99px;font:400 14px/1.7 var(--body,Montserrat,sans-serif);color:var(--ink,#34191c);text-decoration:none}.ds-nav a[aria-current]{color:white;background:linear-gradient(100deg,var(--primary,#a20613),var(--secondary,#b80065))}.ds-nav a:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}@media(hover:hover){.ds-nav a:not([aria-current]):hover{background:#a2061308}}"
+    },
+    {
+      "name": "Cohort Selector",
+      "kind": "chip",
+      "refersTo": "cohort-selected",
+      "description": "Wrapping cohort navigation with a solid-red selected state.",
+      "html": "<nav class=\"ds-cohorts\" aria-label=\"Angkatan Kedokteran\"><a href=\"/materi?angkatan=2024\" aria-current=\"page\">Kedokteran 2024</a><a href=\"/materi?angkatan=2023\">Kedokteran 2023</a></nav>",
+      "css": ".ds-cohorts{display:flex;flex-wrap:wrap;gap:9px}.ds-cohorts a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;border:1px solid var(--line,#a2061324);padding:10px 18px;border-radius:99px;font:600 13px/1.7 var(--body,Montserrat,sans-serif);color:var(--ink,#34191c);background:#fff9;text-decoration:none}.ds-cohorts a[aria-current]{background:var(--primary,#a20613);border-color:var(--primary,#a20613);color:white}.ds-cohorts a:hover:not([aria-current]){background:#a206130a;border-color:#a2061360}.ds-cohorts a:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}"
+    },
+    {
+      "name": "Material Aside",
+      "kind": "card",
+      "description": "Tonal supporting panel used beside the phase directory; no shadow.",
+      "html": "<aside class=\"ds-aside\"><h2>Mulai dari checklist.</h2><p>Lihat topik yang ingin kamu pelajari, lalu temukan buku, bahan tentir, atau video pendampingnya.</p><a href=\"/materi/2024/fase-1\">Buka OSCE Fase I</a></aside>",
+      "css": ".ds-aside{padding:28px;background:#f4ece9;border-radius:14px;color:var(--primary-dark,#3c0207);max-width:280px}.ds-aside h2{margin:0;font:900 25px/1.16 var(--heading,Lato,sans-serif);letter-spacing:-.02em}.ds-aside p{font:400 14px/1.8 var(--body,Montserrat,sans-serif);margin:14px 0 8px}.ds-aside a{display:inline-flex;align-items:center;min-height:44px;font:600 12px/1.7 var(--body,Montserrat,sans-serif);color:var(--primary,#a20613);text-decoration:none}.ds-aside a:hover{text-decoration:underline;text-underline-offset:5px}.ds-aside a:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "overview": "This is a scan of the implemented website, not a new identity. ASMA red, warm off-white surfaces, bold Lato headings, Montserrat reading text, and italic Playfair Display accents connect the homepage, member directory, calendar, and teaching-material archive. The homepage gives the existing group portrait and moving background the largest visual role; reading surfaces use quieter backgrounds and clear divisions.\n\nThe material directory extends that vocabulary with left-aligned headings, search, wrapping cohort controls, phase navigation, and lists of source titles. Member archives reuse the incumbent portrait-card grid while preserving the original square photographs. No new creative metaphor or brand commitment is established by this documentation.",
+    "keyCharacteristics": [
+      "Warm paper surfaces with red actions and deep red text.",
+      "Bold sans-serif headings paired with italic serif accents.",
+      "Rounded controls and portrait cards; flat, divided material rows.",
+      "Photographic identity on the homepage and member pages."
+    ],
+    "rules": [],
+    "dos": [
+      "Do reuse the ASMA palette, font roles, shared container, and existing controls.",
+      "Do keep material titles and member names readable and able to wrap.",
+      "Do preserve full square archive photographs and their source records.",
+      "Do provide keyboard focus, semantic selection states, and reduced-motion behavior.",
+      "Do keep material availability and external-source permissions visible."
+    ],
+    "donts": [
+      "Don't replace the homepage identity while extending the archive.",
+      "Don't crop or zoom archive photographs to imitate current-member portraits.",
+      "Don't render unavailable material titles as active links.",
+      "Don't turn the material list into an image-card gallery or embed every video automatically.",
+      "Don't promote page-specific layout decisions into universal brand rules."
+    ]
+  }
+}

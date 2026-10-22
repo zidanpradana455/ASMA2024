@@ -1,0 +1,1966 @@
+[
+  {
+    "cohort": "2020",
+    "phase": "fase-1",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-i",
+    "stations": [
+      {
+        "id": "stase-1",
+        "number": 1,
+        "title": "Pemeriksaan abdomen",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Abdomen",
+            "resourceIds": [
+              "7d96e81782fee4",
+              "690ae4606d9370"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-2",
+        "number": 2,
+        "title": "Jantung & paru",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Jantung",
+            "resourceIds": [
+              "ff411d478b3914",
+              "e3fbc77345ad3a"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Paru",
+            "resourceIds": [
+              "a2e24d7afbdc05",
+              "f35d47114ef6ad"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-3",
+        "number": 3,
+        "title": "Prosedur aseptik",
+        "image": "asepsis",
+        "topics": [
+          {
+            "title": "Prosedur Aseptik",
+            "resourceIds": [
+              "2c9b5706b6af5a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-4",
+        "number": 4,
+        "title": "Pemeriksaan ginekologi",
+        "image": "obstetrics",
+        "topics": [
+          {
+            "title": "Ginekologi",
+            "resourceIds": [
+              "0a2389af118616"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-5",
+        "number": 5,
+        "title": "Telinga, hidung & tenggorok",
+        "image": "ent",
+        "topics": [
+          {
+            "title": "THT",
+            "resourceIds": [
+              "7149989b659488",
+              "786ebd170acba6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-6",
+        "number": 6,
+        "title": "Pemeriksaan mata",
+        "image": "eyes",
+        "topics": [
+          {
+            "title": "Mata",
+            "resourceIds": [
+              "35270abed5fc00",
+              "d34f5e566cd94e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-7",
+        "number": 7,
+        "title": "Pemeriksaan lokomotor",
+        "image": "locomotor",
+        "topics": [
+          {
+            "title": "Lokomotor",
+            "resourceIds": [
+              "b1b2c822133ec0",
+              "defa32a4f79279"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-8",
+        "number": 8,
+        "title": "Pemeriksaan neurologi",
+        "image": "neurology",
+        "topics": [
+          {
+            "title": "Neurologi",
+            "resourceIds": [
+              "ca2cef6021074a"
+            ]
+          },
+          {
+            "title": "Topik Neurological Examination 1",
+            "resourceIds": [
+              "71aecfe59dbd21"
+            ]
+          },
+          {
+            "title": "Pemeriksaan MMSE",
+            "resourceIds": [
+              "bd184402032fc0"
+            ]
+          },
+          {
+            "title": "Topik Neurological Examination 2",
+            "resourceIds": [
+              "e002278dc6d16b"
+            ]
+          },
+          {
+            "title": "Kekuatan Otot & Refleks Fisiologis",
+            "resourceIds": [
+              "116fff87c98f7c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-9",
+        "number": 9,
+        "title": "Pemeriksaan genitourinari",
+        "image": "genitourinary",
+        "topics": [
+          {
+            "title": "Genitourinari",
+            "resourceIds": [
+              "9f1165bfb173cd"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-10",
+        "number": 10,
+        "title": "Pemeriksaan kulit",
+        "image": "dermatology",
+        "topics": [
+          {
+            "title": "Kulit",
+            "resourceIds": [
+              "5e35a7f9c7957c",
+              "168214b5c0bef3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-11",
+        "number": 11,
+        "title": "Bantuan hidup dasar",
+        "image": "bls",
+        "topics": [
+          {
+            "title": "Basic Life Support",
+            "resourceIds": [
+              "48a094d4638e4c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-12",
+        "number": 12,
+        "title": "Pemeriksaan EKG",
+        "image": "ecg",
+        "topics": [
+          {
+            "title": "Pemeriksaan EKG",
+            "resourceIds": [
+              "e354d02c72f544",
+              "57a87feeb2b986"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "b1881c977f80a3",
+      "025089f510dee0",
+      "0408bb99c80dd6",
+      "32af76bc1ddc09",
+      "8ca1e324c99b65",
+      "f758e86717ef62"
+    ]
+  },
+  {
+    "cohort": "2020",
+    "phase": "fase-2",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-ii",
+    "stations": [
+      {
+        "id": "stase-1",
+        "number": 1,
+        "title": "Neurologi, muskuloskeletal & kulit",
+        "image": "neurology",
+        "topics": [
+          {
+            "title": "Kulit (Lepra)",
+            "resourceIds": [
+              "c5138418f2c857",
+              "4b0fab4a47d703"
+            ]
+          },
+          {
+            "title": "Topik Neurological Examination 1",
+            "resourceIds": [
+              "4cff14f9dd56e1"
+            ]
+          },
+          {
+            "title": "Pemeriksaan MMSE",
+            "resourceIds": [
+              "5cee7dc321bfab"
+            ]
+          },
+          {
+            "title": "Topik Neurological Examination 2",
+            "resourceIds": [
+              "553565c421dc6d"
+            ]
+          },
+          {
+            "title": "Kekuatan Otot & Refleks Fisiologis",
+            "resourceIds": [
+              "a98f7fd2dbf31f"
+            ]
+          },
+          {
+            "title": "Musculoskeletal",
+            "resourceIds": [
+              "c98e5b0a4fd2df"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-2",
+        "number": 2,
+        "title": "Pemeriksaan abdomen",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Abdomen",
+            "resourceIds": [
+              "a4603a9328050e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-3",
+        "number": 3,
+        "title": "Paru & payudara",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Paru",
+            "resourceIds": [
+              "3d3a6559883aaa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-4",
+        "number": 4,
+        "title": "Pemeriksaan jantung",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Jantung",
+            "resourceIds": [
+              "875ec5bebeb77f"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-5",
+        "number": 5,
+        "title": "THT & mata",
+        "image": "ent",
+        "topics": [
+          {
+            "title": "THT",
+            "resourceIds": [
+              "2ba4db9c66d8d4",
+              "edae046a32d47d"
+            ]
+          },
+          {
+            "title": "Mata",
+            "resourceIds": [
+              "e995a5bf820ab6",
+              "19b2274cf98e87"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-6",
+        "number": 6,
+        "title": "Dressing & bandaging",
+        "image": "locomotor",
+        "topics": [
+          {
+            "title": "Dressing & Bandaging",
+            "resourceIds": [
+              "fc369c2e5dc80e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-7",
+        "number": 7,
+        "title": "Injeksi & NGT",
+        "image": "immunization",
+        "topics": [
+          {
+            "title": "Teknik Injeksi",
+            "resourceIds": [
+              "554500dd1852f2",
+              "7e6c99792182fb"
+            ]
+          },
+          {
+            "title": "NGT",
+            "resourceIds": [
+              "b9b5b8c38689a8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-8",
+        "number": 8,
+        "title": "Kateter uretra",
+        "image": "genitourinary",
+        "topics": [
+          {
+            "title": "Kateter Uretra",
+            "resourceIds": [
+              "59f6caf19cacee",
+              "dfeaf465aa5171"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-9",
+        "number": 9,
+        "title": "Penjahitan sederhana",
+        "image": "suturing",
+        "topics": [
+          {
+            "title": "Penjahitan Sederhana",
+            "resourceIds": [
+              "717718334d3ff8",
+              "9c70480227456e"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "a8d974d863e34a",
+      "2ce9fa85dd3c35",
+      "2b33f4e57bcfbe",
+      "6542104a30140f",
+      "f53b8331970799",
+      "87687ec477e1d8",
+      "3cbc74db79e831",
+      "79b28d734ef38f",
+      "7886ea8cca908e"
+    ]
+  },
+  {
+    "cohort": "2020",
+    "phase": "fase-3",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2020/osce-iii",
+    "stations": [
+      {
+        "id": "reproduksi",
+        "number": null,
+        "title": "Kesehatan reproduksi",
+        "image": "obstetrics",
+        "topics": [
+          {
+            "title": "IUD",
+            "resourceIds": [
+              "70c269babb5314"
+            ]
+          },
+          {
+            "title": "Implan",
+            "resourceIds": [
+              "908831ab3e3f1d"
+            ]
+          },
+          {
+            "title": "Antenatal Care",
+            "resourceIds": [
+              "a19de5ac74fbd8"
+            ]
+          },
+          {
+            "title": "Baby Delivery",
+            "resourceIds": [
+              "1fc913208e7791"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "0f704bc30c6185",
+      "faa4433f811c5d",
+      "9adce9d4f26dff",
+      "7619d728512577",
+      "0a85f95547af4c"
+    ]
+  },
+  {
+    "cohort": "2021",
+    "phase": "fase-1",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2021/osce-fase-i",
+    "stations": [
+      {
+        "id": "stase-1",
+        "number": 1,
+        "title": "Antropometri & pemeriksaan umum",
+        "image": "anthropometry",
+        "topics": [
+          {
+            "title": "Antropometri",
+            "resourceIds": [
+              "50e5e2fff0fd96",
+              "d295c90f36dbac",
+              "4154d349f45662"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Kelenjar Tiroid",
+            "resourceIds": [
+              "75cac3d33b7818",
+              "5fd2075aeb7e83"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+            "resourceIds": [
+              "706884dbb63cbe",
+              "4c4e6c1574df72",
+              "34db6f71c01e0e"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tiroid & Kelenjar Limfe",
+            "resourceIds": [
+              "18ec0fe1bd37da"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-2",
+        "number": 2,
+        "title": "Paru, jantung & abdomen",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Paru",
+            "resourceIds": [
+              "559d5ce078348a",
+              "7193370b68cf2d",
+              "2577045b19a352"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Jantung",
+            "resourceIds": [
+              "900d347c9216b9",
+              "c7bd6f59528e6f",
+              "bccfe88700937d",
+              "00764e69b9c721"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Abdomen",
+            "resourceIds": [
+              "2c255feadd4d95",
+              "d80167118f68c9",
+              "84b5f227d99839"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-3",
+        "number": 3,
+        "title": "Telinga, hidung & tenggorok",
+        "image": "ent",
+        "topics": [
+          {
+            "title": "Pemeriksaan Hidung",
+            "resourceIds": [
+              "53d4e90f8d707c",
+              "7981aee34c1b27"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Telinga",
+            "resourceIds": [
+              "573d0bbbc92e86",
+              "8402bd57d0284b"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tenggorok",
+            "resourceIds": [
+              "925ae08e0de7dc",
+              "01f3d5b51c0bbb"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Hidung , Telinga, Tenggorokan",
+            "resourceIds": [
+              "1e77487c63cc03"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-4",
+        "number": 4,
+        "title": "Pemeriksaan mata",
+        "image": "eyes",
+        "topics": [
+          {
+            "title": "Visus & Amsler Grid",
+            "resourceIds": [
+              "75c8f325236193",
+              "c3d61f2b36f53f"
+            ]
+          },
+          {
+            "title": "Visus & Buta Warna",
+            "resourceIds": [
+              "18708b420f075f",
+              "aa119196d465f2"
+            ]
+          },
+          {
+            "title": "Visus & Gerak Bola Mata",
+            "resourceIds": [
+              "3de8b2278e304f",
+              "9997d698ff49b4"
+            ]
+          },
+          {
+            "title": "Visus & Lapang Pandang",
+            "resourceIds": [
+              "c010b7e46d8af4",
+              "d3c896ca6813c7"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Mata",
+            "resourceIds": [
+              "da990ae380e24c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-5",
+        "number": 5,
+        "title": "Pemeriksaan neurologi",
+        "image": "neurology",
+        "topics": [
+          {
+            "title": "Saraf Kranial",
+            "resourceIds": [
+              "b14e5c98988742",
+              "a8f3e8d53e12d3"
+            ]
+          },
+          {
+            "title": "Tanda Meningeal",
+            "resourceIds": [
+              "c5c560d8143465",
+              "3cac7210e50a9a",
+              "78c81d24539200"
+            ]
+          },
+          {
+            "title": "GCS & Refleks Batang Otak",
+            "resourceIds": [
+              "e1e6787953312f"
+            ]
+          },
+          {
+            "title": "Pemeriksaan MMSE",
+            "resourceIds": [
+              "0c29cbe6ff170c"
+            ]
+          },
+          {
+            "title": "Kekuatan Otot & Refleks Fisiologis",
+            "resourceIds": [
+              "775990b412d2a2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-6",
+        "number": 6,
+        "title": "Pemeriksaan dermatologi",
+        "image": "dermatology",
+        "topics": [
+          {
+            "title": "Pemeriksaan Dermatologi",
+            "resourceIds": [
+              "705a6322e51914",
+              "1135f733f3292e",
+              "c42fa594f1a58c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-7",
+        "number": 7,
+        "title": "Pemeriksaan anak",
+        "image": "pediatrics",
+        "topics": [
+          {
+            "title": "Pemeriksaan Fisik Anak",
+            "resourceIds": [
+              "de62e2e957b36d",
+              "e4d43467fe28b2",
+              "5cff6c4d8182f2"
+            ]
+          },
+          {
+            "title": "Antropometri Pediatri",
+            "resourceIds": [
+              "2478b2bf2d3552",
+              "574bbc7bbaaba0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-8",
+        "number": 8,
+        "title": "Laktasi & vaksinasi",
+        "image": "immunization",
+        "topics": [
+          {
+            "title": "Konseling Laktasi",
+            "resourceIds": [
+              "e2eae26bb05cbd",
+              "2c345a195b21c9",
+              "04b8da0b5c1bc3"
+            ]
+          },
+          {
+            "title": "Vaksinasi Dewasa",
+            "resourceIds": [
+              "095c4ccb9b88c9",
+              "e2f1294acefdb2"
+            ]
+          },
+          {
+            "title": "Vaksinasi Anak",
+            "resourceIds": [
+              "f4dfedfaabb33e",
+              "1baa0b4777da51",
+              "dc55f3408b290b"
+            ]
+          },
+          {
+            "title": "Teknik Injeksi",
+            "resourceIds": [
+              "da3d0670d247a6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-9",
+        "number": 9,
+        "title": "Pemeriksaan EKG",
+        "image": "ecg",
+        "topics": [
+          {
+            "title": "Pemeriksaan EKG",
+            "resourceIds": [
+              "c3c3a291f4ab6b",
+              "d7240f3189c2a8",
+              "b50341fd0577ab"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-10",
+        "number": 10,
+        "title": "Obstetri & ginekologi",
+        "image": "obstetrics",
+        "topics": [
+          {
+            "title": "Baby Delivery",
+            "resourceIds": [
+              "ae57e9143f3afc",
+              "9d02a2a3853433",
+              "a34dfd3f37d024"
+            ]
+          },
+          {
+            "title": "Pap Smear",
+            "resourceIds": [
+              "35540f702a187c",
+              "48be885f43bb61",
+              "ccd877ee58de89"
+            ]
+          },
+          {
+            "title": "Antenatal Care",
+            "resourceIds": [
+              "54246883b4402c",
+              "cc0ede44872922",
+              "99d779856267f4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-11",
+        "number": 11,
+        "title": "Bantuan hidup dasar",
+        "image": "bls",
+        "topics": [
+          {
+            "title": "Basic Life Support",
+            "resourceIds": [
+              "60b52c8601001d",
+              "4b61adee9c0848",
+              "506bb57eff2fdd",
+              "891c4f624656a7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-12",
+        "number": 12,
+        "title": "Penjahitan kulit",
+        "image": "suturing",
+        "topics": [
+          {
+            "title": "Simple Skin Suturing",
+            "resourceIds": [
+              "e82b2b4e24889d",
+              "add9a2a1543b76",
+              "4478808a66bd5f"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-13",
+        "number": 13,
+        "title": "Akses intravena",
+        "image": "iv",
+        "topics": [
+          {
+            "title": "Pemasangan Jalur Intravena",
+            "resourceIds": [
+              "b52e703b9ff621",
+              "6dd8c5023b09d3",
+              "afa6b4b4e25025"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-14",
+        "number": 14,
+        "title": "Lokomotor & pembalutan",
+        "image": "locomotor",
+        "topics": [
+          {
+            "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+            "resourceIds": [
+              "4f75c999571404",
+              "6acb6677fee67d",
+              "9b02d8e8ddc2d2"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "41bff43c701110",
+      "e7e1c03e80aaa4",
+      "388aecb55af217",
+      "53b2eaaf2da929",
+      "540c78c3a9ce73",
+      "370f9312eb1a13",
+      "456d8906d9c764",
+      "05490a6a5d4b18",
+      "5865061042ff6f"
+    ]
+  },
+  {
+    "cohort": "2022",
+    "phase": "fase-1",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2022/osce-fase-i",
+    "stations": [
+      {
+        "id": "stase-1",
+        "number": 1,
+        "title": "Antropometri & pemeriksaan umum",
+        "image": "anthropometry",
+        "topics": [
+          {
+            "title": "Antropometri",
+            "resourceIds": [
+              "41dee1591ee2ce",
+              "619053e741403e",
+              "965145a65a6105"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Kelenjar Tiroid",
+            "resourceIds": [
+              "6286e233db4668",
+              "481e8049b5714d"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+            "resourceIds": [
+              "8bd2eaada3f1b9",
+              "e770f59c804b24",
+              "87436b754c6a8e",
+              "61ac5a0d73ba2a"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tanda Vital",
+            "resourceIds": [
+              "8aac7da27fc56c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-2",
+        "number": 2,
+        "title": "Paru, jantung & abdomen",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Paru",
+            "resourceIds": [
+              "dd9330dc53778e",
+              "1d43144bc9bae1",
+              "4925db0fa1e641"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Jantung",
+            "resourceIds": [
+              "f4bbb6fcbae022",
+              "a68b5a09618c63",
+              "262faf15aa9e95",
+              "c7f7690430819f"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Abdomen",
+            "resourceIds": [
+              "8ad314faded9ab",
+              "0f4ac61a8034a6",
+              "0a614ef1240aa3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-3",
+        "number": 3,
+        "title": "Telinga, hidung & tenggorok",
+        "image": "ent",
+        "topics": [
+          {
+            "title": "Pemeriksaan Hidung",
+            "resourceIds": [
+              "0d587c6df5c61e"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Telinga",
+            "resourceIds": [
+              "790ff00ea1a332"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tenggorok",
+            "resourceIds": [
+              "36cffa04a33565"
+            ]
+          },
+          {
+            "title": "Pemeriksaan THT",
+            "resourceIds": [
+              "da02fe999a658d",
+              "930768228b4709"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-4",
+        "number": 4,
+        "title": "Pemeriksaan mata",
+        "image": "eyes",
+        "topics": [
+          {
+            "title": "Visus & Amsler Grid",
+            "resourceIds": [
+              "de6fd59a3ad787"
+            ]
+          },
+          {
+            "title": "Visus & Buta Warna",
+            "resourceIds": [
+              "2a81b2958fafcd"
+            ]
+          },
+          {
+            "title": "Visus & Gerak Bola Mata",
+            "resourceIds": [
+              "27021dc7b41b43"
+            ]
+          },
+          {
+            "title": "Visus & Lapang Pandang",
+            "resourceIds": [
+              "d84d492a13289f"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Mata",
+            "resourceIds": [
+              "3d67da08344a8a",
+              "849690534b2bf1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-5",
+        "number": 5,
+        "title": "Pemeriksaan neurologi",
+        "image": "neurology",
+        "topics": [
+          {
+            "title": "Saraf Kranial",
+            "resourceIds": [
+              "ac4d999d46913f"
+            ]
+          },
+          {
+            "title": "Tanda Meningeal",
+            "resourceIds": [
+              "da7077f3d2f724",
+              "5f081b88a9df3a"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Neurologi",
+            "resourceIds": [
+              "3ae0f4b9c8a86c"
+            ]
+          },
+          {
+            "title": "GCS & Refleks Batang Otak",
+            "resourceIds": [
+              "2a2e4a81cf01ba"
+            ]
+          },
+          {
+            "title": "Pemeriksaan MMSE",
+            "resourceIds": [
+              "204c65839496a5"
+            ]
+          },
+          {
+            "title": "Kekuatan Otot & Refleks Fisiologis",
+            "resourceIds": [
+              "f59805c82e8740"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-6",
+        "number": 6,
+        "title": "Pemeriksaan dermatologi",
+        "image": "dermatology",
+        "topics": [
+          {
+            "title": "Pemeriksaan Dermatologi",
+            "resourceIds": [
+              "a06a00cb575b93",
+              "35748798e3c710",
+              "c72abc114c0812"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-7",
+        "number": 7,
+        "title": "Pemeriksaan anak",
+        "image": "pediatrics",
+        "topics": [
+          {
+            "title": "Antropometri Pediatri",
+            "resourceIds": [
+              "95c345cb74dd0a",
+              "833bdced9132cb",
+              "fd9e67f6ff18a0"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Fisik Anak",
+            "resourceIds": [
+              "6941af9cea5f8c",
+              "5acccdba2b4e50",
+              "cfbd6cddf403a4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-8",
+        "number": 8,
+        "title": "Laktasi & vaksinasi",
+        "image": "immunization",
+        "topics": [
+          {
+            "title": "Konseling Laktasi",
+            "resourceIds": [
+              "57c2c6326723a4",
+              "f99c86789c4723",
+              "9b26a402386c84"
+            ]
+          },
+          {
+            "title": "Vaksinasi Dewasa",
+            "resourceIds": [
+              "55734c6bf71b90",
+              "80f74c18640950"
+            ]
+          },
+          {
+            "title": "Vaksinasi Anak",
+            "resourceIds": [
+              "1980f3b8d9d892",
+              "25fa6404807ae2",
+              "66e23bb981cd6e"
+            ]
+          },
+          {
+            "title": "Teknik Injeksi",
+            "resourceIds": [
+              "3fecf8965a4554"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-9",
+        "number": 9,
+        "title": "Pemeriksaan EKG",
+        "image": "ecg",
+        "topics": [
+          {
+            "title": "Pemeriksaan EKG",
+            "resourceIds": [
+              "3b23fb775adc8b",
+              "ab198997978b49"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-10",
+        "number": 10,
+        "title": "Obstetri & ginekologi",
+        "image": "obstetrics",
+        "topics": [
+          {
+            "title": "Baby Delivery",
+            "resourceIds": [
+              "9fbe3179e3e205",
+              "352c14ac2e0cf1"
+            ]
+          },
+          {
+            "title": "Pap Smear",
+            "resourceIds": [
+              "4de9713c009641",
+              "85f5a7515d2e1c"
+            ]
+          },
+          {
+            "title": "Antenatal Care",
+            "resourceIds": [
+              "3068e7a51b3ecf",
+              "760e4d83801902"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-11",
+        "number": 11,
+        "title": "Bantuan hidup dasar",
+        "image": "bls",
+        "topics": [
+          {
+            "title": "Basic Life Support",
+            "resourceIds": [
+              "5a0e8fb23f5d89",
+              "aa5b1bd1cd5e72",
+              "9eaec1ff2fbe1b",
+              "df3af7aaab8d7e",
+              "42c32f532e0b1c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-12",
+        "number": 12,
+        "title": "Penjahitan kulit",
+        "image": "suturing",
+        "topics": [
+          {
+            "title": "Simple Skin Suturing",
+            "resourceIds": [
+              "68f477fe1916e6",
+              "a463aca57d70b4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-13",
+        "number": 13,
+        "title": "Akses intravena",
+        "image": "iv",
+        "topics": [
+          {
+            "title": "Pemasangan Jalur Intravena",
+            "resourceIds": [
+              "cd81c45aa58a9e",
+              "f2d4339d49eaaa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-14",
+        "number": 14,
+        "title": "Lokomotor & pembalutan",
+        "image": "locomotor",
+        "topics": [
+          {
+            "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+            "resourceIds": [
+              "57ce4c037d478a",
+              "81b27be6ea45bf"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "cabf6989f87f2d",
+      "371b166b42f962",
+      "42c72f4f570d5e",
+      "80f48fbb1673da",
+      "2ece61ffd400d8",
+      "5e36166919b670",
+      "46501c8f067cf1",
+      "b95a71b0a3c45e",
+      "16b94a04b78a31",
+      "f9c622d7e4f54c",
+      "e45776a5c81c36",
+      "60438026840a04"
+    ]
+  },
+  {
+    "cohort": "2023",
+    "phase": "fase-1",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2023/osce-fase-i",
+    "stations": [
+      {
+        "id": "stase-1",
+        "number": 1,
+        "title": "Antropometri & pemeriksaan umum",
+        "image": "anthropometry",
+        "topics": [
+          {
+            "title": "Antropometri",
+            "resourceIds": [
+              "159afbd5f96039",
+              "598a9990593045",
+              "21ebda116903b0"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Kelenjar Tiroid",
+            "resourceIds": [
+              "1178eb558603a3",
+              "24bf8a6527334f"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+            "resourceIds": [
+              "f64655c14315b4",
+              "4e27c68dc023d2",
+              "94938923ed6d24",
+              "b3ff78922e36f0"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tanda Vital",
+            "resourceIds": [
+              "0551c6ba78f13e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-2",
+        "number": 2,
+        "title": "Paru, jantung & abdomen",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Paru",
+            "resourceIds": [
+              "eddb31edf04bf1",
+              "7bdbbd16388985",
+              "2ffc239673bd4c"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Jantung",
+            "resourceIds": [
+              "7d98c5d29c540e",
+              "7aef13520faa0d",
+              "3fd7e1e86c00fe",
+              "6d609809db4bca"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Abdomen",
+            "resourceIds": [
+              "d84199151db58a",
+              "012a8a47ee4f62",
+              "b1dc43fefb6a89"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-3",
+        "number": 3,
+        "title": "Telinga, hidung & tenggorok",
+        "image": "ent",
+        "topics": [
+          {
+            "title": "Pemeriksaan THT",
+            "resourceIds": [
+              "f12d41e7cf719f"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-4",
+        "number": 4,
+        "title": "Pemeriksaan mata",
+        "image": "eyes",
+        "topics": [
+          {
+            "title": "Pemeriksaan Mata",
+            "resourceIds": [
+              "7f06c8bb4f5866"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-5",
+        "number": 5,
+        "title": "Pemeriksaan neurologi",
+        "image": "neurology",
+        "topics": [
+          {
+            "title": "GCS & Refleks Batang Otak",
+            "resourceIds": [
+              "e497438c01288d"
+            ]
+          },
+          {
+            "title": "Pemeriksaan MMSE",
+            "resourceIds": [
+              "17e713e4fe4d88"
+            ]
+          },
+          {
+            "title": "Tanda Meningeal",
+            "resourceIds": [
+              "cfec3faa19f1a2"
+            ]
+          },
+          {
+            "title": "Kekuatan Otot & Refleks Fisiologis",
+            "resourceIds": [
+              "9b8f91b91c8694"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-6",
+        "number": 6,
+        "title": "Pemeriksaan dermatologi",
+        "image": "dermatology",
+        "topics": [
+          {
+            "title": "Pemeriksaan Dermatologi",
+            "resourceIds": [
+              "17b5d8b316eb1d",
+              "d599655fc9de43",
+              "ed1757044ffc03"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-7",
+        "number": 7,
+        "title": "Pemeriksaan anak",
+        "image": "pediatrics",
+        "topics": [
+          {
+            "title": "Antropometri Pediatri",
+            "resourceIds": [
+              "b52d94e947a5db",
+              "57891b43d21d5a",
+              "5dd4792975123e"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Fisik Anak",
+            "resourceIds": [
+              "75161d64b999cd",
+              "36e32101711b29",
+              "da52c298798fc4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-8",
+        "number": 8,
+        "title": "Laktasi & vaksinasi",
+        "image": "immunization",
+        "topics": [
+          {
+            "title": "Konseling Laktasi",
+            "resourceIds": [
+              "971a733e253f80",
+              "358b25510d0d2d",
+              "c836f8470b5eda"
+            ]
+          },
+          {
+            "title": "Vaksinasi Dewasa",
+            "resourceIds": [
+              "089cbf0e70968b",
+              "8078ad87274652"
+            ]
+          },
+          {
+            "title": "Vaksinasi Anak",
+            "resourceIds": [
+              "9814434435d1d2",
+              "0803476c40a603",
+              "e5d7a826dfe099"
+            ]
+          },
+          {
+            "title": "Teknik Injeksi",
+            "resourceIds": [
+              "5aa28c237c3135"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-9",
+        "number": 9,
+        "title": "Pemeriksaan EKG",
+        "image": "ecg",
+        "topics": [
+          {
+            "title": "Pemeriksaan EKG",
+            "resourceIds": [
+              "e6ad327bcc7830",
+              "82c610824bcbea"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-10",
+        "number": 10,
+        "title": "Obstetri & ginekologi",
+        "image": "obstetrics",
+        "topics": [
+          {
+            "title": "Baby Delivery",
+            "resourceIds": [
+              "4f28f7ad3de4a8",
+              "56f90a8ad5df84"
+            ]
+          },
+          {
+            "title": "Pap Smear",
+            "resourceIds": [
+              "aa6e6269e50354",
+              "d01de9757dc688"
+            ]
+          },
+          {
+            "title": "Antenatal Care",
+            "resourceIds": [
+              "f2122d7940dd35",
+              "6367b155d23f48"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-11",
+        "number": 11,
+        "title": "Bantuan hidup dasar",
+        "image": "bls",
+        "topics": [
+          {
+            "title": "Basic Life Support",
+            "resourceIds": [
+              "933bb39a1256ea",
+              "4b1e19ce789a50",
+              "28c48c92ef9136",
+              "9034a984834f07",
+              "d2c9d36f8bf1bd"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-12",
+        "number": 12,
+        "title": "Penjahitan kulit",
+        "image": "suturing",
+        "topics": [
+          {
+            "title": "Simple Skin Suturing",
+            "resourceIds": [
+              "f2fff7e9a80e4b",
+              "5f53c36e19bc9a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-13",
+        "number": 13,
+        "title": "Akses intravena",
+        "image": "iv",
+        "topics": [
+          {
+            "title": "Pemasangan Jalur Intravena",
+            "resourceIds": [
+              "2b203e6de90c3b",
+              "72285e945aef5b"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-14",
+        "number": 14,
+        "title": "Lokomotor & pembalutan",
+        "image": "locomotor",
+        "topics": [
+          {
+            "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+            "resourceIds": [
+              "6fd86d6cda8fa9",
+              "70435b50ffd1d0"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "d090942239e048",
+      "713102267c2aca",
+      "6397c411ed7138"
+    ]
+  },
+  {
+    "cohort": "2024",
+    "phase": "fase-1",
+    "sourceUrl": "https://sites.google.com/view/asmafkkmkugm/materi-ajar/kedokteran-2024/osce-fase-i",
+    "stations": [
+      {
+        "id": "stase-1",
+        "number": 1,
+        "title": "Antropometri & pemeriksaan umum",
+        "image": "anthropometry",
+        "topics": [
+          {
+            "title": "Antropometri",
+            "resourceIds": [
+              "0371cca2cf4df6",
+              "f510873a11aa29",
+              "c2dea8bc801691"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Kelenjar Tiroid",
+            "resourceIds": [
+              "5d4a181a13b56d",
+              "89ff73015a036f"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Anemia & Kelenjar Limfe",
+            "resourceIds": [
+              "d5462c62be664a",
+              "5e73daea7605fe",
+              "cb42ee1de0205e",
+              "977489a2b02344"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tanda Vital",
+            "resourceIds": [
+              "6578d8436645e7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-2",
+        "number": 2,
+        "title": "Paru, jantung & abdomen",
+        "image": "thorax",
+        "topics": [
+          {
+            "title": "Pemeriksaan Paru",
+            "resourceIds": [
+              "18af0328be6255",
+              "025e37a67a7406",
+              "a507ecf260861e"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Jantung",
+            "resourceIds": [
+              "0b4b768e9e8744",
+              "6fac3e1ae55292",
+              "52c31a38edf6aa",
+              "c6da26476f8d84"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Abdomen",
+            "resourceIds": [
+              "93a14609029c2b",
+              "65ec29f194f03c",
+              "1b4c54183d814a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-3",
+        "number": 3,
+        "title": "Telinga, hidung & tenggorok",
+        "image": "ent",
+        "topics": [
+          {
+            "title": "Pemeriksaan Telinga",
+            "resourceIds": [
+              "b4c8fa60b184b3",
+              "ce94a2fb5a6884"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Hidung",
+            "resourceIds": [
+              "07693d6577ccbc",
+              "84c094aa031b73"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Tenggorok",
+            "resourceIds": [
+              "cf67ab2eea9288",
+              "6424c87294ca3a"
+            ]
+          },
+          {
+            "title": "Pemeriksaan THT",
+            "resourceIds": [
+              "6eb02be8033e86"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-4",
+        "number": 4,
+        "title": "Pemeriksaan mata",
+        "image": "eyes",
+        "topics": [
+          {
+            "title": "Visus & Buta Warna",
+            "resourceIds": [
+              "5dcafbde5e6911",
+              "12dd6a0ee13cc5"
+            ]
+          },
+          {
+            "title": "Visus & Amsler Grid",
+            "resourceIds": [
+              "f89fa6b65ac8b9",
+              "3f2dd93fb79bc9"
+            ]
+          },
+          {
+            "title": "Visus & Lapang Pandang",
+            "resourceIds": [
+              "88e1665d5085c1",
+              "efa48bc8c3c2f7"
+            ]
+          },
+          {
+            "title": "Visus & Gerak Bola Mata",
+            "resourceIds": [
+              "b544c47a607d01",
+              "65798222c5c3e0"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Mata",
+            "resourceIds": [
+              "94722faa0dbd3e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-5",
+        "number": 5,
+        "title": "Pemeriksaan neurologi",
+        "image": "neurology",
+        "topics": [
+          {
+            "title": "Saraf Kranial",
+            "resourceIds": [
+              "07018d8fc555c5",
+              "c508a2a3099ee3"
+            ]
+          },
+          {
+            "title": "GCS & Refleks Batang Otak",
+            "resourceIds": [
+              "fae9029b1b3707",
+              "88f477ecc15b9a",
+              "fdce4e0dc91538"
+            ]
+          },
+          {
+            "title": "Kekuatan Otot & Refleks Fisiologis",
+            "resourceIds": [
+              "0c8c3cb80a9be2",
+              "3dd8f7edb34c16",
+              "d4a1896078eae3"
+            ]
+          },
+          {
+            "title": "Tanda Meningeal",
+            "resourceIds": [
+              "5382adfa834bb7",
+              "47c5371bd8a1df",
+              "7cb2a2cef08a5b"
+            ]
+          },
+          {
+            "title": "Pemeriksaan MMSE",
+            "resourceIds": [
+              "a3a64c4606d664"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-6",
+        "number": 6,
+        "title": "Pemeriksaan dermatologi",
+        "image": "dermatology",
+        "topics": [
+          {
+            "title": "Pemeriksaan Dermatologi",
+            "resourceIds": [
+              "76eda82ee7898e",
+              "bb900cbffcd4af",
+              "d26f544e4eabd3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-7",
+        "number": 7,
+        "title": "Pemeriksaan anak",
+        "image": "pediatrics",
+        "topics": [
+          {
+            "title": "Antropometri Pediatri",
+            "resourceIds": [
+              "8aed41353564e2",
+              "8f9caeafb57848",
+              "2cd626eb547b84"
+            ]
+          },
+          {
+            "title": "Pemeriksaan Fisik Anak",
+            "resourceIds": [
+              "1040aa57fa8cb2",
+              "6958b84d6af1a7",
+              "c4f98975327007"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-8",
+        "number": 8,
+        "title": "Laktasi & vaksinasi",
+        "image": "immunization",
+        "topics": [
+          {
+            "title": "Konseling Laktasi",
+            "resourceIds": [
+              "9a1a905f0c6721",
+              "ea9965a7f5456a",
+              "9b98d1b0cdeb36"
+            ]
+          },
+          {
+            "title": "Vaksinasi Dewasa",
+            "resourceIds": [
+              "964637d72ace81",
+              "374554c800859c"
+            ]
+          },
+          {
+            "title": "Vaksinasi Anak",
+            "resourceIds": [
+              "12a1183570fb13",
+              "86d2a6911aa16c",
+              "d0cdeb30c96916"
+            ]
+          },
+          {
+            "title": "Teknik Injeksi",
+            "resourceIds": [
+              "75614ddc3b2226"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-9",
+        "number": 9,
+        "title": "Pemeriksaan EKG",
+        "image": "ecg",
+        "topics": [
+          {
+            "title": "Pemeriksaan EKG",
+            "resourceIds": [
+              "d05eaf9d399cee",
+              "2dc56912d80b2c"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-10",
+        "number": 10,
+        "title": "Obstetri & ginekologi",
+        "image": "obstetrics",
+        "topics": [
+          {
+            "title": "Baby Delivery",
+            "resourceIds": [
+              "3337fed0da0911",
+              "f32fe197d5ac3d"
+            ]
+          },
+          {
+            "title": "Pap Smear",
+            "resourceIds": [
+              "bddda22cc4cf69",
+              "551426eb769fff",
+              "22ac7eb0630f15"
+            ]
+          },
+          {
+            "title": "Antenatal Care",
+            "resourceIds": [
+              "54de5a95bdb9a9",
+              "e780397656ee0b"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-11",
+        "number": 11,
+        "title": "Bantuan hidup dasar",
+        "image": "bls",
+        "topics": [
+          {
+            "title": "Basic Life Support",
+            "resourceIds": [
+              "b5d1b592c94b4e",
+              "ce601c1679c6e9",
+              "dc315a0d5f8dbf",
+              "23e272bbd51729",
+              "63e926b9daf9d4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-12",
+        "number": 12,
+        "title": "Penjahitan kulit",
+        "image": "suturing",
+        "topics": [
+          {
+            "title": "Simple Skin Suturing",
+            "resourceIds": [
+              "8cc93981e77803",
+              "8e943505500ef6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-13",
+        "number": 13,
+        "title": "Akses intravena",
+        "image": "iv",
+        "topics": [
+          {
+            "title": "Pemasangan Jalur Intravena",
+            "resourceIds": [
+              "d876a26d5ddbdf",
+              "7951bb56202f8a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stase-14",
+        "number": 14,
+        "title": "Lokomotor & pembalutan",
+        "image": "locomotor",
+        "topics": [
+          {
+            "title": "Basic Locomotor Examination, Dressing, and Bandaging",
+            "resourceIds": [
+              "9d4788ff845379",
+              "3c2205d4176c5b"
+            ]
+          }
+        ]
+      }
+    ],
+    "generalResourceIds": [
+      "39b3c4b98a6b7f",
+      "f94463567f282e",
+      "96852a33a4346e"
+    ]
+  }
+]

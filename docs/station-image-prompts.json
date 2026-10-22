@@ -1,0 +1,130 @@
+[
+  {
+    "id": "anthropometry",
+    "prompt": "Use case: stylized-concept. Create a square editorial medical education illustration for ASMA's OSCE station directory. Subject: an adult anthropometry station, a standing height measurement stadiometer, a small weighing scale and a curled measuring tape, carefully arranged as a beautiful tactile still life. Art direction: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition, no people, no text, no letters, no numbers, no labels, no logo, no border, no collage. Single consistent scene, recognizable silhouette at 160px. Objects centered with comfortable breathing room. This is decorative category art, not an instructional diagram.",
+    "path": "public/images/stations/anthropometry.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-97cd9d7e-bec4-40ff-98a3-23dfb823057a.png"
+  },
+  {
+    "id": "thorax",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A burgundy stethoscope loosely coiled around a clean simplified ivory anatomical torso model showing heart and lungs, clinical examination still life.",
+    "path": "public/images/stations/thorax.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-f477ff7b-39f4-4f3d-a466-8d1a014e817c.png"
+  },
+  {
+    "id": "ent",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An elegant burgundy otoscope, a small ivory anatomical ear model and a wooden tongue depressor neatly arranged on a ceramic tray.",
+    "path": "public/images/stations/ent.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-f3a3ab07-0f92-4c3d-9e7b-19fcb46852b4.png"
+  },
+  {
+    "id": "eyes",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An ivory anatomical eyeball teaching model, burgundy trial lens and eye occluder neatly arranged, no eye chart or letters.",
+    "path": "public/images/stations/eyes.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-d804b567-afa5-437b-bbc7-c5a02301df66.png"
+  },
+  {
+    "id": "neurology",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An ivory brain teaching model and a burgundy handled reflex hammer, carefully arranged as a tactile medical still life.",
+    "path": "public/images/stations/neurology.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-ce267f24-b05a-4150-a50e-e7683f677858.png"
+  },
+  {
+    "id": "dermatology",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A burgundy handheld dermatoscope and magnifying lens placed next to a small neutral skin-tone clinical teaching pad, no graphic lesions.",
+    "path": "public/images/stations/dermatology.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-dfaf9756-b1e5-4148-9911-71d9d2e4e114.png"
+  },
+  {
+    "id": "pediatrics",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A soft ivory baby doll medical training mannequin resting on a burgundy pediatric weighing scale, with a loose measuring tape, no actual person.",
+    "path": "public/images/stations/pediatrics.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-2b80e5f7-016b-4b50-b58d-db1f34065f8c.png"
+  },
+  {
+    "id": "immunization",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A capped medical syringe, two small unlabeled vaccine vials and a folded ivory infant swaddle on a burgundy tray, no exposed sharp needle.",
+    "path": "public/images/stations/immunization.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-a5fb3b2d-a25f-45db-b665-4787e309e982.png"
+  },
+  {
+    "id": "ecg",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A compact ivory ECG monitor with a simple burgundy heartbeat waveform, with neatly coiled electrode leads and suction electrodes, no text or digits.",
+    "path": "public/images/stations/ecg.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-34b14f91-8637-4eea-9296-10385380dcd8.png"
+  },
+  {
+    "id": "bls",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A clean ivory CPR training mannequin head and upper torso resting on a burgundy practice mat. Recognizable training mannequin, not a real person.",
+    "path": "public/images/stations/bls.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-b4c67d8c-f8c0-4fba-8ddd-d7dbcb8a31d6.png"
+  },
+  {
+    "id": "suturing",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An ivory silicone suture practice pad with one clean simple stitched line, burgundy handled needle holder and folded gauze on a tray. No blood, no live skin.",
+    "path": "public/images/stations/suturing.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-925029ff-f77c-4c3b-b895-bd0c33090552.png"
+  },
+  {
+    "id": "iv",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An ivory IV fluid bag on a small burgundy stand, translucent tubing neatly coiled and capped IV cannula on a tray. No people, no injection in progress.",
+    "path": "public/images/stations/iv.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-a227c47c-9bee-4ab0-8a6e-df957adf7232.png"
+  },
+  {
+    "id": "locomotor",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An ivory articulated knee teaching model, a rolled cream elastic bandage and burgundy medical scissors. Medical education still life.",
+    "path": "public/images/stations/locomotor.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-0c586ba4-d7cc-47b9-9b94-7ceca65b9346.png"
+  },
+  {
+    "id": "asepsis",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: A burgundy surgical scrub brush, neatly folded ivory sterile gloves and gauze on a small clean instrument tray. Medical education still life.",
+    "path": "public/images/stations/asepsis.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-be69dcda-b7e6-4f45-aa45-d53a3e4ff21a.png"
+  },
+  {
+    "id": "genitourinary",
+    "prompt": "Use case: stylized-concept. Create one square editorial medical education illustration for ASMA's OSCE station directory. Art direction matches a collection of tactile medical still lifes: warm ivory #FCFCF7 background, deep burgundy #A20613 and dark wine #3C0207, restrained muted rose accents, soft realistic paper and matte material textures, gentle side lighting, sophisticated clean 3D editorial illustration, sparse composition. Objects centered with comfortable breathing room, occupying 75 percent of image. Recognizable silhouette at 160px. No text, no letters, no numbers, no labels, no logo, no border, no collage. One scene. Decorative category art, not an instructional diagram. Subject: An ivory anatomical kidney and bladder teaching model with a neatly coiled capped catheter on a burgundy tray, no genitalia, no procedure in progress.",
+    "path": "public/images/stations/genitourinary.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-f5274bc4-b4c3-43b0-b0fe-383283173657.png"
+  },
+  {
+    "id": "obstetrics",
+    "prompt": "Use case: stylized-concept. One square editorial still life illustration for an obstetrics teaching category on the ASMA student website. An ivory Pinard fetal stethoscope beside a burgundy handheld prenatal Doppler listening device, a neat measuring tape and folded cream linen. Objects only, no people or anatomical body models. Warm ivory #FCFCF7 backdrop, deep burgundy #A20613, dark wine #3C0207 accents. Sophisticated realistic matte 3D objects, delicate textures, soft side lighting, sparse centered composition filling 75 percent of frame. No words, text, numbers, labels, logos, borders or collage. Decorative medical equipment category art.",
+    "path": "public/images/stations/obstetrics.webp",
+    "generator": "built-in image_gen",
+    "generatedAt": "2026-10-22",
+    "sourceFile": "exec-6807e4cf-162b-4a5a-a537-d92fd4f97782.png"
+  }
+]

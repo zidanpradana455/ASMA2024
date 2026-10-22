@@ -2,6 +2,8 @@ import {useEffect, useState} from 'react';
 import {Link, useParams, useSearchParams} from 'react-router-dom';
 import {ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, FileText, Search, Play, X} from 'lucide-react';
 import {availableCount, cohorts, materialPages, materialPath, matchesResource, resourceProvider, resourceTypes, type MaterialPage, type Resource} from '../lib/materials';
+import {filterStations, stationCount, stationDirectory} from '../lib/stations';
+import {StationDirectory} from '../components/StationDirectory';
 
 function SearchField({value, onChange, label}: {value: string; onChange: (value: string) => void; label: string}) {
   return <div className="library-search">
@@ -68,14 +70,14 @@ export function MaterialsHome() {
               const types = Object.entries(resourceTypes).filter(([key]) => page.resources.some(r => r.type === key && r.url)).map(([,label]) => label);
               return <li key={page.phase}><Link to={materialPath(page)}>
                 <div><h3>{page.title}</h3><p>{count ? types.join(' · ') : 'Materi belum tersedia di arsip'}</p></div>
-                <span className={`phase-status ${count ? '' : 'is-empty'}`}>{count ? `${count} tautan` : 'Belum tersedia'}</span><ArrowRight size={22}/>
+                <span className={`phase-status ${count ? '' : 'is-empty'}`}>{count ? `${stationCount(page) ? `${stationCount(page)} stase · ` : ''}${count} tautan` : 'Belum tersedia'}</span><ArrowRight size={22}/>
               </Link></li>;
             })}</ul>
           </section>
           <aside className="library-aside">
             <BookOpen size={28} aria-hidden="true"/>
-            <h2>Mulai dari checklist.</h2>
-            <p>Lihat topik yang ingin kamu pelajari, lalu temukan buku, bahan tentir, atau video pendampingnya.</p>
+            <h2>Pilih stase, mulai belajar.</h2>
+            <p>Buka fase OSCE, pilih stase, lalu pelajari topiknya lewat checklist, bahan tentir, dan video pendamping.</p>
             <Link className="text-link" to={materialPath(pages[0])}>Buka {pages[0].title} <ArrowUpRight size={18}/></Link>
             <div className="library-aside-divider"/>
             <p>Mencari jadwal tentir atau latihan bersama?</p><Link className="text-link" to="/timeline">Lihat timeline kegiatan <ArrowRight size={18}/></Link>
@@ -104,22 +106,31 @@ export function MaterialDetail() {
     setParams(next, {replace});
   };
   if (!page) return <div className="container library-empty"><h1>Materi tidak ditemukan</h1><p>Angkatan atau fase ini tidak ada di arsip.</p><Link className="button button-primary" to="/materi">Kembali ke Materi Ajar</Link></div>;
-  const results = page.resources.filter(resource => (type === 'all' || resource.type === type) && matchesResource(resource, query)).map(resource => ({resource, page}));
+  const directory = stationDirectory(page);
+  const stations = filterStations(directory.stations, query, type);
+  const general = directory.general.filter(resource => (type === 'all' || resource.type === type) && matchesResource(resource, query));
+  const results = [...stations.flatMap(station => station.topics.flatMap(topic => topic.resources)), ...general];
   const count = availableCount(page);
   const kinds = ['all', ...Object.keys(resourceTypes).filter(kind => page.resources.some(r => r.type === kind))];
   return <>
     <header className="library-heading library-detail-heading"><div className="container">
       <Link className="text-link" to={`/materi?angkatan=${cohort}`}><ArrowLeft size={17}/>Materi Kedokteran {cohort}</Link>
       <h1>{page.title}</h1><p className="serif">Kedokteran {cohort}</p>
+      {directory.stations.length > 0 && <p className="station-intro">{stationCount(page) ? `${stationCount(page)} stase, tersusun sesuai arsip. Pilih topik, lalu buka bahan belajarnya.` : 'Bahan belajar dikelompokkan per topik. Arsip fase ini tidak mencantumkan nomor stase.'}</p>}
       <nav className="phase-switch" aria-label="Fase OSCE">{materialPages.filter(p => p.cohort === cohort).map(p => <Link key={p.phase} to={materialPath(p)} aria-current={p.phase === phase ? 'page' : undefined}>{p.title}</Link>)}</nav>
     </div></header>
     <section className="container library-body" aria-label="Daftar materi">
       {page.resources.length ? <>
         <div className="library-tools"><SearchField value={query} onChange={q => update('q', q, true)} label="Cari topik pada fase ini…"/><a className="text-link library-original" href={page.sourceUrl} target="_blank" rel="noopener noreferrer">Arsip sumber <ArrowUpRight size={17}/><span className="sr-only"> (buka di tab baru)</span></a></div>
         <div className="resource-filters" role="group" aria-label="Jenis materi">{kinds.map(kind => <button key={kind} aria-pressed={type === kind} onClick={() => update('jenis', kind)}>{kind === 'all' ? 'Semua' : resourceTypes[kind as keyof typeof resourceTypes]}<span>{page.resources.filter(r => kind === 'all' || r.type === kind).length}</span></button>)}</div>
-        <div className="library-result-heading"><p role="status">{results.filter(r => r.resource.url).length} tautan{results.some(r => !r.resource.url) ? ` · ${results.filter(r => !r.resource.url).length} bahan belum tersedia` : ''}</p><p>Dokumen & video dari arsip ASMA</p></div>
+        <div className="library-result-heading station-result-heading"><p role="status">{stations.length ? `${stations.length} ${stationCount(page) ? 'stase' : 'kelompok topik'} · ` : ''}{results.filter(r => r.url).length} tautan{results.some(r => !r.url) ? ` · ${results.filter(r => !r.url).length} bahan belum tersedia` : ''}</p>
+          {stations.length > 1 && <label className="station-jump">Lompat ke stase<select value="" onChange={event => {const target = document.getElementById(event.target.value); target?.focus({preventScroll: true}); target?.scrollIntoView({block: 'start'});}}><option value="" disabled>Pilih stase…</option>{stations.map(station => <option key={station.id} value={station.id}>{station.number}. {station.title}</option>)}</select></label>}
+        </div>
         {!count && <p className="library-source-note">Belum ada tautan bahan belajar pada fase ini.</p>}
-        {results.length ? <ResourceList results={results} resetKey={`${cohort}-${phase}-${type}-${query}`}/> : <EmptyResults onReset={() => setParams({})}/>}
+        {results.length ? <>
+          <StationDirectory stations={stations} revealVideos={type === 'video' || Boolean(query.trim())}/>
+          {general.length > 0 && <section className="station-general" aria-labelledby="general-materials-title"><h2 id="general-materials-title">Bahan lintas stase</h2><p>Buku dan materi tambahan dari arsip fase ini. Materi gabungan tetap ditampilkan sesuai cakupan sumbernya.</p><ResourceList results={general.map(resource => ({resource, page}))} resetKey={`${cohort}-${phase}-${type}-${query}`}/></section>}
+        </> : <EmptyResults onReset={() => setParams({})}/>}
       </> : <div className="library-empty">
         <BookOpen size={34} aria-hidden="true"/><h2>Materinya belum tersedia.</h2><p>Halaman {page.title} untuk Kedokteran {cohort} di situs asal masih berisi kategori tanpa tautan bahan belajar.</p>
         <Link className="button button-primary" to={`/materi?angkatan=${cohort}`}>Lihat fase lainnya <ArrowRight size={18}/></Link>

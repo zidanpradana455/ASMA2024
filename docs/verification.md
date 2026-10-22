@@ -1,5 +1,17 @@
 # Hasil pemeriksaan
 
+## Revisi direktori per stase — 22 Oktober 2026
+
+- Build TypeScript/Vite dan 19 tes lulus. Tiga tes baru memastikan setiap ID sumber dipakai tepat satu kali, jumlah stase sesuai angkatan/fase, gambar dipakai ulang menurut topik, dan filter/pencarian mempertahankan konteks stase.
+- Data sumber tetap berisi 375 tautan dan 32 entri tanpa URL; tidak ada URL yang diubah. Fase I 2021–2024 menampilkan 14 stase, Fase I 2020 menampilkan 12, dan Fase II 2020 menampilkan 9. Fase III 2020 dikelompokkan per topik tanpa nomor stase buatan.
+- Enam belas ilustrasi dibuat dengan image generator GPT bawaan, diperiksa melalui contact sheet, disimpan sebagai WebP 512px dengan total 362.004 byte. Prompt dan provenance tercatat di `station-image-prompts.json` dan metadata EXIF.
+- Edge headless: 42 kombinasi route/lebar 360, 390, 640, 768, 1024, 1440, dan 1920 px tanpa overflow horizontal atau error JavaScript. Semua gambar pada lima screenshot akhir berhasil dimuat.
+- Interaksi lulus: 14/12/9 stase sesuai sumber, 55 tautan dokumen Fase I 2024, disclosure video, lompat ke stase dengan pemindahan fokus, filter PPT/video, pencarian “lapang pandang” menuju Stase 4, query setelah refresh, reset, browser Back, 12 PPT 2023 tanpa tautan aktif, dan fase kosong.
+- Bukti lokal: `.impeccable/review/stations-*.png`, `stations-qa.json`; skrip audit `../tmp/asma-legacy/station-qa.cjs`.
+- Review baru dengan screenshot pengguna dan kode revisi memberikan disposisi **ship**, tanpa perbaikan material; rekonsiliasi independen 407 ID tidak menemukan duplikasi, kehilangan, atau ID tak dikenal. Lihat `stations-finish-review.md`. Review 21 Oktober di bawah mengacu pada implementasi lama yang kemudian dikoreksi pengguna.
+
+Keterbatasan tetap sama: detector Impeccable tidak tersedia; izin dan isi dokumen eksternal tidak diperiksa satu per satu. Ilustrasi hanya penanda kategori, bukan panduan prosedur klinis.
+
 ## Integrasi materi dan arsip — 21 Oktober 2026
 
 - Build produksi TypeScript/Vite lulus; menghasilkan 24 entry HTML tambahan (termasuk halaman 404), selain beranda.

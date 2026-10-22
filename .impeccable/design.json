@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T00:47:33Z",
+  "generatedAt": "2026-10-22T13:33:23.056Z",
   "title": "Design System: ASMA 2024",
   "extensions": {
     "shadows": [
@@ -38,8 +38,16 @@
         "value": "359px"
       },
       {
+        "name": "station-compact-max",
+        "value": "480px"
+      },
+      {
         "name": "phone-max",
         "value": "639px"
+      },
+      {
+        "name": "station-single-column-max",
+        "value": "760px"
       },
       {
         "name": "navigation-and-member-grid-max",
@@ -122,17 +130,24 @@
     {
       "name": "Material Aside",
       "kind": "card",
-      "description": "Tonal supporting panel used beside the phase directory; no shadow.",
-      "html": "<aside class=\"ds-aside\"><h2>Mulai dari checklist.</h2><p>Lihat topik yang ingin kamu pelajari, lalu temukan buku, bahan tentir, atau video pendampingnya.</p><a href=\"/materi/2024/fase-1\">Buka OSCE Fase I</a></aside>",
+      "description": "Tonal supporting panel beside the phase index, introducing the stase-to-topic learning flow; no shadow.",
+      "html": "<aside class=\"ds-aside\"><h2>Pilih stase, mulai belajar.</h2><p>Buka fase OSCE, pilih stase, lalu pelajari topiknya lewat checklist, bahan tentir, dan video pendamping.</p><a href=\"/materi/2024/fase-1\">Buka OSCE Fase I</a></aside>",
       "css": ".ds-aside{padding:28px;background:#f4ece9;border-radius:14px;color:var(--primary-dark,#3c0207);max-width:280px}.ds-aside h2{margin:0;font:900 25px/1.16 var(--heading,Lato,sans-serif);letter-spacing:-.02em}.ds-aside p{font:400 14px/1.8 var(--body,Montserrat,sans-serif);margin:14px 0 8px}.ds-aside a{display:inline-flex;align-items:center;min-height:44px;font:600 12px/1.7 var(--body,Montserrat,sans-serif);color:var(--primary,#a20613);text-decoration:none}.ds-aside a:hover{text-decoration:underline;text-underline-offset:5px}.ds-aside a:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}"
+    },
+    {
+      "name": "Stase Topic Resources",
+      "kind": "custom",
+      "description": "A topic inside an illustrated stase group pairs document links with a native video disclosure. Search and the video filter open disclosures; subject artwork is reused across cohorts and source numbers remain HTML overlays. The full directory uses two columns above 760px and one below.",
+      "html": "<section class=\"ds-station-topic\" aria-labelledby=\"ds-topic-title\"><h3 id=\"ds-topic-title\">Pemeriksaan antropometri</h3><div class=\"ds-material-links\"><a href=\"#checklist\">Checklist</a><a href=\"#ppt\">PPT</a></div><details class=\"ds-videos\"><summary>Video <svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></summary><ul><li><a href=\"#video\">Video pemeriksaan antropometri</a></li></ul></details></section>",
+      "css": ".ds-station-topic{color:var(--ink,#34191c);font-family:var(--body,Montserrat,sans-serif);max-width:430px}.ds-station-topic h3{margin:0;font-family:var(--body,Montserrat,sans-serif);font-size:13px;font-weight:600;line-height:1.6;overflow-wrap:anywhere}.ds-material-links{display:inline-flex;vertical-align:top;align-items:center;flex-wrap:wrap;column-gap:17px;margin-right:16px}.ds-material-links>a{display:inline-flex;align-items:center;min-height:36px;font-size:12px;color:var(--primary,#a20613);text-decoration:underline;text-underline-offset:4px}.ds-material-links>a:hover{color:var(--primary-dark,#3c0207)}.ds-videos{display:inline-block;vertical-align:top;font-size:12px;color:var(--primary,#a20613)}.ds-videos[open]{display:block}.ds-videos summary{display:flex;align-items:center;gap:6px;min-height:36px;width:fit-content;cursor:pointer;list-style:none;text-underline-offset:4px}.ds-videos summary::-webkit-details-marker{display:none}.ds-videos summary:hover{text-decoration:underline}.ds-videos[open] summary>svg{transform:rotate(180deg)}.ds-videos ul{list-style:none;margin:0;padding:0 0 9px 17px;border-left:1px solid var(--line,#a2061324)}.ds-videos li>a{display:flex;align-items:center;min-height:44px;padding-block:7px;font-size:11px;line-height:1.7;overflow-wrap:anywhere;color:inherit;text-decoration:underline;text-underline-offset:3px}.ds-station-topic a:focus-visible,.ds-videos summary:focus-visible{outline:3px solid var(--secondary,#b80065);outline-offset:5px}@media(max-width:639px){.ds-material-links{column-gap:14px;margin-right:12px}}@media(max-width:480px){.ds-material-links>a,.ds-videos summary{min-height:44px}}"
     }
   ],
   "narrative": {
-    "overview": "This is a scan of the implemented website, not a new identity. ASMA red, warm off-white surfaces, bold Lato headings, Montserrat reading text, and italic Playfair Display accents connect the homepage, member directory, calendar, and teaching-material archive. The homepage gives the existing group portrait and moving background the largest visual role; reading surfaces use quieter backgrounds and clear divisions.\n\nThe material directory extends that vocabulary with left-aligned headings, search, wrapping cohort controls, phase navigation, and lists of source titles. Member archives reuse the incumbent portrait-card grid while preserving the original square photographs. No new creative metaphor or brand commitment is established by this documentation.",
+    "overview": "This is a scan of the implemented website, not a new identity. ASMA red, warm off-white surfaces, bold Lato headings, Montserrat reading text, and italic Playfair Display accents connect the homepage, member directory, calendar, and teaching-material archive. The homepage gives the existing group portrait and moving background the largest visual role; reading surfaces use quieter backgrounds and clear divisions.\n\nThe material directory extends that vocabulary with left-aligned headings, search, wrapping cohort controls, and a phase → stase → topic → resource hierarchy. Small burgundy-and-ivory illustrations identify stase beside their topic lists; document links and native video disclosures keep related resources together. Member archives reuse the incumbent portrait-card grid while preserving the original square photographs. No new creative metaphor or brand commitment is established by this documentation.",
     "keyCharacteristics": [
       "Warm paper surfaces with red actions and deep red text.",
       "Bold sans-serif headings paired with italic serif accents.",
-      "Rounded controls and portrait cards; flat, divided material rows.",
+      "Rounded controls and portrait cards; illustrated stase groups with flat topic and resource lists.",
       "Photographic identity on the homepage and member pages."
     ],
     "rules": [],
@@ -141,13 +156,14 @@
       "Do keep material titles and member names readable and able to wrap.",
       "Do preserve full square archive photographs and their source records.",
       "Do provide keyboard focus, semantic selection states, and reduced-motion behavior.",
-      "Do keep material availability and external-source permissions visible."
+      "Do keep material availability and external-source permissions visible.",
+      "Do preserve stase and topic context while searching and filtering, and reuse subject artwork across cohorts."
     ],
     "donts": [
       "Don't replace the homepage identity while extending the archive.",
       "Don't crop or zoom archive photographs to imitate current-member portraits.",
       "Don't render unavailable material titles as active links.",
-      "Don't turn the material list into an image-card gallery or embed every video automatically.",
+      "Don't replace grouped stase topics with standalone resource image cards or embed every video automatically.",
       "Don't promote page-specific layout decisions into universal brand rules."
     ]
   }

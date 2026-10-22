@@ -1,5 +1,7 @@
 # Finish review: materi dan arsip anggota
 
+> Catatan historis: review ini mengacu pada daftar materi datar sebelum koreksi pengguna 22 Oktober 2026. Kesimpulannya tidak berlaku untuk revisi direktori per stase; revisi tersebut memerlukan review baru dengan screenshot sumber dari pengguna.
+
 Tanggal: 21 Oktober 2026. Review terpisah, hanya baca.
 
 ## Disposisi

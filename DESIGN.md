@@ -106,16 +106,16 @@ components:
 
 This is a scan of the implemented website, not a new identity. ASMA red, warm off-white surfaces, bold Lato headings, Montserrat reading text, and italic Playfair Display accents connect the homepage, member directory, calendar, and teaching-material archive. The homepage gives the existing group portrait and moving background the largest visual role; reading surfaces use quieter backgrounds and clear divisions.
 
-The material directory extends that vocabulary with left-aligned headings, search, wrapping cohort controls, phase navigation, and lists of source titles. Member archives reuse the incumbent portrait-card grid while preserving the original square photographs. No new creative metaphor or brand commitment is established by this documentation.
+The material directory extends that vocabulary with left-aligned headings, search, wrapping cohort controls, and a phase → stase → topic → resource hierarchy. Small burgundy-and-ivory illustrations identify stase beside their topic lists; document links and native video disclosures keep related resources together. Member archives reuse the incumbent portrait-card grid while preserving the original square photographs. No new creative metaphor or brand commitment is established by this documentation.
 
 **Key Characteristics:**
 
 - Warm paper surfaces with red actions and deep red text.
 - Bold sans-serif headings paired with italic serif accents.
-- Rounded controls and portrait cards; flat, divided material rows.
+- Rounded controls and portrait cards; illustrated stase groups with flat topic and resource lists.
 - Photographic identity on the homepage and member pages.
 
-Evidence: `src/styles.css` (including later overrides), `src/pages/materials.css`, `src/App.tsx`, `src/pages/Members.tsx`, `src/pages/Materials.tsx`, `src/main.tsx`, `index.html`, `README.md`, and the direction contract in `docs/workflow-integrasi-arsip-asma.md`. Desktop materials/home and mobile member/material-detail captures in `.impeccable/review/` were visually checked against these sources. The Impeccable context/detector engine was unavailable; this is a manual extraction, not an engine validation. There was no prior DESIGN.md or PRODUCT.md. CSS remains the implementation authority; the frontmatter records its reusable values at this snapshot.
+Evidence: the original scan used `src/styles.css` (including later overrides), `src/pages/materials.css`, `src/App.tsx`, `src/pages/Members.tsx`, `src/pages/Materials.tsx`, `src/main.tsx`, `index.html`, and `README.md`, with desktop materials/home and mobile member/material-detail captures in `.impeccable/review/`. The 22 October 2026 station refinement is reconciled against `src/components/StationDirectory.tsx`, `src/pages/Materials.tsx`, `src/pages/materials.css`, `src/lib/stations.ts`, `src/data/material-stations.json`, `docs/station-image-prompts.json`, and the updated direction contract in `docs/workflow-integrasi-arsip-asma.md`. The Impeccable context/detector engine was unavailable; this is a manual extraction, not an engine validation. PRODUCT.md remains absent; this narrow refinement preserves the incumbent design system. CSS remains the implementation authority; existing frontmatter tokens are preserved.
 
 ## Colors
 
@@ -139,7 +139,9 @@ Paper is the page background, ink is the primary reading color, and muted is the
 
 Headings use Lato; body, controls, counts, and metadata use Montserrat. Playfair Display is italic and reserved for the existing subtitle/motto role. The family fallbacks are normative in the frontmatter. Fonts are requested through Google Fonts in `index.html`; fallback fonts must remain usable.
 
-The shared display and headline roles are fluid. Material page headings override display with `clamp(38px,5vw,64px)`, weight 900, and tracking `-.035em`; below 640px they use 40px. Member-page headings use the existing centered page-header treatment and become 43px on mobile. Material source titles are 20px/1.4, weight 700, changing to 18px/1.45 on mobile. Phase titles use 23px. These are component-specific differences, not a uniform new scale.
+The shared display and headline roles are fluid. The material index overrides display with `clamp(38px,5vw,64px)`, weight 900, and tracking `-.035em`; below 640px it uses 40px. Phase-detail headings are more compact: `clamp(34px,4vw,48px)`, becoming 34px below 640px, with a 24px serif cohort subtitle becoming 21px. Member-page headings use the existing centered page-header treatment and become 43px on mobile. Material source titles are 20px/1.4, weight 700, changing to 18px/1.45 on mobile; the cross-stase list uses 16px on larger screens and inherits the later 18px mobile override. Phase-index titles use 23px. These are component-specific differences, not a uniform new scale.
+
+Stase titles use Lato at 23px/1.2 with `-.02em` tracking, changing to 21px at 1100px and below, returning to 23px at 760px and below, then 21px at 480px and below. Topic headings use Montserrat at 13px/1.6, weight 600, with wrapping allowed anywhere for long titles. Checklist/PPT links and video summaries use 12px; expanded video links use 11px/1.7. The decorative stase numeral uses Lato at 35px/1, weight 900, with tabular numerals and a soft paper-colored text shadow; it becomes 29px at 480px and below. These compact styles describe this directory only.
 
 Reading text defaults to 15px/1.7. Library introductions use a maximum measure of 65ch; explanatory aside text uses 14px/1.8. Metadata and source notes are smaller (11–13px) and remain secondary to titles. Preserve the later readability overrides in the shared stylesheet rather than copying its superseded smaller declarations. Long resource titles and member names wrap instead of being clipped.
 
@@ -149,19 +151,23 @@ The shared centered container is `min(1240px, calc(100% - 96px))`. At 1100px and
 
 The material index uses a fluid main column, a 280px aside, and a 70px gap. At 900px and below the aside moves under the list with a 32px gap. Its search is at most 640px wide, its body uses 38px/80px top/bottom padding, and cohort controls wrap. Mobile body padding becomes 26px/50px; the tools wrap, and the search spans the available width. Phase status moves onto its own row when needed. Resource rows keep icons narrow and give the wrapping title the remaining width.
 
+Phase detail places its compact heading, phase navigation, search, type filters, result count, and stase jump selector before the directory. Stase groups use two columns with a 56px column gap and 36px row gap. Each group pairs a 116px square image with a flexible topic column and a 22px gap. At 1100px and below these become a 32px grid gap, 88px image, and 18px inner gap. At 760px and below the directory becomes one column with a 28px row gap, 112px image, and 24px inner gap; at 480px and below the image becomes 80px and the inner gap 18px. Cross-stase resources also move from two columns to one at 760px. Below 640px the detail header, filter spacing, and result heading tighten and filter counts are hidden; at 480px and below document links and video summaries increase from 36px to 44px minimum height. Stase jump targets retain a 110px scroll margin and receive focus.
+
 Member cards use three columns, two at 800px and below, and one below 360px. An odd final item is centered at the two-column widths. On mobile, member search precedes the result count. Desktop navigation switches to the menu button at 800px and below; the sticky bar is 88px tall, becoming 76px below 640px.
 
 ## Elevation & Depth
 
 The system combines pale tonal layers with soft shadows. Member and event cards use `0 8px 36px #5c071008`; calendar surfaces use `0 12px 60px #52002d08`. Floating navigation and dialogs have stronger shadows and blurred backdrops. The shared sticky navigation uses a translucent paper background and 22px backdrop blur, with an opaque fallback when blur is unsupported.
 
-Material phase and source lists are flat, separated by thin lines; the material aside relies on a tinted fill rather than elevation. Hover-capable pointers lift buttons by 2px with `0 8px 25px #3c020715`; primary buttons darken. Preserve the existing reduced-motion rules, which remove transitions and animations. Motion and shadow details belong in `.impeccable/design.json`, not extra frontmatter token groups.
+Material phase and source lists and stase groups are flat, separated by thin lines; the material aside relies on a tinted fill rather than elevation. The station artwork carries its own soft lighting, while its containing group has no card shadow. Hover-capable pointers lift buttons by 2px with `0 8px 25px #3c020715`; primary buttons darken. Preserve the existing reduced-motion rules, which remove transitions and animations. Motion and shadow details belong in `.impeccable/design.json`, not extra frontmatter token groups.
 
 ## Shapes
 
 Pill controls, circular icon buttons, and rounded cards are established patterns. Shared buttons and cohort filters use the pill radius. Desktop member cards have a 22px outer corner and a 14px photo corner, reduced to 15px and 10px on mobile. The material search uses a 12px corner and the aside a 14px corner. Material rows remain open horizontal divisions rather than individual rounded containers.
 
 Current-member images use a 4:5 window with `object-fit: cover`; archive images use square windows with `object-fit: contain` and no zoom or overlay. Preserve the complete archived compositions. The homepage's existing photographic ring is its own component, not the directory layout.
+
+Stase illustrations use square windows with `object-fit: cover` and 12px corners. Their containing groups remain open, divided sections; the image frame does not turn the whole topic list into a card. The native stase selector uses an 8px corner and a 44px minimum height.
 
 ## Components
 
@@ -179,13 +185,19 @@ Main navigation uses a red-to-magenta gradient for the active route. The mobile 
 
 ### Portrait cards
 
-Use the incumbent light card frame, photo window, Lato name, and smaller Montserrat supporting text. Archive names retain source spelling and abbreviations. Archive photos are local WebP derivatives with provenance recorded in `docs/legacy-image-sources.json`; no new generated raster assets were introduced by this extension.
+Use the incumbent light card frame, photo window, Lato name, and smaller Montserrat supporting text. Archive names retain source spelling and abbreviations. Archive photos are local WebP derivatives with provenance recorded in `docs/legacy-image-sources.json`; they remain separate from the generated stase illustrations.
 
-### Material phase and resource lists
+### Material phase, stase, and resource lists
 
-Phase rows combine a title, available material types, availability/count text, and a directional arrow. Source rows show a type icon, type/provider metadata, a wrapping linked title, and an external arrow when a URL exists. Global-search results also show their cohort and phase context. Unavailable entries retain a plain title and explanation without a fake link or external arrow. Source access opens in a new tab and includes assistive text describing that behavior. The source note explains ownership permissions.
+Phase-index rows combine a title, available material types, stase/link counts when available, and a directional arrow. Phase detail preserves stase and topic groups when searching or filtering. Each stase has an illustration, a source-derived number where present, a heading, and a topic list. Checklist and PPT links sit together below the relevant topic; missing document URLs become plain availability text. Video links sit inside native disclosures, closed initially and opened when a search is active or the video filter is selected. Users can toggle them directly. Stase jumping focuses and scrolls to the matching group, with a visible red focus outline.
 
-Results reveal 30 items at a time with a show-more button. A failed search offers reset; a genuinely empty archive phase offers another phase and the original source. These states preserve the same heading, spacing, and control vocabulary without substituting unrelated content.
+Keep group definitions tied to `src/data/material-stations.json` and the source contract: Fase I 2021–2024 has 14 stase, Fase I 2020 has 12, and Fase II 2020 has 9. Fase III 2020 uses unnumbered topic groups. Preserve the combined Stase 1–4 checklist and other source scope in the cross-stase section. These counts describe the archive, not a template to impose on other cohorts.
+
+Sixteen GPT illustrations generated with the built-in image generator live in `public/images/stations/`; full prompts and provenance are in `docs/station-image-prompts.json` and WebP EXIF metadata. Their warm ivory, burgundy, and muted rose still-life treatment fits the incumbent palette. Reuse the same subject illustration across years. Numbers remain HTML overlays because source numbering varies; unnumbered groups omit the overlay. Images are lazy-loaded with empty alt text because the adjacent heading provides the identity. Treat them as decorative subject cues, not clinical instructions.
+
+Global-search and cross-stase source rows retain a type icon, type/provider metadata, a wrapping linked title, and an external arrow when a URL exists. Global-search results also show their cohort and phase context. Unavailable entries retain a plain title and explanation without a fake link or external arrow. Source access opens in a new tab and includes assistive text describing that behavior. The source note explains ownership permissions.
+
+Global-search and cross-stase source lists reveal 30 items at a time with a show-more button; stase topic groups are rendered together. A failed search offers reset; a genuinely empty archive phase offers another phase and the original source. These states preserve the same heading, spacing, and control vocabulary without substituting unrelated content.
 
 ### Calendar and homepage
 
@@ -200,11 +212,12 @@ Keep the existing calendar's cohort colors, month pills, tabular date numerals, 
 - Do preserve full square archive photographs and their source records.
 - Do provide keyboard focus, semantic selection states, and reduced-motion behavior.
 - Do keep material availability and external-source permissions visible.
+- Do preserve stase and topic context while searching and filtering, and reuse subject artwork across cohorts.
 
 ### Don'ts:
 
 - Don't replace the homepage identity while extending the archive.
 - Don't crop or zoom archive photographs to imitate current-member portraits.
 - Don't render unavailable material titles as active links.
-- Don't turn the material list into an image-card gallery or embed every video automatically.
+- Don't replace grouped stase topics with standalone resource image cards or embed every video automatically.
 - Don't promote page-specific layout decisions into universal brand rules.

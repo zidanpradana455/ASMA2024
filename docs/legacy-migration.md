@@ -18,7 +18,7 @@ Menu utama: Beranda, Anggota, Materi Ajar, Timeline. Angkatan dipilih di dalam h
 - `/materi?angkatan=2024`: daftar fase; pencarian `q` mencakup semua angkatan.
 - `/materi/2024/fase-1?jenis=checklist&q=antropometri`: filter jenis dan topik pada fase itu. Pilihan filter masuk riwayat browser; mengetik pencarian mengganti entri URL saat ini.
 - `/anggota?angkatan=2023&q=almira`: pencarian dalam angkatan terpilih, tetap tersimpan saat refresh.
-- Daftar sumber menampilkan 30 entri awal dengan tombol untuk menambah 30 berikutnya. Video tetap tautan, sehingga puluhan pemutar tidak dimuat saat halaman dibuka.
+- Sejak revisi 22 Oktober, detail fase menampilkan stase bernomor dan topik di dalamnya, dengan checklist/PPT/video yang terkait. Gambar dipakai ulang untuk topik yang sama antarangkatan. Buku dan materi gabungan berada di “Bahan lintas stase”. Daftar hasil pencarian global tetap menampilkan 30 entri awal dan tombol tambah hasil. Video tetap tautan, sehingga puluhan pemutar tidak dimuat saat halaman dibuka.
 - Angkatan/fase tidak dikenal menampilkan pemulihan ke direktori. Parameter angkatan/filter tidak valid memakai pilihan aman. Fase yang kosong tidak diisi dari angkatan lain.
 
 ## Batas verifikasi sumber
@@ -30,6 +30,8 @@ PPT Tentir 2020 Fase I tidak tersedia pada sumber. OSCE Komprehensif 2020 dan Fa
 ## Pemeliharaan
 
 Edit JSON di `src/data/` untuk pembaruan manual. Pertahankan nama sesuai sumber dan jangan memperluas singkatan tanpa bukti. Jalankan `npm test` dan `npm run build` setelah pembaruan.
+
+Pemetaan stase pada `src/data/material-stations.json` menggunakan ID materi, bukan urutan array atau URL tebakan. Jika materi diimpor ulang/ditambah, perbarui pemetaan agar tes rekonsiliasi tetap lulus. Jangan menyamakan nomor stase antartahun: nomor mengikuti sumber, sedangkan kunci gambar mengikuti topik. Prompt ilustrasi berada pada `docs/station-image-prompts.json`.
 
 `scripts/import-legacy.py <direktori-snapshot>` dapat membangun ulang data dari salinan HTML Google Sites. Opsi `--download-images` memerlukan Pillow. Jika ada `member-originals/<tahun>-<nomor>.img` beserta manifest pada direktori snapshot, importer menggunakannya; jika tidak, ia mencoba URL gambar publik. URL gambar Google Sites dapat bersifat sementara, jadi salinan lama mungkin perlu disegarkan melalui halaman publik. Proses impor menimpa data hasil impor: simpan perubahan manual terlebih dahulu. HTML dan file mentah audit tidak disertakan dalam build atau repo.
 
